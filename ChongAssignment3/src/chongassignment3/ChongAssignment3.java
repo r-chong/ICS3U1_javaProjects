@@ -17,13 +17,28 @@ public class ChongAssignment3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner keyedInput = new Scanner(System.in);
         
-        String[] catalog = {"Peanuts","Treenuts","Walnuts"};
+        final double taxRate = 1.13;
+        final String[] itemOptions = {"Peanuts","Treenuts","Walnuts"};
+        final double[] itemPrices = {1.99, 0.99, 4.99};
         
-                
-        for (String i : catalog) {
-          System.out.println(i);
+        int[] itemCounts = new int[3];
+        double subTotal;
+        double hstTotal;
+        double grandTotal;
+        
+        /*Loop through items in parallel arrays, take user input for # purchased*/
+        for (int j = 0; j < itemOptions.length; j++) {
+            String item = itemOptions[j];
+            System.out.println("How many " + item + " would you like to add to your cart?");
+            itemCounts[j] = keyedInput.nextInt();
         }
+        
+        /*For each item, multiply itemCount * itemPrice*/
+        /*subTotal = sum of cost of goods sold*/
+        /*hstTotal = subTotal * 0.13 for HST*/
+        /*grandTotal = subTotal + hstTotal*/
     }
     
 }
