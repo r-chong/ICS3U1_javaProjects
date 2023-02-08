@@ -21,24 +21,32 @@ public class ChongAssignment3 {
         
         final double taxRate = 1.13;
         final String[] itemOptions = {"Peanuts","Treenuts","Walnuts"};
-        final double[] itemPrices = {1.99, 0.99, 4.99};
+        final int numOfItems = itemOptions.length;
+        final double[] itemPrice = {1.99, 0.99, 4.99};
         
-        int[] itemCounts = new int[3];
+        int[] itemCount = new int[numOfItems];
         double subTotal;
         double hstTotal;
         double grandTotal;
         
         /*Loop through items in parallel arrays, take user input for # purchased*/
-        for (int j = 0; j < itemOptions.length; j++) {
+        for (int j = 0; j < numOfItems; j++) {
             String item = itemOptions[j];
             System.out.println("How many " + item + " would you like to add to your cart?");
-            itemCounts[j] = keyedInput.nextInt();
+            itemCount[j] = keyedInput.nextInt();
         }
         
         /*For each item, multiply itemCount * itemPrice*/
         /*subTotal = sum of cost of goods sold*/
         /*hstTotal = subTotal * 0.13 for HST*/
         /*grandTotal = subTotal + hstTotal*/
+        
+        for (int i = 0; i < itemOptions.length; i++){
+            System.out.println(itemCount[i]);
+            System.out.println(itemPrice[i]);
+            subTotal =+ itemCount[i] * itemPrice[i];
+            System.out.println(subTotal);
+        }
     }
     
 }
