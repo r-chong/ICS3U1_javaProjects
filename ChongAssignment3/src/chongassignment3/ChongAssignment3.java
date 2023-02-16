@@ -8,7 +8,7 @@ package chongassignment3;
 import java.util.Scanner;
 /**
  *
- * @author s201076119
+ * @author Reese Chong
  */
 public class ChongAssignment3 {
 
@@ -19,34 +19,39 @@ public class ChongAssignment3 {
         // TODO code application logic here
         Scanner keyedInput = new Scanner(System.in);
         
-        final double taxRate = 1.13;
+        final double taxRate = 0.13;
         final String[] itemOptions = {"Peanuts","Treenuts","Walnuts"};
         final int numOfItems = itemOptions.length;
         final double[] itemPrice = {1.99, 0.99, 4.99};
         
-        int[] itemCount = new int[numOfItems];
-        double subTotal;
+        // If users wish to purchase fractions of a lb, then they are able to do so.
+        double[] cartCount = new double[numOfItems];
+        double subTotal = 0.0;
         double hstTotal;
         double grandTotal;
         
-        /*Loop through items in parallel arrays, take user input for # purchased*/
+        System.out.println("Welcome to BulkBin! Feel free to browse our catalogue and add items to your cart.");
+        System.out.println("...");
+        
+        //Loop through items in parallel arrays, take user input for # purchased
         for (int j = 0; j < numOfItems; j++) {
             String item = itemOptions[j];
-            System.out.println("How many " + item + " would you like to add to your cart?");
-            itemCount[j] = keyedInput.nextInt();
+            System.out.println("How many lbs of " + item + " would you like to add to your cart?");
+            cartCount[j] = keyedInput.nextDouble();
+            subTotal += cartCount[j] * itemPrice[j];
         }
+        hstTotal = subTotal * taxRate;
+        grandTotal = subTotal + hstTotal;
         
-        /*For each item, multiply itemCount * itemPrice*/
-        /*subTotal = sum of cost of goods sold*/
-        /*hstTotal = subTotal * 0.13 for HST*/
-        /*grandTotal = subTotal + hstTotal*/
+        System.out.println("---------------------------");        
+        System.out.println("Your subtotal is: $" + subTotal);
+        System.out.println("HST Total: $" + hstTotal);
+        System.out.println("");
+        System.out.println("Your grand total is: $" + grandTotal);
+        System.out.println("Thank you for shopping at BulkBin!");
+        System.out.println("---------------------------");
         
-        for (int i = 0; i < itemOptions.length; i++){
-            System.out.println(itemCount[i]);
-            System.out.println(itemPrice[i]);
-            subTotal =+ itemCount[i] * itemPrice[i];
-            System.out.println(subTotal);
-        }
+        // Future considerations: Rounding to 2 decimal points for financial values
     }
     
 }
