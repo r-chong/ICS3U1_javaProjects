@@ -1,0 +1,5 @@
+- [ ] Constants should be in ALL-CAPS
+  - [ ] `final` declared for constants
+  - [ ] constants declared at top of code
+- [ ] Decimal formatting: 2 places
+- [ ] Comments for every line/section
