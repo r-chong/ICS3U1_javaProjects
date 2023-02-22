@@ -5,6 +5,7 @@
 - [ ] Comments for every line/section
 
 **Commenting**
+
 - where the variables are declared.
 - where they are initialized.
 - how user input is generated.
