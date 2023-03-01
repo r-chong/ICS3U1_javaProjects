@@ -643,9 +643,9 @@ public class FrmPurchases extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCalculateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalculateActionPerformed
-        // declare constants containing known values
-        final double TAX_RATE = 0.13;
-        final double[] ITEM_PRICES = {10.00,14.00,18.00,22.00,9.00,2.50,7.00,9.00};
+        // TODO add your handling code here:
+        
+        final double[] ITEM_PRICES = {};
         
         // declare double array containing numbers to be entered by user
         // items in order: brownie, pizza, poutine, curry poutine, soup, mystery meat, slushie, milk
