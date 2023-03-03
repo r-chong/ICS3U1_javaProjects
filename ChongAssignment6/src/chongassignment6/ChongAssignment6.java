@@ -6,7 +6,8 @@
 package chongassignment6;
 
 import java.util.Scanner;
-import  java.text.DecimalFormat;
+import  java.text.NumberFormat;
+import java.util.Locale;
 
 /**
  *
@@ -25,39 +26,57 @@ public class ChongAssignment6 {
         // declare double variable for amount saved
         double amountSpent;
         double amountSaved;
+        int percentSaved;
         double grandTotal;
         String formatAmountSaved;
         String formatGrandTotal;
         
         // declare and initialize the DecimalFormat 
-        DecimalFormat df = new DecimalFormat("#.00");
+        NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance(Locale.CANADA);
         
-        System.out.println("Please enter the amount spent at the store");
+        // ask user for input of how much was spent at the store
+        // save to amountSpent variable
+        System.out.println("Our store is offering discounts for certain purchases.");
+        System.out.println("Enter your amount spent to see if you qualify!");
         amountSpent = keyedInput.nextDouble();
         
+        // decision-making block
+        // calculate amount saved by customer
+        // if between 0.01 and 50.00, 15%
+        // if between 50.01 and 90.00, 20%
+        // if between 90.01 and 130.00, 25%
+        // if over 130, 35%
+        // else return 0 (program fails if this is not implemented)
         if (amountSpent >= 0.01 && amountSpent < 50.00) {
-            amountSaved = amountSpent * 0.15;
+            percentSaved = 15;
         }
         else if (amountSpent >= 50.01 && amountSpent < 90.00) {
-            amountSaved = amountSpent * 0.20;
+            percentSaved = 20;
         }
         else if (amountSpent >= 90.01 && amountSpent < 130.00) {
-            amountSaved = amountSpent * 0.25;
+            percentSaved = 25;
         }
         else if (amountSpent > 130) {
-            amountSaved = amountSpent * 0.35;
+            percentSaved = 35;
         }
         else {
-            amountSaved = 0;
+            percentSaved = 0;
         }
-        grandTotal = amountSpent - amountSpent;
         
-        formatAmountSaved = Double.toString(amountSaved);
-        formatAmountSaved = df.format(formatAmountSaved);
-        formatGrandTotal = Double.toString(grandTotal);
-        formatGrandTotal = df.format(formatGrandTotal); 
+        // 
+        amountSaved = amountSpent * (percentSaved/100);
         
-        System.out.println("Your amount saved is: " + formatAmountSaved);
+        // calculate final amount to be paid
+        grandTotal = amountSpent - amountSaved;
+        
+        // convert each value to string
+        // use number format method to set 2 decimal places
+        formatAmountSaved = currencyFormatter.format(amountSaved);
+        formatGrandTotal = currencyFormatter.format(grandTotal);
+        
+        // print user outputs to console
+        System.out.println("You saved " + Math.round(percentSaved) + "% on your purchase.");
+        System.out.println("Amount saved in dollars: " + formatAmountSaved);
         System.out.println("Your final total is: " + formatGrandTotal);
     }
     
