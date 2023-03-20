@@ -8,8 +8,11 @@
  *
  * @author Reese
  */
-public class FrmFood extends javax.swing.JFrame {
 
+import java.text.DecimalFormat;
+
+public class FrmFood extends javax.swing.JFrame {
+    
     /** Creates new form FrmFood */
     public FrmFood() {
         initComponents();
@@ -24,16 +27,6 @@ public class FrmFood extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        pnlTotal = new javax.swing.JPanel();
-        jLabel41 = new javax.swing.JLabel();
-        jLabel42 = new javax.swing.JLabel();
-        jLabel55 = new javax.swing.JLabel();
-        lblSubTotal = new javax.swing.JLabel();
-        lblTaxTotal = new javax.swing.JLabel();
-        lblGrandTotal = new javax.swing.JLabel();
-        btnCalculate = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
@@ -55,85 +48,17 @@ public class FrmFood extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        pnlTotal1 = new javax.swing.JPanel();
-        jLabel43 = new javax.swing.JLabel();
-        jLabel44 = new javax.swing.JLabel();
-        jLabel56 = new javax.swing.JLabel();
-        lblSubTotal1 = new javax.swing.JLabel();
-        lblTaxTotal1 = new javax.swing.JLabel();
-        lblGrandTotal1 = new javax.swing.JLabel();
-        btnCalculate1 = new javax.swing.JButton();
-
-        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel13.setText("Size Small (S)");
-
-        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setText("Size Small (S)");
-
-        pnlTotal.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-
-        jLabel41.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel41.setText("Subtotal:");
-
-        jLabel42.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel42.setText("Tax:");
-
-        jLabel55.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel55.setText("Total:");
-
-        lblSubTotal.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        lblSubTotal.setText("$00.00");
-
-        lblTaxTotal.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        lblTaxTotal.setText("$00.00");
-
-        lblGrandTotal.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        lblGrandTotal.setText("$00.00");
-
-        javax.swing.GroupLayout pnlTotalLayout = new javax.swing.GroupLayout(pnlTotal);
-        pnlTotal.setLayout(pnlTotalLayout);
-        pnlTotalLayout.setHorizontalGroup(
-            pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlTotalLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel55)
-                    .addComponent(jLabel41)
-                    .addComponent(jLabel42))
-                .addGap(189, 189, 189)
-                .addGroup(pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lblGrandTotal)
-                    .addComponent(lblSubTotal)
-                    .addComponent(lblTaxTotal))
-                .addContainerGap(34, Short.MAX_VALUE))
-        );
-        pnlTotalLayout.setVerticalGroup(
-            pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlTotalLayout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addGroup(pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlTotalLayout.createSequentialGroup()
-                        .addComponent(lblSubTotal)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblTaxTotal)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblGrandTotal))
-                    .addGroup(pnlTotalLayout.createSequentialGroup()
-                        .addComponent(jLabel41)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel42)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel55)))
-                .addContainerGap(19, Short.MAX_VALUE))
-        );
-
-        btnCalculate.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnCalculate.setText("Calculate Total");
-        btnCalculate.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCalculateActionPerformed(evt);
-            }
-        });
+        pnlTotal = new javax.swing.JPanel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        lblSubTotal = new javax.swing.JLabel();
+        lblTaxTotal = new javax.swing.JLabel();
+        lblGrandTotal = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        btnCheckout = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        txtOrderOutput = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -187,7 +112,7 @@ public class FrmFood extends javax.swing.JFrame {
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("Size Medium Lasagna ($10.99)");
 
-        jLabel3.setText("<html><p>The medium lasagna gives you double the noodles, pasta, and cheeses. Satisfactory for a single night's meal.</html> ");
+        jLabel3.setText("<html><p>The medium lasagna gives you double the noodles, pasta, and cheeses. Perfect for a single night's meal.</html> ");
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -221,8 +146,8 @@ public class FrmFood extends javax.swing.JFrame {
                     .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(spnMedium, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jLabel3)
+                .addGap(16, 16, 16))
         );
 
         jPanel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -230,9 +155,9 @@ public class FrmFood extends javax.swing.JFrame {
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sizeL.png"))); // NOI18N
 
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel15.setText("Size Recommended Lasagna ($12.99)");
+        jLabel15.setText("Size Large Lasagna ($12.99)");
 
-        jLabel16.setText("<html> Get LinGUIni's finest and most authentic serving size for just $2.00 more. The size Large is recommended by Chef LinGUIni himself.</html> ");
+        jLabel16.setText("<html> Get LinGUIni's finest and most authentic serving size for just $2.00 more. The size Large is heavily recommended for all lasagna enjoyers.</html> ");
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -240,15 +165,20 @@ public class FrmFood extends javax.swing.JFrame {
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                    .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
-                        .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 219, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 228, Short.MAX_VALUE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
+                                .addComponent(jLabel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(spnLarge, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(spnLarge, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, 4, Short.MAX_VALUE))))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -262,8 +192,8 @@ public class FrmFood extends javax.swing.JFrame {
                     .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(spnLarge, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/LinGUIni_logo.png"))); // NOI18N
@@ -293,70 +223,101 @@ public class FrmFood extends javax.swing.JFrame {
                 .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
-        pnlTotal1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        pnlTotal.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
-        jLabel43.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel43.setText("Subtotal:");
+        jLabel41.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel41.setText("Subtotal:");
 
-        jLabel44.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel44.setText("Tax:");
+        jLabel42.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel42.setText("Tax:");
 
-        jLabel56.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel56.setText("Total:");
+        jLabel55.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel55.setText("Total:");
 
-        lblSubTotal1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        lblSubTotal1.setText("$00.00");
+        lblSubTotal.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        lblSubTotal.setText("$00.00");
 
-        lblTaxTotal1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        lblTaxTotal1.setText("$00.00");
+        lblTaxTotal.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        lblTaxTotal.setText("$00.00");
 
-        lblGrandTotal1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        lblGrandTotal1.setText("$00.00");
+        lblGrandTotal.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        lblGrandTotal.setText("$00.00");
 
-        javax.swing.GroupLayout pnlTotal1Layout = new javax.swing.GroupLayout(pnlTotal1);
-        pnlTotal1.setLayout(pnlTotal1Layout);
-        pnlTotal1Layout.setHorizontalGroup(
-            pnlTotal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlTotal1Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlTotalLayout = new javax.swing.GroupLayout(pnlTotal);
+        pnlTotal.setLayout(pnlTotalLayout);
+        pnlTotalLayout.setHorizontalGroup(
+            pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlTotalLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(pnlTotal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel56)
-                    .addComponent(jLabel43)
-                    .addComponent(jLabel44))
+                .addGroup(pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel55)
+                    .addComponent(jLabel41)
+                    .addComponent(jLabel42))
                 .addGap(189, 189, 189)
-                .addGroup(pnlTotal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lblGrandTotal1)
-                    .addComponent(lblSubTotal1)
-                    .addComponent(lblTaxTotal1))
-                .addContainerGap(37, Short.MAX_VALUE))
+                .addGroup(pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(lblGrandTotal)
+                    .addComponent(lblSubTotal)
+                    .addComponent(lblTaxTotal))
+                .addGap(34, 34, 34))
         );
-        pnlTotal1Layout.setVerticalGroup(
-            pnlTotal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlTotal1Layout.createSequentialGroup()
+        pnlTotalLayout.setVerticalGroup(
+            pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlTotalLayout.createSequentialGroup()
                 .addGap(19, 19, 19)
-                .addGroup(pnlTotal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlTotal1Layout.createSequentialGroup()
-                        .addComponent(lblSubTotal1)
+                .addGroup(pnlTotalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlTotalLayout.createSequentialGroup()
+                        .addComponent(lblSubTotal)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblTaxTotal1)
+                        .addComponent(lblTaxTotal)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblGrandTotal1))
-                    .addGroup(pnlTotal1Layout.createSequentialGroup()
-                        .addComponent(jLabel43)
+                        .addComponent(lblGrandTotal))
+                    .addGroup(pnlTotalLayout.createSequentialGroup()
+                        .addComponent(jLabel41)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel44)
+                        .addComponent(jLabel42)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel56)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jLabel55)))
+                .addContainerGap(42, Short.MAX_VALUE))
         );
 
-        btnCalculate1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnCalculate1.setText("Checkout");
-        btnCalculate1.addActionListener(new java.awt.event.ActionListener() {
+        btnCheckout.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnCheckout.setText("Checkout");
+        btnCheckout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCalculate1ActionPerformed(evt);
+                btnCheckoutActionPerformed(evt);
             }
         });
+
+        txtOrderOutput.setEditable(false);
+        txtOrderOutput.setColumns(20);
+        txtOrderOutput.setLineWrap(true);
+        txtOrderOutput.setRows(5);
+        txtOrderOutput.setText("Order Information");
+        txtOrderOutput.setWrapStyleWord(true);
+        txtOrderOutput.setAutoscrolls(false);
+        txtOrderOutput.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jScrollPane1.setViewportView(txtOrderOutput);
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnCheckout, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1))
+                .addContainerGap())
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btnCheckout, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                .addContainerGap())
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -365,54 +326,55 @@ public class FrmFood extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(pnlTotal1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnCalculate1, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(52, 52, 52)))
-                .addContainerGap())
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(pnlTotal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(24, 24, 24)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(38, 38, 38)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(pnlTotal1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(btnCalculate1, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(38, 38, 38)))
-                .addGap(22, 22, 22))
+                .addGap(30, 30, 30)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(pnlTotal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnCalculateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalculateActionPerformed
+    private void btnCheckoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCheckoutActionPerformed
         // declare constants containing known values
+        // tax rate is 13% as per HST
+        // base prices are by SIZE, (small, medium, large) respectively
         final double TAX_RATE = 0.13;
-        final double[] ITEM_PRICES = {10.00,14.00,18.00,22.00,9.00,2.50,7.00,9.00};
+        final double[] BASE_PRICES = {8.99,10.99,12.99};
 
-        // declare double array containing numbers to be entered by user
+        // declare integer array containing numbers to be entered by user (qty of each size)
+        // lasagnaCart[0] is size small
+        // lasagnaCart[1] is size med
+        // lasagnaCart[2] is size lg
+        // in the cart, set the default quantity of each size to 0
         // declare double values for each total
-        // declare String values for formatted Totals
-        // items in order: brownie, pizza, poutine, curry poutine, soup, mystery meat, slushie, milk
-        int[] itemCount = {0,0,0,0,0,0,0,0};
+        int[] lasagnaCart = {0,0,0};
         double subTotal = 0.00;
         double taxTotal;
         double grandTotal;
@@ -423,105 +385,51 @@ public class FrmFood extends javax.swing.JFrame {
         // declare and initialize the DecimalFormat, set to 2 decimal places
         DecimalFormat df = new DecimalFormat("#.00");
 
-        // set each index of array to user input (number of items)
+        // get input from user (qty of each size they ordered)
+        // set each index of array to corresponding text box spinner value (number of items)
         // I used Java swing spinners to get user input, thus the use of "spn"
-        // items in order: brownie, pizza, poutine, curry poutine, soup, mystery meat, slushie, milk
-        itemCount[0] = (Integer) spnBrownieCount.getValue();
-        itemCount[1] = (Integer) spnPizzaCount.getValue();
-        itemCount[2] = (Integer) spnPoutineCount.getValue();
-        itemCount[3] = (Integer) spnButterChickenCount.getValue();
-        itemCount[4] = (Integer) spnSoupCount.getValue();
-        itemCount[5] = (Integer) spnMeatCount.getValue();
-        itemCount[6] = (Integer) spnSlushieCount.getValue();
-        itemCount[7] = (Integer) spnMilkCount.getValue();
+        lasagnaCart[0] = (Integer) spnSmall.getValue();
+        lasagnaCart[1] = (Integer) spnMedium.getValue();
+        lasagnaCart[2] = (Integer) spnLarge.getValue();
 
-        // iterate through item counts through parallel arrays
-        // i starts at 0, and goes through all 8 items
-        // multiply number of items (itemCount[i]) by each respective price (CONSTANT)
+        // calculate subTotal
+        // multiply quantity of each size (itemCount[i]) by each respective price (CONSTANT)
+        // ie. 3 small lasagnas would be $26.97
         // store in the subTotal variable
-        for (int i = 0; i < 8; i++) {
-            subTotal += (itemCount[i] * ITEM_PRICES[i]);
+        for (int i = 0; i < 3; i++) {
+            subTotal += lasagnaCart[i] * BASE_PRICES[i];
         }
-
-        // calculate tax value, store in taxTotal
-        // calculate grand total, store in grandTotal
+        
+        // calculate taxTotal (13%)
+        // calculate grandTotal (subtotal + tax)
         taxTotal = subTotal * TAX_RATE;
         grandTotal = subTotal + taxTotal;
+        
+        // Decision-making block
+        // if order contains x, where x is the smallest size of the order
+        // rationale: if we get the user to upgrade their S to an M, even when there is an M in the cart, then we can possibly convince them to convert the two M's into an L.
+        // output messages to text box
+        // if S,M,L all == 0, then give goodbye message
+        if (lasagnaCart[0] >= 1) {
+            txtOrderOutput.setText("You added a small lasagna to your cart. Are you sure that you don't want to upgrade your small lasagna to a size M? I will make sure that Chef LinGUIni adds extra cheese to your order!");
+        } else if (lasagnaCart[1] >= 1) {
+            txtOrderOutput.setText("You added a medium lasagna to your cart. Are you sure that you don't want to get the size L, our most authentic and recommended serving size for $2 more?");
+        } else if (lasagnaCart[2] >= 1) {
+            txtOrderOutput.setText("Fantastico! Chef LinGUIni is so glad that you are having the authentic portion size!");
+        } else {
+            txtOrderOutput.setText("We hope to see you again at LinGUIni's!");
+        }
 
-        // convert to String type that is able to be viewed by .setText method
         // format decimal of each to 2 decimal places using DecimalFormat
-        formatSubTotal = Double.toString(subTotal);
         formatSubTotal = df.format(subTotal);
-        formatTaxTotal = Double.toString(taxTotal);
         formatTaxTotal = df.format(taxTotal);
-        formatGrandTotal = Double.toString(grandTotal);
         formatGrandTotal = df.format(grandTotal);
 
-        // update GUI labels with new totals
+        // output total values to GUI labels
         lblSubTotal.setText("$" + formatSubTotal);
         lblTaxTotal.setText("$" + formatTaxTotal);
         lblGrandTotal.setText("$" + formatGrandTotal);
-    }//GEN-LAST:event_btnCalculateActionPerformed
-
-    private void btnCalculate1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCalculate1ActionPerformed
-        // declare constants containing known values
-        final double TAX_RATE = 0.13;
-        final double[] ITEM_PRICES = {10.00,14.00,18.00,22.00,9.00,2.50,7.00,9.00};
-
-        // declare double array containing numbers to be entered by user
-        // declare double values for each total
-        // declare String values for formatted Totals
-        // items in order: brownie, pizza, poutine, curry poutine, soup, mystery meat, slushie, milk
-        int[] itemCount = {0,0,0,0,0,0,0,0};
-        double subTotal = 0.00;
-        double taxTotal;
-        double grandTotal;
-        String formatSubTotal;
-        String formatTaxTotal;
-        String formatGrandTotal;
-
-        // declare and initialize the DecimalFormat, set to 2 decimal places
-        DecimalFormat df = new DecimalFormat("#.00");
-
-        // set each index of array to user input (number of items)
-        // I used Java swing spinners to get user input, thus the use of "spn"
-        // items in order: brownie, pizza, poutine, curry poutine, soup, mystery meat, slushie, milk
-        itemCount[0] = (Integer) spnBrownieCount.getValue();
-        itemCount[1] = (Integer) spnPizzaCount.getValue();
-        itemCount[2] = (Integer) spnPoutineCount.getValue();
-        itemCount[3] = (Integer) spnButterChickenCount.getValue();
-        itemCount[4] = (Integer) spnSoupCount.getValue();
-        itemCount[5] = (Integer) spnMeatCount.getValue();
-        itemCount[6] = (Integer) spnSlushieCount.getValue();
-        itemCount[7] = (Integer) spnMilkCount.getValue();
-
-        // iterate through item counts through parallel arrays
-        // i starts at 0, and goes through all 8 items
-        // multiply number of items (itemCount[i]) by each respective price (CONSTANT)
-        // store in the subTotal variable
-        for (int i = 0; i < 8; i++) {
-            subTotal += (itemCount[i] * ITEM_PRICES[i]);
-        }
-
-        // calculate tax value, store in taxTotal
-        // calculate grand total, store in grandTotal
-        taxTotal = subTotal * TAX_RATE;
-        grandTotal = subTotal + taxTotal;
-
-        // convert to String type that is able to be viewed by .setText method
-        // format decimal of each to 2 decimal places using DecimalFormat
-        formatSubTotal = Double.toString(subTotal);
-        formatSubTotal = df.format(subTotal);
-        formatTaxTotal = Double.toString(taxTotal);
-        formatTaxTotal = df.format(taxTotal);
-        formatGrandTotal = Double.toString(grandTotal);
-        formatGrandTotal = df.format(grandTotal);
-
-        // update GUI labels with new totals
-        lblSubTotal.setText("$" + formatSubTotal);
-        lblTaxTotal.setText("$" + formatTaxTotal);
-        lblGrandTotal.setText("$" + formatGrandTotal);
-    }//GEN-LAST:event_btnCalculate1ActionPerformed
+    }//GEN-LAST:event_btnCheckoutActionPerformed
 
     /**
      * @param args the command line arguments
@@ -559,51 +467,38 @@ public class FrmFood extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnCalculate;
-    private javax.swing.JButton btnCalculate1;
+    private javax.swing.JButton btnCheckout;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
-    private javax.swing.JLabel jLabel43;
-    private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JSpinner jSpinner4;
-    private javax.swing.JSpinner jSpinner5;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblGrandTotal;
-    private javax.swing.JLabel lblGrandTotal1;
     private javax.swing.JLabel lblSubTotal;
-    private javax.swing.JLabel lblSubTotal1;
     private javax.swing.JLabel lblTaxTotal;
-    private javax.swing.JLabel lblTaxTotal1;
     private javax.swing.JPanel pnlTotal;
-    private javax.swing.JPanel pnlTotal1;
     private javax.swing.JSpinner spnLarge;
     private javax.swing.JSpinner spnMedium;
     private javax.swing.JSpinner spnSmall;
+    private javax.swing.JTextArea txtOrderOutput;
     // End of variables declaration//GEN-END:variables
 
 }
