@@ -15,19 +15,17 @@ public class FrmDiceGame extends javax.swing.JFrame {
     int totalRolls = 0;
     int totalCorrect = 0;
     int totalIncorrect = 0;
-    int userGuess = 0;
-    int prevUserGuess = 0;
-    int diceRoll = 0;
+    int userGuess;
+    int diceRoll;
     double percCorrect = 0;
     double userBalance = 260.00;
     double userBet = 20.00;
-   
+    
     /**
      * Creates new form FrmDiceGame
      */
     public FrmDiceGame() {
         initComponents();
-
     }
 
     /**
@@ -48,7 +46,7 @@ public class FrmDiceGame extends javax.swing.JFrame {
         lblRollValue = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
-        txtUserGuess = new javax.swing.JTextField();
+        txtUserGuess1 = new javax.swing.JTextField();
         btnRollDice = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         lblCorrectValue = new javax.swing.JLabel();
@@ -65,8 +63,6 @@ public class FrmDiceGame extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         txtUserBet = new javax.swing.JTextField();
         jLabel16 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        lblPrevUserGuess = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         lblGameOver = new javax.swing.JLabel();
         jPanel8 = new javax.swing.JPanel();
@@ -145,9 +141,8 @@ public class FrmDiceGame extends javax.swing.JFrame {
         jLabel15.setForeground(new java.awt.Color(0, 60, 160));
         jLabel15.setText("YOUR GUESS");
 
-        txtUserGuess.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
-        txtUserGuess.setForeground(new java.awt.Color(0, 60, 160));
-        txtUserGuess.setText("0");
+        txtUserGuess1.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
+        txtUserGuess1.setForeground(new java.awt.Color(0, 60, 160));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -160,7 +155,7 @@ public class FrmDiceGame extends javax.swing.JFrame {
                         .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(37, 37, 37)
-                        .addComponent(txtUserGuess, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtUserGuess1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
@@ -169,7 +164,7 @@ public class FrmDiceGame extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel15)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtUserGuess, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtUserGuess1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(14, Short.MAX_VALUE))
         );
 
@@ -283,7 +278,6 @@ public class FrmDiceGame extends javax.swing.JFrame {
 
         txtUserBet.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
         txtUserBet.setForeground(new java.awt.Color(0, 60, 160));
-        txtUserBet.setText("0");
         txtUserBet.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtUserBetActionPerformed(evt);
@@ -293,14 +287,8 @@ public class FrmDiceGame extends javax.swing.JFrame {
         jLabel16.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(0, 60, 160));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel16.setText("Modifiers: If you get 2 in a row, your winnings are tripled!");
+        jLabel16.setText("Modifiers: If you get 2+ in a row, your winnings are squared!");
         jLabel16.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-
-        jLabel8.setFont(new java.awt.Font("Trebuchet MS", 0, 11)); // NOI18N
-        jLabel8.setText("Previous guess:");
-
-        lblPrevUserGuess.setFont(new java.awt.Font("Trebuchet MS", 0, 11)); // NOI18N
-        lblPrevUserGuess.setText("0");
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -309,11 +297,6 @@ public class FrmDiceGame extends javax.swing.JFrame {
             .addGroup(jPanel9Layout.createSequentialGroup()
                 .addGap(30, 30, 30)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addComponent(jLabel8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lblPrevUserGuess)
-                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addComponent(jLabel16)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -338,11 +321,7 @@ public class FrmDiceGame extends javax.swing.JFrame {
                     .addComponent(txtUserBet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel16)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
-                    .addComponent(lblPrevUserGuess))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(32, Short.MAX_VALUE))
         );
 
         lblGameOver.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -355,16 +334,16 @@ public class FrmDiceGame extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(24, 24, 24)
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(24, 24, 24)
                                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(43, 43, 43)
                                 .addComponent(btnRollDice, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(42, 42, 42)
                                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel4Layout.createSequentialGroup()
-                                .addGap(46, 46, 46)
+                                .addGap(22, 22, 22)
                                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(lblGameOver, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -507,46 +486,33 @@ public class FrmDiceGame extends javax.swing.JFrame {
 
     private void btnRollDiceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRollDiceActionPerformed
 
-        // update user's wager before dice roll
         userBet = Double.parseDouble(txtUserBet.getText());
-        userGuess = Integer.parseInt(txtUserGuess.getText());
         
         // declare and initialize the DecimalFormat, set to 2 decimal places
         DecimalFormat df = new DecimalFormat("#.00");
-       
+        
         // prevent further playing after gameover
-        if (userBalance <= 0.00 || userBet > userBalance) {
+        if (userBalance <= 0.00 || userBet >= userBalance) {
             lblGameOver.setText("You don't have enough money!");
         } else {
-            // if game is not over
-            
             // generate random number between 1 and 6
-            // update label showing the dice result
             diceRoll = (int)Math.round(Math.random()*5+1);
             lblRollValue.setText(String.valueOf(diceRoll));
 
-            // update number of rolls done
+            userGuess = Integer.parseInt(txtUserBet.getText());
+
             totalRolls = totalRolls + 1;
 
-            // check if user's guess matches the actual dice roll
-            // if it does, then add points
-            // if it is two guesses in a row, then triple points awarded 
             if (diceRoll == userGuess)
             {
                 totalCorrect = totalCorrect + 1;
-                if (userGuess == prevUserGuess) {
-                    userBalance += userBet * 3;
-                } else {
-                    userBalance += userBet;
-                }
+                userBalance = userBalance + userBet;
             }
             else
             {
                 totalIncorrect = totalIncorrect + 1;
                 userBalance = userBalance - userBet;
             }
-            lblPrevUserGuess.setText(String.valueOf(prevUserGuess));
-            
             lblUserBalance.setText(String.valueOf(userBalance));
 
             // converts to percentage in a clean way
@@ -555,14 +521,12 @@ public class FrmDiceGame extends javax.swing.JFrame {
             percCorrect = percCorrect * 100;
             percCorrect = Math.round(percCorrect);
             percCorrect = percCorrect / 100;
-            
+
             lblRollsValue.setText(String.valueOf(totalRolls));
             lblCorrectValue.setText(String.valueOf(totalCorrect));
             lblIncorrectValue.setText(String.valueOf(totalIncorrect));
             lblPercentValue.setText(String.valueOf(percCorrect));
-            
-            prevUserGuess = userGuess;            
-        }
+        }   
     }//GEN-LAST:event_btnRollDiceActionPerformed
 
     private void txtUserBetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUserBetActionPerformed
@@ -622,7 +586,6 @@ public class FrmDiceGame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -637,11 +600,10 @@ public class FrmDiceGame extends javax.swing.JFrame {
     private javax.swing.JLabel lblGameOver;
     private javax.swing.JLabel lblIncorrectValue;
     private javax.swing.JLabel lblPercentValue;
-    private javax.swing.JLabel lblPrevUserGuess;
     private javax.swing.JLabel lblRollValue;
     private javax.swing.JLabel lblRollsValue;
     private javax.swing.JLabel lblUserBalance;
     private javax.swing.JTextField txtUserBet;
-    private javax.swing.JTextField txtUserGuess;
+    private javax.swing.JTextField txtUserGuess1;
     // End of variables declaration//GEN-END:variables
 }
