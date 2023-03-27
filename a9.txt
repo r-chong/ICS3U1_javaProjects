@@ -1,0 +1,6 @@
+a9
+
+* user input (add default so no error if is blank*
+* validate lowercase or uppercase
+* check against answer key
+* add score
