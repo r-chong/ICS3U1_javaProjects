@@ -12,6 +12,14 @@ import java.text.DecimalFormat;
 
 public class FrmDiceGame extends javax.swing.JFrame {
 
+    //initialize constant for when user wins 2 in a row
+    // developer may wish to change this
+    // default is 3x multiplier 
+    final double MODIFIER = 3.00;
+    
+    // initialize integers for statistics (total rolls, incorrect, correct, current guess, prev guess)
+    // initialize doubles for percent correct, user cash balance, user bet
+    // subject to change therefore variables
     int totalRolls = 0;
     int totalCorrect = 0;
     int totalIncorrect = 0;
@@ -192,7 +200,7 @@ public class FrmDiceGame extends javax.swing.JFrame {
 
         lblPercentValue.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
         lblPercentValue.setForeground(new java.awt.Color(0, 60, 160));
-        lblPercentValue.setText("0%");
+        lblPercentValue.setText("0.00%");
 
         jLabel10.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(0, 60, 160));
@@ -273,7 +281,7 @@ public class FrmDiceGame extends javax.swing.JFrame {
         jLabel14.setText("MONEY IN BANK:");
         jLabel14.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
 
-        lblUserBalance.setText("260.00");
+        lblUserBalance.setText("$260.0");
 
         jLabel17.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(0, 60, 160));
@@ -507,60 +515,76 @@ public class FrmDiceGame extends javax.swing.JFrame {
 
     private void btnRollDiceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRollDiceActionPerformed
 
-        // update user's wager before dice roll
+        // FEATURE #1 "User Balance"
+            // user starts with certain amount of cash (default $260)
+            // only let user bet/play if they have enough cash
+            // if user has no cash, then game over message
+            
+        // FEATURE #2 "Modifier"
+            // if user correctly guesses a number that is correct
+            // and they correctly guess that same number a second time
+            // then triple cash awarded
+        
+        // update user's bet and wager before dice roll
         userBet = Double.parseDouble(txtUserBet.getText());
         userGuess = Integer.parseInt(txtUserGuess.getText());
         
         // declare and initialize the DecimalFormat, set to 2 decimal places
-        DecimalFormat df = new DecimalFormat("#.00");
+        DecimalFormat df = new DecimalFormat("#0.00");
        
         // prevent further playing after gameover
         if (userBalance <= 0.00 || userBet > userBalance) {
             lblGameOver.setText("You don't have enough money!");
         } else {
-            // if game is not over
+            // if game is not over, run dice roll sequence
             
             // generate random number between 1 and 6
             // update label showing the dice result
             diceRoll = (int)Math.round(Math.random()*5+1);
             lblRollValue.setText(String.valueOf(diceRoll));
 
-            // update number of rolls done
-            totalRolls = totalRolls + 1;
+            // increment number of rolls done
+            totalRolls++;
 
             // check if user's guess matches the actual dice roll
-            // if it does, then add points
-            // if it is two guesses in a row, then triple points awarded 
+            // if it does, then add points && increment number correct
+            // check if userc correctly guesses the exact same number twice in a row (FEATURE #1)
+            // add amt. gambled
             if (diceRoll == userGuess)
             {
-                totalCorrect = totalCorrect + 1;
+                totalCorrect++;
+                // special modifier case
                 if (userGuess == prevUserGuess) {
-                    userBalance += userBet * 3;
-                } else {
+                    userBalance += userBet * MODIFIER;
+                } 
+                // normal case
+                else {
                     userBalance += userBet;
                 }
             }
+            // else increment number incorrect
+            // subtract amt. gambled
             else
             {
-                totalIncorrect = totalIncorrect + 1;
-                userBalance = userBalance - userBet;
+                totalIncorrect++;
+                userBalance -= userBet;
             }
-            lblPrevUserGuess.setText(String.valueOf(prevUserGuess));
-            
-            lblUserBalance.setText(String.valueOf(userBalance));
 
             // converts to percentage in a clean way
+            // removed Math.round from original code as it is redundant (I use DecimalFormat later in the code)
             percCorrect = ((double)totalCorrect/(double)totalRolls)*100;
-
-            percCorrect = percCorrect * 100;
-            percCorrect = Math.round(percCorrect);
-            percCorrect = percCorrect / 100;
             
+            // update each of the statistic labels
+            // for percent value, since it is money, use decimal format method to round 2 digits
+            // for percent value, since it can have decimals, use decimal format method to round 2 digits
+            lblPrevUserGuess.setText(String.valueOf(prevUserGuess));
             lblRollsValue.setText(String.valueOf(totalRolls));
             lblCorrectValue.setText(String.valueOf(totalCorrect));
             lblIncorrectValue.setText(String.valueOf(totalIncorrect));
-            lblPercentValue.setText(String.valueOf(percCorrect));
+            lblUserBalance.setText("$" + (String)df.format(userBalance));
+            lblPercentValue.setText((String)df.format(percCorrect) + "%");
             
+            // end of sequence, set "previous guess" to the current guess
             prevUserGuess = userGuess;            
         }
     }//GEN-LAST:event_btnRollDiceActionPerformed

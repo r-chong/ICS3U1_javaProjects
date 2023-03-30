@@ -10,39 +10,55 @@
  */
 public class FrmMultipleChoice extends javax.swing.JFrame {
 
+    // declare and initialize constant String arrays for the questions
+    // I used parallel arrays to run questions; the format can be read as following:
+    // OPTIONS[Question Index (parallel)][Option Index]
+    // This system allows me to avoid a redundant amount of if statements
+    // user inputs are checked against the answer KEY
+    // total number of questions is a constant as it will not change
+    
+    // Note: the total number of questions is purposely made adjustable using arrays
+    // the entire program is scalable to as many questions as the developer would like, simply adjust arrays
     final String[] QUESTIONS = {
         "",
-        "Canada's birthday is on...", // Jul 1
-        "The capital of Canada is...", // Ottawa
-        "The largest city in Canada is...", // Toronto
-        "The smallest province in Canada is...",  // PEI
-        "The largest province in Canada is...", //Quebec
+        "Canada's birthday is on...",
+        "The capital of Canada is...",
+        "The largest city in Canada is...",
+        "The smallest province in Canada is...",
+        "The largest province in Canada is...",
     };
-    
     final String[][] OPTIONS = {
         // a, b, c, d
         // win sequence 1,0,2,1,3
         {},
         {"Jul 4","Jul 1","Jan 1","Dec 5"},
         {"Ottawa","Toronto","Kanata","Zealand"},
-        {"Tornono","North","Toronto","New York"},
-        {"Nova Scotia","PEI","Iqaluit","Alaska"},
-        {"Ontario","Vancouver","Yukon","Quebec"},
+        {"Tornono","Knoxville","Toronto","New York"},
+        {"Nova Scotia","PEI","New Brunswick","NYC"},
+        {"Ontario","Kansas","Yukon","Quebec"},
     };
+    final String[] KEY = {"a","b","a","c","b","d"};
+    final int TOTAL_QUESTIONS = QUESTIONS.length;
     
-    final String[] KEY = {"","b","a","c","b","d"};
-    
+    // initialize integer variables for the current question, # correct, # incorrect
+    // initialize double variable for % correct
+    // initialize String variables for formatted version of %, user text choices
+    // one-based array due to gui issues (#0 is practice, #1 is first)
     int currentQuestion = 1;
-    String[] userChoices;
+    int numCorrect;
+    int numIncorrect;
+    double percCorrect;
+    String formatPercCorrect;
     String userInput;
-    int totalQuestions = QUESTIONS.length;
-    int userCorrect;
-    int userIncorrect;
+    
     /**
      * Creates new form FrmMultipleChoice
      */
+    
+    // hide end stats screen until end
     public FrmMultipleChoice() {
         initComponents();
+        pnlStatistics.setVisible(false);
     }
 
     /**
@@ -61,17 +77,21 @@ public class FrmMultipleChoice extends javax.swing.JFrame {
         lblOptionB = new javax.swing.JLabel();
         lblOptionD = new javax.swing.JLabel();
         lblOptionC = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        txtUserAnswer = new javax.swing.JTextField();
+        jPanel2 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         btnSubmit = new javax.swing.JButton();
+        lblScore = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        txtAnswer = new javax.swing.JTextField();
         txtOutputFeedback = new javax.swing.JLabel();
-        txtScore1 = new javax.swing.JLabel();
+        pnlStatistics = new javax.swing.JPanel();
+        lblCorrect = new javax.swing.JLabel();
+        lblIncorrect = new javax.swing.JLabel();
+        lblPercentCorrect = new javax.swing.JLabel();
+        lblGameOver = new javax.swing.JLabel();
+        lblGameOverDesc = new javax.swing.JLabel();
         lblQuestion = new javax.swing.JLabel();
         lblGameOverText = new javax.swing.JLabel();
-        txtScore2 = new javax.swing.JLabel();
-        txtScore3 = new javax.swing.JLabel();
-        txtScore4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -82,81 +102,153 @@ public class FrmMultipleChoice extends javax.swing.JFrame {
         jLabel7.setAlignmentX(0.5F);
 
         lblOptionA.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        lblOptionA.setText("a)");
+        lblOptionA.setText("a) Pick me!");
 
         lblOptionB.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        lblOptionB.setText("b)");
+        lblOptionB.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblOptionB.setText("b) Don't click");
 
         lblOptionD.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        lblOptionD.setText("d)");
+        lblOptionD.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        lblOptionD.setText("d) Don't click");
 
         lblOptionC.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        lblOptionC.setText("c)");
-
-        jLabel6.setText("Please Enter Answer Here:");
-
-        txtUserAnswer.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        txtUserAnswer.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtUserAnswerActionPerformed(evt);
-            }
-        });
+        lblOptionC.setText("c) Don't click");
 
         jLabel8.setText("For example, \"a\"");
 
-        btnSubmit.setText("Start Game");
+        btnSubmit.setText("Start Quiz");
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSubmitActionPerformed(evt);
             }
         });
 
+        lblScore.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblScore.setText("Score: 0/5");
+
+        jLabel6.setText("Please Enter Answer Here:");
+
+        txtAnswer.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        txtAnswer.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtAnswerActionPerformed(evt);
+            }
+        });
+
         txtOutputFeedback.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
-        txtScore1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        txtScore1.setText("Score: 0/5");
+        lblCorrect.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblCorrect.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblCorrect.setText("Total Correct: X");
+
+        lblIncorrect.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblIncorrect.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblIncorrect.setText("Total Incorrect: X");
+
+        lblPercentCorrect.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblPercentCorrect.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblPercentCorrect.setText("Percent Correct: X%");
+
+        lblGameOver.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        lblGameOver.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        lblGameOver.setText("Game Over!");
+
+        lblGameOverDesc.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        lblGameOverDesc.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        lblGameOverDesc.setText("End of game statistics:");
+
+        javax.swing.GroupLayout pnlStatisticsLayout = new javax.swing.GroupLayout(pnlStatistics);
+        pnlStatistics.setLayout(pnlStatisticsLayout);
+        pnlStatisticsLayout.setHorizontalGroup(
+            pnlStatisticsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlStatisticsLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(pnlStatisticsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                    .addComponent(lblGameOver, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblGameOverDesc, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblCorrect, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblIncorrect, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblPercentCorrect))
+                .addContainerGap())
+        );
+        pnlStatisticsLayout.setVerticalGroup(
+            pnlStatisticsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlStatisticsLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblGameOver)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblGameOverDesc)
+                .addGap(18, 18, 18)
+                .addComponent(lblCorrect)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblIncorrect)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(lblPercentCorrect)
+                .addContainerGap(23, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                    .addComponent(btnSubmit)
+                    .addComponent(txtOutputFeedback, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblScore)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel8))
+                    .addComponent(txtAnswer, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pnlStatistics, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(jLabel8))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                .addComponent(txtOutputFeedback, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(txtAnswer, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnSubmit)
+                .addGap(18, 18, 18)
+                .addComponent(lblScore)
+                .addGap(18, 18, 18)
+                .addComponent(pnlStatistics, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblOptionC, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblOptionA, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblOptionB, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(lblOptionD, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(48, 48, 48)
-                                .addComponent(txtUserAnswer, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(60, 60, 60)
-                                .addComponent(txtOutputFeedback, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel6)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel8)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                    .addComponent(lblOptionA, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblOptionC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(lblOptionB, javax.swing.GroupLayout.DEFAULT_SIZE, 146, Short.MAX_VALUE)
+                    .addComponent(lblOptionD, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(24, 24, 24))
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(93, 93, 93)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(txtScore1)
-                    .addComponent(btnSubmit))
+                .addGap(37, 37, 37)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblOptionA)
                     .addComponent(lblOptionB))
@@ -164,62 +256,35 @@ public class FrmMultipleChoice extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblOptionD)
                     .addComponent(lblOptionC))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 39, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(jLabel8))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtOutputFeedback)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtUserAnswer, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnSubmit)
-                .addGap(18, 18, 18)
-                .addComponent(txtScore1)
-                .addGap(25, 25, 25))
+                .addGap(28, 28, 28)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         lblQuestion.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         lblQuestion.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lblQuestion.setText("It's Question Time!");
-
-        txtScore2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        txtScore2.setText("Score: 0/5");
-
-        txtScore3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        txtScore3.setText("Score: 0/5");
-
-        txtScore4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        txtScore4.setText("Score: 0/5");
+        lblQuestion.setText("Practice Question  ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 287, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(59, 59, 59))
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(250, 250, 250)
+                        .addComponent(lblGameOverText, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(103, 103, 103)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(25, 25, 25)
-                        .addComponent(lblQuestion, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap()
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(162, 162, 162)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtScore4)
-                            .addComponent(txtScore3)
-                            .addComponent(txtScore2))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblGameOverText, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(18, Short.MAX_VALUE))
+                        .addGap(25, 25, 25)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblQuestion, javax.swing.GroupLayout.PREFERRED_SIZE, 369, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(25, 25, 25))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -233,47 +298,72 @@ public class FrmMultipleChoice extends javax.swing.JFrame {
                 .addGap(1, 1, 1)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtScore2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txtScore3)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(lblGameOverText)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txtScore4)
-                        .addContainerGap())))
+                .addComponent(lblGameOverText)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtUserAnswerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUserAnswerActionPerformed
+    private void txtAnswerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAnswerActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtUserAnswerActionPerformed
+    }//GEN-LAST:event_txtAnswerActionPerformed
 
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
+        // Change button from "Start Quiz" to "Submit"
+        // this is a workaround as the quiz needs to show some java swing placeholders before the actual quiz starts
         if (currentQuestion == 0) {
             btnSubmit.setText("Submit");
         }
         
-        userInput = txtUserAnswer.getText();
+        // quiz over sequence
+        // if current question == 6 (#0 is practice, #1 is first)
+        if (currentQuestion == TOTAL_QUESTIONS) {
+            System.out.println(currentQuestion);
+            // calculate % correct
+            percCorrect = ((double)numCorrect / (double)(TOTAL_QUESTIONS-1)) * 100;
+            
+            // String format the perc correct to round to 1 place
+            formatPercCorrect = String.format("%.1f", percCorrect);
+            
+            // set to label outputs
+            lblCorrect.setText("Total Correct: " + String.valueOf(numCorrect));
+            lblIncorrect.setText("Total Incorrect: " + String.valueOf(numIncorrect));
+            lblPercentCorrect.setText("Percent Correct: " + String.valueOf(formatPercCorrect) + "%");
+
+            // show stats end screen at bottom of swing
+            pnlStatistics.setVisible(true);
+        }
+        
+        // if quiz is not over
+        // take user input
+        // convert to lowercase
+        userInput = txtAnswer.getText();
         userInput = userInput.toLowerCase();
-        if (currentQuestion-1 < (totalQuestions-1)) {
+        
+        // ONLY run if current question is not 5 (otherwise we advance past array border)
+        // since we start currentQuestion as a one-based counter (initialized at 1), must subtract to not include in <
+        if (currentQuestion-1 < (TOTAL_QUESTIONS-1)) {
+            // check if correct
+            // if it is correct, show green feedback related that ans correct
+            // if incorrect, show red feedback that ans false
+            // increment number of correct or incorrect depending
+            // and increment current question
             if (userInput.equals(KEY[currentQuestion-1])) {
                 txtOutputFeedback.setText("<html><b style=\"color:green\">Correct!</b></html>");
-                userCorrect++;
+                numCorrect++;
             }
             else {
                 txtOutputFeedback.setText("<html><b style=\"color:red\">Incorrect</b></html>");
-                userIncorrect--;
+                numIncorrect++;
             }
             currentQuestion++;
         }
-        System.out.println(currentQuestion-1);
-        txtScore.setText("Score: " + userCorrect + "/" + (currentQuestion-1));
+        // keep an ongoing score counter, total correct out of total done
+        // update the next question, accounting for one-based counter
+        // update the options for the next question 
+        // Again, I am using the multidimensional array system for the first [] representing question #, second [] representing option A,B,C,D
+        lblScore.setText("Score: " + numCorrect + "/" + (currentQuestion-1));
         lblQuestion.setText(QUESTIONS[currentQuestion-1]);
         lblOptionA.setText("a) " + OPTIONS[currentQuestion-1][0]);
         lblOptionB.setText("b) " + OPTIONS[currentQuestion-1][1]);
@@ -323,17 +413,21 @@ public class FrmMultipleChoice extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JLabel lblCorrect;
+    private javax.swing.JLabel lblGameOver;
+    private javax.swing.JLabel lblGameOverDesc;
     private javax.swing.JLabel lblGameOverText;
+    private javax.swing.JLabel lblIncorrect;
     private javax.swing.JLabel lblOptionA;
     private javax.swing.JLabel lblOptionB;
     private javax.swing.JLabel lblOptionC;
     private javax.swing.JLabel lblOptionD;
+    private javax.swing.JLabel lblPercentCorrect;
     private javax.swing.JLabel lblQuestion;
+    private javax.swing.JLabel lblScore;
+    private javax.swing.JPanel pnlStatistics;
+    private javax.swing.JTextField txtAnswer;
     private javax.swing.JLabel txtOutputFeedback;
-    private javax.swing.JLabel txtScore1;
-    private javax.swing.JLabel txtScore2;
-    private javax.swing.JLabel txtScore3;
-    private javax.swing.JLabel txtScore4;
-    private javax.swing.JTextField txtUserAnswer;
     // End of variables declaration//GEN-END:variables
 }

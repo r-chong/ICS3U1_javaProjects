@@ -369,7 +369,7 @@
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="a0" green="3c" red="0" type="rgb"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="0%"/>
+                <Property name="text" type="java.lang.String" value="0.00%"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel10">
@@ -507,7 +507,7 @@
             </Component>
             <Component class="javax.swing.JLabel" name="lblUserBalance">
               <Properties>
-                <Property name="text" type="java.lang.String" value="260.00"/>
+                <Property name="text" type="java.lang.String" value="$260.0"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel17">
