@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T16:39:44.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lRge-2qNuOSugWiJhuWK" version="21.1.7" type="device">
+<mxfile host="app.diagrams.net" modified="2023-04-17T02:56:51.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="YLXgQtvZbRae3TYxc56J" version="21.1.1" type="device">
   <diagram id="XBptaHNUp6xFWXjbcIDQ" name="Page-1">
     <mxGraphModel dx="2895" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -54,13 +54,13 @@
         </mxCell>
         <mxCell id="8jH8_pliTZvW4bIovDeC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2336.38" y="-610" as="targetPoint" />
+            <mxPoint x="2490" y="-610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8jH8_pliTZvW4bIovDeC-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-13" target="8jH8_pliTZvW4bIovDeC-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8jH8_pliTZvW4bIovDeC-13" value="Build a fire or sleep on the ground?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="8jH8_pliTZvW4bIovDeC-13" value="Build a fire or sleep?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2092" y="-650" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8jH8_pliTZvW4bIovDeC-21" value="Sleep on&amp;nbsp;ground" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -146,7 +146,7 @@
         <mxCell id="8jH8_pliTZvW4bIovDeC-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-60" target="8jH8_pliTZvW4bIovDeC-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8jH8_pliTZvW4bIovDeC-60" target="zpK2-PGiD_Ye-ELu1hZJ-14">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-60" target="zpK2-PGiD_Ye-ELu1hZJ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8jH8_pliTZvW4bIovDeC-60" value="Gas or Electric?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -173,7 +173,7 @@
         <mxCell id="8jH8_pliTZvW4bIovDeC-73" value="Scavenge for fuel or try to start a fire with two sticks" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1487.5" y="50" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eR0dO_5wLCq7IYi2tpXj-2" target="zpK2-PGiD_Ye-ELu1hZJ-8">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-2" target="zpK2-PGiD_Ye-ELu1hZJ-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eR0dO_5wLCq7IYi2tpXj-2" value="There is a rocky cove with a beach and coconut trees" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
@@ -317,12 +317,12 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-26" value="Give up" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-151" y="-30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1380" y="-145" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1550.015873015873" y="-144.95238095238096" as="targetPoint" />
           </mxGeometry>
@@ -330,7 +330,7 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-31" value="Drink saltwater or back out?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-1505.5" y="-185" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7n9XsmgkcL3LPUVpxS1G-33" target="7n9XsmgkcL3LPUVpxS1G-31">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-33" target="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-33" value="You run to drink seawater from the rocky cove" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
@@ -345,7 +345,7 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-38" target="7n9XsmgkcL3LPUVpxS1G-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7n9XsmgkcL3LPUVpxS1G-38" target="zpK2-PGiD_Ye-ELu1hZJ-19">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-38" target="zpK2-PGiD_Ye-ELu1hZJ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-38" value="Look left or right?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -404,10 +404,10 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-58" value="Use as torch or try to make a campfire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1852.5" y="180" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-3">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-59" value="Use gas or electric?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -460,7 +460,7 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-84" target="7n9XsmgkcL3LPUVpxS1G-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-84" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-84" value="You make a fire pit and a helicopter miraculously flies by." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="1436.5" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-87" edge="1">
@@ -480,11 +480,11 @@
         <mxCell id="KOsrSoKm476WnTX5IUVm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-88" target="KOsrSoKm476WnTX5IUVm-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-88" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-88" value="Light the fire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1441.5" y="580" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-91" value="Create big bonfire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1722.5" y="460" width="120" height="30" as="geometry" />
+          <mxGeometry x="1707.5" y="460" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-92" value="Give up and roast chestnuts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1892.5" y="460" width="170" height="30" as="geometry" />
@@ -522,204 +522,231 @@
         <mxCell id="KOsrSoKm476WnTX5IUVm-17" value="The nuts explode like popcorn and shoot into your eyes. You are blind and cannot survive." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2282" y="580" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-18" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-18" value="You don&#39;t light the fire for some reason, and die of self pity." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1593" y="580" width="134.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-20" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-20" value="You light the fire, and are promptly saved off the island." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1272" y="580" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KOsrSoKm476WnTX5IUVm-23" value="You try to eat ants but a rabid anteater appears to defend its food. Over the next three days, you die of rabies" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-190" y="-560" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-1" value="You light the sticks on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-1" value="You light the sticks on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="952" y="180" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-3" value="You start an electrical fire for light, and suffer lethal burns and instant death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-3" value="You start an electrical fire for light, and suffer lethal burns and instant death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1252.5" y="180" width="134.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-8" target="zpK2-PGiD_Ye-ELu1hZJ-9">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-8" target="zpK2-PGiD_Ye-ELu1hZJ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-8" target="zpK2-PGiD_Ye-ELu1hZJ-10">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-8" target="zpK2-PGiD_Ye-ELu1hZJ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-8" value="Swim around or climb a tree?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-8" value="Swim around or climb a tree?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-1144.5" y="-590" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-9" value="The water is shark-infested and you die of blood loss" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-9" value="The water is shark-infested and you die of blood loss" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1370" y="-590" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-10" value="You climb to the top of a 16ft tree before falling and cracking your skull open" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-10" value="You climb to the top of a 16ft tree before falling and cracking your skull open" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-980" y="-590" width="134.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-12" value="You finally cut the big tree and receive 2 logs but it is pitch black. You blindly fall off a cliff and die instantly." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-12" value="You finally cut the big tree and receive 2 logs but it is pitch black. You blindly fall off a cliff and die instantly." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1817.5" y="-280" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-13" value="You chop down the big tree and receive 2 sticks. The noise attracts a brown bear who mauls you to death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-13" value="You chop down the big tree and receive 2 sticks. The noise attracts a brown bear who mauls you to death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1082" y="-140" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-14" value="You light some dry grass on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-14" value="You light some dry grass on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2056.5" y="-295" width="125.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-19" target="zpK2-PGiD_Ye-ELu1hZJ-21">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-19" target="zpK2-PGiD_Ye-ELu1hZJ-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-19" value="You see a mirror on the ground. Grab it?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-19" value="You see a mirror on the ground. Grab it?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="-130" y="85" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-21" target="zpK2-PGiD_Ye-ELu1hZJ-23">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-21" target="zpK2-PGiD_Ye-ELu1hZJ-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-21" target="zpK2-PGiD_Ye-ELu1hZJ-33">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-21" target="zpK2-PGiD_Ye-ELu1hZJ-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-21" value="Grab mirror" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-21" value="Grab mirror" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-85" y="180" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-23" target="zpK2-PGiD_Ye-ELu1hZJ-25">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-23" target="zpK2-PGiD_Ye-ELu1hZJ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-23" value="Miraculously a helicopter flies overhead. Signal?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-23" value="Miraculously a helicopter flies overhead. Signal?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="-293.19" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-28">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-31">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-25" value="Signal Helicopter?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-25" value="Signal Helicopter?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-273.19" y="310" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-28" value="You signal the helicopter, who lands on the island and saves you. YOU WIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-28" value="You signal the helicopter, who lands on the island and saves you. YOU WIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-510" y="310" width="125" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-31" value="For some reason, you don&#39;t signal the helicopter. You beat yourself up until you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-31" value="For some reason, you don&#39;t signal the helicopter. You beat yourself up until you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-91" y="310" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-33" target="zpK2-PGiD_Ye-ELu1hZJ-37">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-33" target="zpK2-PGiD_Ye-ELu1hZJ-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-33" value="You don&#39;t want to hold anything as you crawl around." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-33" value="You don&#39;t want to hold anything as you crawl around." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-37" target="zpK2-PGiD_Ye-ELu1hZJ-42">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-37" target="zpK2-PGiD_Ye-ELu1hZJ-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-37" target="zpK2-PGiD_Ye-ELu1hZJ-50">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-37" target="zpK2-PGiD_Ye-ELu1hZJ-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-37" value="Crawl back and look right?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-37" value="Crawl back and look right?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="60" y="440" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-42" target="zpK2-PGiD_Ye-ELu1hZJ-45">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-42" target="zpK2-PGiD_Ye-ELu1hZJ-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-42" value="You crawl back and see some fungus wood. Use as splint or try to eat?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-42" value="You crawl back and see some fungus wood. Use as splint or try to eat?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="450" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-45">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-45" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="95" y="625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-45">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-45" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="445" y="625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-45" value="Use as splint or eat?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-45" value="Use as splint or eat?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="195" y="585" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-46" value="You eat the fungus off the wood. Your throat swells up and you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-46" value="You eat the fungus off the wood. Your throat swells up and you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-40" y="585" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-47" value="You use the piece of wood as a splint, however you get an infection and die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-47" value="You use the piece of wood as a splint, however you get an infection and die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="425" y="585" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-50" value="You don&#39;t want to do anything anymore. You die of laziness" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-50" value="You don&#39;t want to do anything anymore. You die of laziness" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-145" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-55" value="You lean down to drink seawater and your head is bitten off by a shark" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-55" value="You lean down to drink seawater and your head is bitten off by a shark" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1700" y="-185" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-56" value="You&#39;re too scared to drink saltwater. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-56" value="You&#39;re too scared to drink saltwater. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1385.5" y="-185" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-57" value="You try to vomit but you already ate the berries. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-57" value="You try to vomit but you already ate the berries. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-1030" y="-350" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-59" value="You fall asleep. You wake up and realize it was all a dream" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2337" y="-650" width="140" height="80" as="geometry" />
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-59" value="You fall asleep. You wake up and realize it was all a dream" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2650" y="-550" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-60" value="Drink water" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-60" value="Drink water" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1370" y="-340" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-61" value="Try to vomit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-61" value="Try to vomit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1154.5" y="-340" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-62" value="Swim around" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-62" value="Swim around" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1234.5" y="-580" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-63" value="Climb a tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-63" value="Climb a tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1064.5" y="-580" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-64" value="Look left" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-64" value="Look left" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="80" y="85" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-65" value="Look right" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-65" value="Look right" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="300" y="80" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-66" value="Eat fungus on wood" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-66" value="Eat fungus on wood" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="305" y="225" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-67" value="Use as splint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-67" value="Use as splint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="555" y="230" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-68" value="Crawl back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-68" value="Crawl back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="115" y="440" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-69" value="Don&#39;t crawl back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-69" value="Don&#39;t crawl back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-30" y="450" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-74" value="Eat fungus on wood" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-74" value="Eat fungus on wood" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="90" y="590" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-75" value="Use as splint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-75" value="Use as splint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="345" y="590" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-76" value="Signal helicopter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-76" value="Signal helicopter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-385" y="320" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-77" value="Don&#39;t signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-77" value="Don&#39;t signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-200" y="320" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-79" value="Grab mirror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-79" value="Grab mirror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-160" y="190" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-80" value="Don&#39;t grab mirror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-80" value="Don&#39;t grab mirror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-40" y="180" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-81" value="Drink seawater" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-81" value="Drink seawater" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1580" y="-180" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-82" value="Don&#39;t drink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-82" value="Don&#39;t drink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1460" y="-180" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-83" value="Take gasoline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-83" value="Take gasoline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2160" y="-295" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-85" value="Take battery" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-85" value="Take battery" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2335" y="-295" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-86" value="Charge dead phone" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-86" value="Charge dead phone" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2372" y="-140" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-88" value="Light an electrical fire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-88" value="Light an electrical fire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2620" y="-140" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-91" value="You blow on the flame. It explodes sharply and melts your face off." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-91" value="You blow on the flame. It explodes sharply and melts your face off." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1347.5" y="330" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hsZ7qTV_6oaQmT7TfW8N-2" target="hsZ7qTV_6oaQmT7TfW8N-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-2" value="You look for a place to sleep" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2492" y="-640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hsZ7qTV_6oaQmT7TfW8N-3" target="zpK2-PGiD_Ye-ELu1hZJ-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hsZ7qTV_6oaQmT7TfW8N-3" target="hsZ7qTV_6oaQmT7TfW8N-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-3" value="Sleep on ground or in a cave?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2512" y="-550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-6" value="You walk into a cave before realizing it is a bear&#39;s den. You are mauled to death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="-550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-7" value="Ground" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="-545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-9" value="Bush" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2445" y="-545" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-10" value="Don&#39;t light" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1522" y="590" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
