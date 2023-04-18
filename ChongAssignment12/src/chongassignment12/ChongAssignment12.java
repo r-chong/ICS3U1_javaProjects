@@ -54,7 +54,7 @@ public class ChongAssignment12 {
         // if choice 2, remind user of their choice
         // perform task by executing for loop
         // initial value 100,final value 0,increment 10
-        if (choice == 2) {
+        else if (choice == 2) {
                 System.out.println("You have chosen to count from 100 to 0 by 10");
                 for (int i = 100; i >= 0; i = i - 10) {
                         System.out.println(i);
@@ -64,7 +64,7 @@ public class ChongAssignment12 {
         // if choice 3, remind user of their choice
         // perform task by executing for loop
         // initial value 50,final value 500,increment 50
-        if (choice == 3) {
+        else if (choice == 3) {
                 System.out.println("You have chosen to count from 50 to 500 by 50");
                 for (int i = 50; i <= 500; i = i + 50) {
                         System.out.println(i);
@@ -74,7 +74,7 @@ public class ChongAssignment12 {
         // if choice 4, remind user of their choice
         // perform task by executing for loop
         // initial value 6000,final value 1000,increment 1000
-        if (choice == 4) {
+        else if (choice == 4) {
                 System.out.println("You have chosen to count from 6000 to 1000 by 1000");
                 for (int i = 6000; i >= 1000; i = i - 1000) {
                         System.out.println(i);

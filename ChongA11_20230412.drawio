@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T03:22:31.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="HzugjebMD11jvPJrtAj1" version="21.1.8" type="device">
+<mxfile host="app.diagrams.net" modified="2023-04-18T17:12:57.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZWei3HdfPHEGK9h4ZB-3" version="21.1.8" type="device">
   <diagram id="XBptaHNUp6xFWXjbcIDQ" name="Page-1">
-    <mxGraphModel dx="3749" dy="2237" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2596" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,10 +202,10 @@
         <mxCell id="eR0dO_5wLCq7IYi2tpXj-11" value="Test if it is edible or just take a bite?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="-829" y="-550" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eR0dO_5wLCq7IYi2tpXj-12" value="Move east" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-12" value="Move west" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-700" y="-685" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eR0dO_5wLCq7IYi2tpXj-13" value="Move west" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-13" value="Move east" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-870" y="-685" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eR0dO_5wLCq7IYi2tpXj-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-15" target="eR0dO_5wLCq7IYi2tpXj-18" edge="1">
