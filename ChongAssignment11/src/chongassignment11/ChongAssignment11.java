@@ -59,6 +59,9 @@ public class ChongAssignment11 {
                         choice = keyedInput.nextLine();
                     }
                 }
+                else if (choice.equals("West")) {
+                    
+                }
             } else if (choice.equals("Stay Put")) {
                 System.out.println("You decide it is safer to stay in one spot. Now you try to get comfortable.");
                 System.out.println("[Build Fire] [Sleep]");
