@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T04:06:40.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="3MkHPOe_LctDGiRkXLi_" version="21.1.8" type="device">
+<mxfile host="app.diagrams.net" modified="2023-04-19T17:53:58.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="vdnL-9yyqARHhHBUHRNO" version="21.1.9" type="device">
   <diagram id="XBptaHNUp6xFWXjbcIDQ" name="Page-1">
-    <mxGraphModel dx="2505" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4568" dy="2692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -222,7 +222,7 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-18" target="eR0dO_5wLCq7IYi2tpXj-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eR0dO_5wLCq7IYi2tpXj-18" value="You have an allergic reaction but you are safer than if you ate them." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-18" value="You have an allergic reaction but you are safer than if you ate them." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="-570" y="-450" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eR0dO_5wLCq7IYi2tpXj-26" value="Eat ants" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -245,13 +245,13 @@
         <mxCell id="eR0dO_5wLCq7IYi2tpXj-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-45" target="eR0dO_5wLCq7IYi2tpXj-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eR0dO_5wLCq7IYi2tpXj-45" value="Eat berries anyway or throw away?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-45" value="Eat berries anyway or throw away?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-530" y="-320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-47" target="eR0dO_5wLCq7IYi2tpXj-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eR0dO_5wLCq7IYi2tpXj-47" value="You throw the berries off a very tall cliff but fall off as well" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-47" value="You throw the berries off a very tall cliff but fall off as well" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="-343.19" y="-310" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eR0dO_5wLCq7IYi2tpXj-50" value="You start an electrical fire for light, and suffer lethal burns and instant death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -266,13 +266,13 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-60" target="eR0dO_5wLCq7IYi2tpXj-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eR0dO_5wLCq7IYi2tpXj-60" value="Fall legs-first or head-first?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-60" value="Fall legs-first or head-first?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-318.19" y="-190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-66" target="7n9XsmgkcL3LPUVpxS1G-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eR0dO_5wLCq7IYi2tpXj-66" value="You break both legs in your fall but survive." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-66" value="You break both legs in your fall but survive." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="-100" y="-180" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eR0dO_5wLCq7IYi2tpXj-68" value="Throw away" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -281,7 +281,7 @@
         <mxCell id="eR0dO_5wLCq7IYi2tpXj-73" value="Head-first" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-416" y="-180" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eR0dO_5wLCq7IYi2tpXj-75" value="You fall head-first, breaking your neck and suffering instant death" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-75" value="You fall head-first, breaking your neck and suffering instant death" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-595" y="-190" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-1" edge="1">
@@ -289,69 +289,69 @@
             <mxPoint x="-220" y="-10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-1" value="Give up or crawl around" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-1" value="Give up or crawl around" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-65" y="-50" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="7n9XsmgkcL3LPUVpxS1G-36" edge="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" target="7n9XsmgkcL3LPUVpxS1G-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-5.115907697472721e-13" y="-10" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-22" edge="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1030" y="-310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-22" target="7n9XsmgkcL3LPUVpxS1G-33" edge="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-22" target="7n9XsmgkcL3LPUVpxS1G-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-22" value="Drink water or try to vomit" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-22" value="Drink water or try to vomit" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1270" y="-350" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-23" target="7n9XsmgkcL3LPUVpxS1G-22" edge="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-23" target="7n9XsmgkcL3LPUVpxS1G-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-23" value="You eat the berries and you have an allergic reaction.&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-23" value="You eat the berries and you have an allergic reaction.&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="-1290" y="-450" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-26" value="Give up" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-26" value="Give up" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-151" y="-30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1380" y="-145" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1550.015873015873" y="-144.95238095238096" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-31" value="Drink saltwater or back out?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-31" value="Drink saltwater or back out?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1505.5" y="-185" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-33" target="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-33" target="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-33" value="You run to drink seawater from the rocky cove" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-33" value="You run to drink seawater from the rocky cove" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="-1545.5" y="-340" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-36" target="7n9XsmgkcL3LPUVpxS1G-38" edge="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-36" target="7n9XsmgkcL3LPUVpxS1G-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-36" value="You cannot move your legs so you look for things on the ground that may help" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-36" value="You cannot move your legs so you look for things on the ground that may help" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="135" y="-40" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-38" target="7n9XsmgkcL3LPUVpxS1G-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-38" target="zpK2-PGiD_Ye-ELu1hZJ-19" edge="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-38" target="zpK2-PGiD_Ye-ELu1hZJ-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-38" value="Look left or right?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-38" value="Look left or right?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="180" y="80" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-39" value="Crawl around" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-39" value="Crawl around" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="30" y="-30" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-41" target="7n9XsmgkcL3LPUVpxS1G-44" edge="1">
@@ -501,7 +501,7 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-107" value="Legs-first" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-165" y="-185" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-1" value="You resign to your fate and die of starvation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-1" value="You resign to your fate and die of starvation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-350" y="-50" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KOsrSoKm476WnTX5IUVm-2" value="You eat the fungus off the wood. Your throat swells up and you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -510,7 +510,7 @@
         <mxCell id="KOsrSoKm476WnTX5IUVm-3" value="You use the piece of wood as a splint, however you get an infection and die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="645" y="220" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-4" value="Your throat closes up and you find it hard to breathe. You die of suffocation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-4" value="Your throat closes up and you find it hard to breathe. You die of suffocation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-829" y="-320" width="132.81" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KOsrSoKm476WnTX5IUVm-5" value="Eat berries anyway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -561,10 +561,10 @@
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-14" value="You light some dry grass on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2056.5" y="-295" width="125.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-19" target="zpK2-PGiD_Ye-ELu1hZJ-21" edge="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-19" target="zpK2-PGiD_Ye-ELu1hZJ-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-19" value="You see a mirror on the ground. Grab it?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-19" value="You see a mirror on the ground. Grab it?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="-130" y="85" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-21" target="zpK2-PGiD_Ye-ELu1hZJ-23" edge="1">
@@ -573,34 +573,34 @@
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-21" target="zpK2-PGiD_Ye-ELu1hZJ-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-21" value="Grab mirror" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-21" value="Grab mirror" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-85" y="180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-23" target="zpK2-PGiD_Ye-ELu1hZJ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-23" value="Miraculously a helicopter flies overhead. Signal?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-23" value="Miraculously a boat sails in the cove. Signal?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="-293.19" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-28" edge="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-31" edge="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-77" target="zpK2-PGiD_Ye-ELu1hZJ-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-25" value="Signal Helicopter?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-25" value="Signal Boat?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-273.19" y="310" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-28" value="You signal the helicopter, who lands on the island and saves you. YOU WIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-28" value="You signal the boat, who arrives on the island and saves you. YOU WIN" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-510" y="310" width="125" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-31" value="For some reason, you don&#39;t signal the helicopter. You beat yourself up until you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-91" y="310" width="130" height="80" as="geometry" />
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-31" value="For some reason, you don&#39;t signal the boat. You beat yourself up until you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-35" y="305" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-33" target="zpK2-PGiD_Ye-ELu1hZJ-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-33" value="You don&#39;t want to hold anything as you crawl around." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-33" value="You don&#39;t want to hold anything as you crawl around." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="40" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-37" target="zpK2-PGiD_Ye-ELu1hZJ-42" edge="1">
@@ -609,7 +609,7 @@
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-37" target="zpK2-PGiD_Ye-ELu1hZJ-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-37" value="Crawl back and look right?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-37" value="Crawl back and look right?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="60" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-42" target="zpK2-PGiD_Ye-ELu1hZJ-45" edge="1">
@@ -637,25 +637,25 @@
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-47" value="You use the piece of wood as a splint, however you get an infection and die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="425" y="585" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-50" value="You don&#39;t want to do anything anymore. You die of laziness" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-50" value="You don&#39;t want to do anything anymore. You die of laziness" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-145" y="440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-55" value="You lean down to drink seawater and your head is bitten off by a shark" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-55" value="You lean down to drink seawater and your head is bitten off by a shark" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1700" y="-185" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-56" value="You&#39;re too scared to drink saltwater. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-56" value="You&#39;re too scared to drink saltwater. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1385.5" y="-185" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-57" value="You try to vomit but you already ate the berries. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-57" value="You try to vomit but you already ate the berries. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1030" y="-350" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-59" value="You fall asleep. You wake up and realize it was all a dream" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="2650" y="-550" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-60" value="Drink water" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-60" value="Drink water" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1370" y="-340" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-61" value="Try to vomit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-61" value="Try to vomit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1154.5" y="-340" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-62" value="Explore water" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -664,7 +664,7 @@
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-63" value="Climb a tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1064.5" y="-580" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-64" value="Look left" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-64" value="Look left" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="80" y="85" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-65" value="Look right" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -688,11 +688,8 @@
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-75" value="Use as splint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="345" y="590" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-76" value="Signal helicopter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-385" y="320" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-77" value="Don&#39;t signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="320" width="90" height="30" as="geometry" />
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-76" value="Signall" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="335" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-79" value="Grab mirror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-160" y="190" width="80" height="30" as="geometry" />
@@ -700,10 +697,10 @@
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-80" value="Don&#39;t grab mirror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-40" y="180" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-81" value="Drink seawater" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-81" value="Drink seawater" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1580" y="-180" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-82" value="Don&#39;t drink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-82" value="Don&#39;t drink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-1460" y="-180" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-83" value="Take gasoline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -747,6 +744,15 @@
         </mxCell>
         <mxCell id="hsZ7qTV_6oaQmT7TfW8N-10" value="Don&#39;t light" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1522" y="590" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wN9VGMTvqRtiTDuXfgTW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-193" y="350" as="sourcePoint" />
+            <mxPoint x="-91" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-77" value="Don&#39;t signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="-185" y="330" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

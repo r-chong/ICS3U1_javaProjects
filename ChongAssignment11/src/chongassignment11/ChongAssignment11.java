@@ -103,6 +103,64 @@ public class ChongAssignment11 {
                                 System.out.println("As you desperately try to rid yourself of the berries that caused your allergic reaction, you grab them and fling them off the edge of a towering cliff.\nHowever, in the midst of your haste, you lose your balance and tumble over the precipice as well.\nYour only hope is to survive the fall.");
                                 System.out.println("[Fall Legs-First] [Fall Head-First]");
                                 choice = keyedInput.nextLine();
+                                if (choice.equals("Fall Head-First")) {
+                                    System.out.println("You fall head-first, breaking your neck and suffering instant death");
+                                    // STORY ENDPOINT
+                                } else if (choice.equals("Fall Legs-First")) {
+                                    System.out.println("You remember reading that you'd have a greater chance of survival if you fall legs-first. \nYou break both legs on impact but survive.");
+                                    System.out.println("[Give Up] [Crawl Around]");
+                                    choice = keyedInput.nextLine();
+                                    if (choice.equals("Give Up")) {
+                                        System.out.println("With shattered legs, you resign to your fate and die of starvation");
+                                        // STORY ENDPOINT
+                                    } else if (choice.equals("Crawl Around")) {
+                                        System.out.println("It hurts to move your legs, so you look for things on the ground that may help. Look left or right?");
+                                        System.out.println("[Look Left] [Look Right]");
+                                        choice = keyedInput.nextLine();
+                                        if (choice.equals("Look Left")) {
+                                            System.out.println("You see a mirror on the ground. Grab it?");
+                                            System.out.println("[Grab] [Don't Grab]");
+                                            choice = keyedInput.nextLine();
+                                            if (choice.equals("Grab")) {
+                                                System.out.println("Backing the sea, you grab the mirror and dust it off. Gazing into the reflection, you see a boat in the background. \nWith the mirror, you may be able to signal them.");
+                                                System.out.println("[Signal] [Don't Signal]");
+                                                choice = keyedInput.nextLine();
+                                                if (choice.equals("Signal")) {
+                                                    System.out.println("You signal the boat, who arrives on the island and speed you to the nearest hospital.");
+                                                    // STORY ENDPOINT
+                                                    choice = keyedInput.nextLine();
+                                                } else if (choice.equals("Don't Signal")) {
+                                                    System.out.println("In your indecision, you wait too long to signal the boat as it zooms past. \nYou lose all hope of leaving the island and die of a broken heart.");
+                                                    // STORY ENDPOINT
+                                                }
+                                            } else if (choice.equals("Don't Grab")) {
+                                                System.out.println("You already have two broken legs, you need your hands to crawl around, youd decide. \nYou don't want to hold anything as you crawl around.");
+                                                System.out.println("[Crawl Back] [Give Up]");
+                                                choice = keyedInput.nextLine();
+                                                if (choice.equals("Crawl Back")) {
+                                                    System.out.println("You crawl back and see some fungus wood. Use as splint or try to eat?");
+                                                    System.out.println("[Use As Splint] [Try To Eat]");
+                                                    choice = keyedInput.nextLine();
+                                                    if (choice.equals("Use As Splint")) {
+                                                        System.out.println("You use the piece of wood as a splint, however you get an infection and die");
+                                                        // STORY ENDPOINT
+                                                        choice = keyedInput.nextLine();
+                                                    } else if (choice.equals("Try To Eat")) {
+                                                        System.out.println("You eat the fungus off the wood because you make bad decisions. Your throat swells up and you die");
+                                                        // STORY ENDPOINT
+                                                    }
+                                                } else if (choice.equals("Give Up")) {
+                                                    System.out.println("You don't want to do anything anymore. You die of laziness");
+                                                    // STORY ENDPOINT
+                                                }
+                                            }
+                                        } else if (choice.equals("Look Right")) {
+                                            System.out.println("You see a piece of wood with fungus. Use as splint or try to eat?");
+                                            System.out.println("[] []");
+                                            choice = keyedInput.nextLine();
+                                        }
+                                    }   
+                                }
                             }
                         }
                     } else if (choice.equals("Eat Ants")) {
