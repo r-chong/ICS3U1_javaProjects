@@ -156,8 +156,16 @@ public class ChongAssignment11 {
                                             }
                                         } else if (choice.equals("Look Right")) {
                                             System.out.println("You see a piece of wood with fungus. Use as splint or try to eat?");
-                                            System.out.println("[] []");
+                                            System.out.println("[Use As Splint] [Try To Eat]");
                                             choice = keyedInput.nextLine();
+                                            if (choice.equals("Use As Splint")) {
+                                                System.out.println("You use the piece of wood as a splint, however you get an infection and die");
+                                                // STORY ENDPOINT
+                                                choice = keyedInput.nextLine();
+                                            } else if (choice.equals("Try To Eat")) {
+                                                System.out.println("You eat the fungus off the wood because you make bad decisions. Your throat swells up and you die");
+                                                // STORY ENDPOINT
+                                            }
                                         }
                                     }   
                                 }
@@ -175,10 +183,12 @@ public class ChongAssignment11 {
                 choice = keyedInput.nextLine();
 
                 if (choice.equals("Build Fire")) {
-                    System.out.println("");
-                    System.out.println("[] []");
+                    System.out.println("It is too cold, so you start building a fire pit. You're going need wood and a firestarter."
+                            + "It's daylight now, but it will soon be dark. One of them will probably take longer to collect than the other."
+                            + "Which do you choose to collect first?");
+                    System.out.println("[Gather Wood First] [Gather Firestarter First]");
                     choice = keyedInput.nextLine();
-                    if (choice.equals("")) {
+                    if (choice.equals("Gather Wood First")) {
                         System.out.println("");
                         System.out.println("[] []");
                         choice = keyedInput.nextLine();
@@ -209,44 +219,23 @@ public class ChongAssignment11 {
                                 choice = keyedInput.nextLine();
                             }
                         }
-                    } else if (choice.equals("Sleep")) {
-                        System.out.println("");
-                        System.out.println("[] []");
-                        choice = keyedInput.nextLine();
-                        if (choice.equals("")) {
-                            System.out.println("");
-                            System.out.println("[] []");
-                            choice = keyedInput.nextLine();
-                            if (choice.equals("")) {
-                                System.out.println("");
-                                System.out.println("[] []");
-                                choice = keyedInput.nextLine();
-                            } else if (choice.equals("")) {
-                                System.out.println("");
-                                System.out.println("[] []");
-                                choice = keyedInput.nextLine();
-                            }
-                        } else if (choice.equals("")) {
-                            System.out.println("");
-                            System.out.println("[] []");
-                            choice = keyedInput.nextLine();
-                            if (choice.equals("")) {
-                                System.out.println("");
-                                System.out.println("[] []");
-                                choice = keyedInput.nextLine();
-                            } else if (choice.equals("")) {
-                                System.out.println("");
-                                System.out.println("[] []");
-                                choice = keyedInput.nextLine();
-                            }
-                        }
-                    }
+                } else if (choice.equals("Gather Firestarter First")) {
+                    
                 }
-            } else {
-                System.out.println(choice + " is not an option. Please reload and type \"Play\"");
+            } else if (choice.equals("Sleep")) {
+                System.out.println("You look for a place to sleep on this island. You did decide to stay put, so it had better be around this area.\nYou see a cave about 20 metres away. You could either camp where you are, or visit the cave.");
+                System.out.println("[Sleep On Ground] [Sleep In Cave]");
+                choice = keyedInput.nextLine();
+                if (choice.equals("Sleep On Ground")) {
+                    System.out.println("You toss and turn but eventually fall asleep. When you wake up, the ground feels softer than before, almost like a pillow.\n You laugh and realize it was all a dream");
+                    // STORY ENDPOINT
+                } else if (choice.equals("Sleep In Cave")) {
+                    System.out.println("You walk into a cave before realizing it is a bear's den. You are mauled to death.");
+                    // STORY ENDPOINT
+                }
             }
         }
-
+        }
     }
 
 }
