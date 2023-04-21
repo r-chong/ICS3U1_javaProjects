@@ -189,8 +189,8 @@ public class ChongAssignment11 {
                     System.out.println("[Gather Wood First] [Gather Firestarter First]");
                     choice = keyedInput.nextLine();
                     if (choice.equals("Gather Wood First")) {
-                        System.out.println("");
-                        System.out.println("[] []");
+                        System.out.println("It's getting dark. You decide to gather wood first. Having a consistent source of fuel will ensure that you last through the night.\nBesides, you'll only need to start the fire once, right? \nIn your search, you see a big tree and small tree. Which do you chop?");
+                        System.out.println("[Big Tree] [Small Tree]");
                         choice = keyedInput.nextLine();
                         if (choice.equals("")) {
                             System.out.println("");
@@ -201,22 +201,29 @@ public class ChongAssignment11 {
                                 System.out.println("[] []");
                                 choice = keyedInput.nextLine();
                             } else if (choice.equals("")) {
-                                System.out.println("");
+                                System.out.println("Your phone charges and you call for an Uber boat, saving you from the island.");
                                 System.out.println("[] []");
                                 choice = keyedInput.nextLine();
                             }
-                        } else if (choice.equals("")) {
-                            System.out.println("");
-                            System.out.println("[] []");
+                        } else if (choice.equals("Gather Firestarter First")) {
+                            System.out.println("It's getting dark. You decide that you will start by finding firestarter. \nAfter all, having something to light things with will serve you better than just having things to light.\nWorst case, you just light some random bushes on fire, right? \nIn your search, you miraculously find a can of petrol and a car battery. Which one do you take?");
+                            System.out.println("[Gas] [Electric]");
                             choice = keyedInput.nextLine();
-                            if (choice.equals("")) {
-                                System.out.println("");
-                                System.out.println("[] []");
+                            if (choice.equals("Gas")) {
+                                System.out.println("You light some dry grass on fire with gasoline. It spreads quickly and you die of fatal burns.");
+                                // STORY ENDPOINT
                                 choice = keyedInput.nextLine();
-                            } else if (choice.equals("")) {
-                                System.out.println("");
-                                System.out.println("[] []");
+                            } else if (choice.equals("Electric")) {
+                                System.out.println("You carry back the battery and it's dark. You need light, so you could try starting a fire with the electricity.\nOn the other hand, you could try to charge your dead phone. Which will it be?");
+                                System.out.println("[Charge Phone] [Light Electrical Fire]");
                                 choice = keyedInput.nextLine();
+                                    if (choice.equals("Charge Phone")) {
+                                    System.out.println("Your phone charges and you call for an Uber boat, saving you from the island.");
+                                    // STORY ENDPOINT
+                                } else if (choice.equals("Light Electrical Fire")) {
+                                    System.out.println("You start an electrical fire for light, and suffer lethal burns and instant death.");
+                                    // STORY ENDPOINT
+                                }
                             }
                         }
                 } else if (choice.equals("Gather Firestarter First")) {
