@@ -19,17 +19,46 @@ public class ChongAssignment16 {
     public static void main(String[] args) {
         // declare and initialize constants which are also arrays
         final String [] WORD_LIST = {"addition","comparison","advice","appearance","philosophy","security","world","negotiation","quantity","speaker","unit","basis","attitude","combination","data","reputation","dad","library","grocery","insect"};
-
+        final String [] HANGMAN_PICS = {
+            "  +---+\n  |   |\n      |\n      |\n      |\n      |\n==========",
+            "  +---+\n  |   |\n  O   |\n /|\\  |\n / \\  |\n      |\n==========",
+            "  +---+\n  |   |\n      |\n      |\n      |\n      |\n==========",
+            "  +---+\n  |   |\n      |\n      |\n      |\n      |\n==========",
+            "  +---+\n  |   |\n      |\n      |\n      |\n      |\n==========",
+        };
+        
+//        
+//          +---+
+//          |   |
+//          O   |
+//         /|\  |
+//         / \  |
+//              |
+//        =========
+        
+        // test
+        System.out.println(HANGMAN_PICS[1]);
+        
         // declare and initialize 10 variables
-        String currentWord;
-        
-        
-        int wordLength = currentWord.length();
+        String word = "testes";
+        String [] splitWord = word.split("");
+        int wordLength = word.length();
+        String currentGuess;
         
         String [] guessedLetters = new String [wordLength];
+        // 7 guesses only (change to constant?)
+        String [] usedLetters = new String [7];
         
         // declare and initialize scanner
         Scanner keyedInput = new Scanner (System.in);
+        
+        // uses ternary operators to show empty space if it has been guessed
+        for (int i = 0; i <= wordLength-1; i++) {
+            System.out.printf("%s ",guessedLetters[i] == splitWord[i] ? guessedLetters[i] : "__" , " ");
+        }
+        
+        System.out.println("\n\nGuess a letter!");
+        currentGuess = keyedInput.nextLine();
         
         
         
