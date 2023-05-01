@@ -5,7 +5,17 @@
  */
 package chongassignment16;
 
+//  _    _                                         _ 
+// | |  | |                                       | |
+// | |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __ | |
+// |  __  |/ _` | '_ \ / _` | '_ ` _ \ / _` | '_ \| |
+// | |  | | (_| | | | | (_| | | | | | | (_| | | | |_|
+// |_|  |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_(_)
+//                      __/ |                        
+//                     |___/                         
+
 import java.util.Scanner;
+import java.util.HashMap;
 
 /**
  *
@@ -13,43 +23,48 @@ import java.util.Scanner;
  */
 public class ChongAssignment16 {
 
+    static final String [] WORD_LIST = {"addition","comparison","advice","appearance","philosophy","security","world","negotiation","quantity","speaker","unit","basis","attitude","combination","data","reputation","dad","library","grocery","insect"};
+    static String word;
+    static int wordID;
     /**
      * @param args the command line arguments
      */
+    
+    public static String generateNewWord() {
+            wordID = (int)Math.round(Math.random()*19+1);
+            word = WORD_LIST[wordID];
+        return word;
+        }
+    
     public static void main(String[] args) {
         // declare and initialize constants which are also arrays
-        final String [] WORD_LIST = {"addition","comparison","advice","appearance","philosophy","security","world","negotiation","quantity","speaker","unit","basis","attitude","combination","data","reputation","dad","library","grocery","insect"};
         final String [] HANGMAN_PICS = {
             "  +---+\n  |   |\n      |\n      |\n      |\n      |\n==========",
+            "  +---+\n  |   |\n  O   |\n      |\n      |\n      |\n==========",
+            "  +---+\n  |   |\n  O   |\n  |   |\n      |\n      |\n==========",
+            "  +---+\n  |   |\n  O   |\n /|   |\n      |\n      |\n==========",
+            "  +---+\n  |   |\n  O   |\n /|\\  |\n      |\n      |\n==========",
+            "  +---+\n  |   |\n  O   |\n /|\\  |\n /    |\n      |\n==========",
             "  +---+\n  |   |\n  O   |\n /|\\  |\n / \\  |\n      |\n==========",
-            "  +---+\n  |   |\n      |\n      |\n      |\n      |\n==========",
-            "  +---+\n  |   |\n      |\n      |\n      |\n      |\n==========",
-            "  +---+\n  |   |\n      |\n      |\n      |\n      |\n==========",
         };
+        final int MAX_GUESS = 6;
         
-//        
-//          +---+
-//          |   |
-//          O   |
-//         /|\  |
-//         / \  |
-//              |
-//        =========
+        // Declare and initialize 10 variables
+        
+        String currentGuess;
+        int wordLength = word.length();
+        String [] splitWord = word.split("");
+        String [] guessedLetters = new String [wordLength];
+        String [] usedLetters = new String [MAX_GUESS];
+                
+        // -------------------------
         
         // test
-        System.out.println(HANGMAN_PICS[1]);
+        for (int i = 0; i <= 6; i++) {
+            System.out.println(HANGMAN_PICS[i]);
+        }
         
-        // declare and initialize 10 variables
-        String word = "testes";
-        String [] splitWord = word.split("");
-        int wordLength = word.length();
-        String currentGuess;
-        
-        String [] guessedLetters = new String [wordLength];
-        // 7 guesses only (change to constant?)
-        String [] usedLetters = new String [7];
-        
-        // declare and initialize scanner
+        // Declare and initialize scanner
         Scanner keyedInput = new Scanner (System.in);
         
         // uses ternary operators to show empty space if it has been guessed
@@ -57,10 +72,13 @@ public class ChongAssignment16 {
             System.out.printf("%s ",guessedLetters[i] == splitWord[i] ? guessedLetters[i] : "__" , " ");
         }
         
-        System.out.println("\n\nGuess a letter!");
-        currentGuess = keyedInput.nextLine();
-        
-        
+        while(true) {
+            System.out.println("\n\nGuess a letter!");
+            currentGuess = keyedInput.nextLine();
+            System.out.println(currentGuess);
+            generateNewWord();
+        }
+            
         
         
 //        10 Significant Variables (5 marks)
