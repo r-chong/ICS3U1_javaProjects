@@ -33,7 +33,7 @@ public class ChongAssignment16 {
     public static String generateNewWord() {
             wordID = (int)Math.round(Math.random()*19+1);
             word = WORD_LIST[wordID];
-        return word;
+            return word;
         }
     
     public static void main(String[] args) {
@@ -49,8 +49,12 @@ public class ChongAssignment16 {
         };
         final int MAX_GUESS = 6;
         
+        // Declare and initialize scanner
+        Scanner keyedInput = new Scanner (System.in);
+        
         // Declare and initialize 10 variables
         
+        word = generateNewWord();
         String currentGuess;
         int wordLength = word.length();
         String [] splitWord = word.split("");
@@ -59,13 +63,13 @@ public class ChongAssignment16 {
                 
         // -------------------------
         
-        // test
-        for (int i = 0; i <= 6; i++) {
-            System.out.println(HANGMAN_PICS[i]);
-        }
+        // print visuals to screen
+//        for (int i = 0; i <= 6; i++) {
+//            System.out.println(HANGMAN_PICS[i]);
+//        }
         
-        // Declare and initialize scanner
-        Scanner keyedInput = new Scanner (System.in);
+        
+        System.out.println(HANGMAN_PICS[0]);
         
         // uses ternary operators to show empty space if it has been guessed
         for (int i = 0; i <= wordLength-1; i++) {
@@ -75,7 +79,7 @@ public class ChongAssignment16 {
         while(true) {
             System.out.println("\n\nGuess a letter!");
             currentGuess = keyedInput.nextLine();
-            System.out.println(currentGuess);
+//            if currentGuess in
             generateNewWord();
         }
             
