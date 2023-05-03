@@ -24,7 +24,7 @@ import java.util.HashMap;
 public class ChongAssignment16 {
 
     static final String [] WORD_LIST = {"addition","comparison","advice","appearance","philosophy","security","world","negotiation","quantity","speaker","unit","basis","attitude","combination","data","reputation","dad","library","grocery","insect"};
-    static String word;
+    static String word;`
     static int wordID;
     /**
      * @param args the command line arguments
@@ -59,28 +59,42 @@ public class ChongAssignment16 {
         int wordLength = word.length();
         String [] splitWord = word.split("");
         String [] guessedLetters = new String [wordLength];
-        String [] usedLetters = new String [MAX_GUESS];
-                
+        
+        // Create a HashMap object called guessTracker
+        HashMap<Integer, String> guessTracker = new HashMap<Integer, String>();
+        
         // -------------------------
         
-        // print visuals to screen
-//        for (int i = 0; i <= 6; i++) {
-//            System.out.println(HANGMAN_PICS[i]);
-//        }
-        
-        
-        System.out.println(HANGMAN_PICS[0]);
-        
-        // uses ternary operators to show empty space if it has been guessed
-        for (int i = 0; i <= wordLength-1; i++) {
-            System.out.printf("%s ",guessedLetters[i] == splitWord[i] ? guessedLetters[i] : "__" , " ");
+//         print visuals to screen
+        for (int i = 0; i <= 6; i++) {
+            System.out.println(HANGMAN_PICS[i]);
         }
         
+        generateNewWord();
+        for (int i = 0; i <= wordLength-1; i++) {
+                guessTracker.put(i,splitWord[i]);
+            }
+
+        System.out.println(guessTracker);
+        
+        System.out.println(HANGMAN_PICS[0]);
+
+        
         while(true) {
+            // uses ternary operators to show empty space if it has been guessed
+            for (int i = 0; i <= wordLength-1; i++) {
+                System.out.printf("%s ",guessedLetters[i] == splitWord[i] ? guessedLetters[i] : "__" , " ");
+            }
+            System.out.println("(dev) the owrd is " + word);
             System.out.println("\n\nGuess a letter!");
             currentGuess = keyedInput.nextLine();
-//            if currentGuess in
-            generateNewWord();
+            for (String i : guessTracker.values()) {
+                System.out.println(HANGMAN_PICS[0]);
+                 if (currentGuess.equals(i)) {
+                     System.out.println("you found a letter!");
+                     guessTracker.keySet();
+                 }
+            }
         }
             
         
