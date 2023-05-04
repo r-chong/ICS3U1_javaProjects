@@ -24,7 +24,7 @@ import java.util.HashMap;
 public class ChongAssignment16 {
 
     static final String [] WORD_LIST = {"addition","comparison","advice","appearance","philosophy","security","world","negotiation","quantity","speaker","unit","basis","attitude","combination","data","reputation","dad","library","grocery","insect"};
-    static String word;`
+    static String word;
     static int wordID;
     /**
      * @param args the command line arguments
@@ -62,6 +62,8 @@ public class ChongAssignment16 {
         
         // Create a HashMap object called guessTracker
         HashMap<Integer, String> guessTracker = new HashMap<Integer, String>();
+        
+//        guessTracker.put("a", false);
         
         // -------------------------
         
