@@ -55,30 +55,38 @@ public class ChongAssignment16 {
         // Declare and initialize 10 variables
         
         word = generateNewWord();
-        String currentGuess;
+        char currentGuess;
         int wordLength = word.length();
         String [] splitWord = word.split("");
         String [] guessedLetters = new String [wordLength];
+        char letter;
         
         // Create a HashMap object called guessTracker
-        HashMap<Integer, String> guessTracker = new HashMap<Integer, String>();
-        
-//        guessTracker.put("a", false);
+        HashMap<Character, Boolean> answer_key = new HashMap<Character, Boolean>();
         
         // -------------------------
         
 //         print visuals to screen
-        for (int i = 0; i <= 6; i++) {
-            System.out.println(HANGMAN_PICS[i]);
+//        for (int i = 0; i <= 6; i++) {
+//            System.out.println(HANGMAN_PICS[i]);
+//        }
+        
+        char c;
+        for(c = 'a'; c <= 'z'; ++c) {
+            answer_key.put(c,false);
+        }
+
+//        for (int i = 0; i <= wordLength-1; i++) {
+//                answer_key.put('a',true);
+//            }
+        // set each letter of the word as true in the hashmap answer_key
+        for (int i = 0; i <= wordLength-1; i++) {
+            letter = splitWord[i].charAt(0);
+            answer_key.put(letter,true);
+            System.out.println(answer_key);
         }
         
-        generateNewWord();
-        for (int i = 0; i <= wordLength-1; i++) {
-                guessTracker.put(i,splitWord[i]);
-            }
-
-        System.out.println(guessTracker);
-        
+        System.out.println(answer_key);
         System.out.println(HANGMAN_PICS[0]);
 
         
@@ -87,16 +95,24 @@ public class ChongAssignment16 {
             for (int i = 0; i <= wordLength-1; i++) {
                 System.out.printf("%s ",guessedLetters[i] == splitWord[i] ? guessedLetters[i] : "__" , " ");
             }
-            System.out.println("(dev) the owrd is " + word);
+            // console log the word
+            System.out.println("(dev) the word is " + word);
             System.out.println("\n\nGuess a letter!");
-            currentGuess = keyedInput.nextLine();
-            for (String i : guessTracker.values()) {
-                System.out.println(HANGMAN_PICS[0]);
-                 if (currentGuess.equals(i)) {
-                     System.out.println("you found a letter!");
-                     guessTracker.keySet();
-                 }
+            currentGuess = keyedInput.next().charAt(0);
+            
+            // check if letter guessed is IN the word
+            if(answer_key.get(currentGuess) == true) {
+                //Do task check if the boolean is true or false
+                System.out.println("correct");
+             } else {
+                System.out.println("incorrect");
             }
+//            for (String i : answer_key.values()) {               
+//                 if (currentGuess.equalsIgnoreCase(i)) {
+//                     System.out.println("you found a letter of " + word);
+//                     answer_key.keySet();
+//                 }
+//            }
         }
             
         
