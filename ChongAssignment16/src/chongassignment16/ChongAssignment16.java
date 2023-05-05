@@ -98,7 +98,7 @@ public class ChongAssignment16 {
                 System.out.printf("%s ",correctGuesses[i] == splitWord[i] ? correctGuesses[i] : "__" , " ");
             }
             // console log the word
-            System.out.println("(dev) the word is " + word);
+//            System.out.println("(dev) the word is " + word);
             System.out.println("\n\nGuess a letter!");
             currentGuess = keyedInput.next().charAt(0);
             for(int i=0; i < 26; i++)
