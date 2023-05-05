@@ -56,10 +56,12 @@ public class ChongAssignment16 {
         
         word = generateNewWord();
         char currentGuess;
+        String[] correctGuesses = new String[26];
         int wordLength = word.length();
         String [] splitWord = word.split("");
-        String [] guessedLetters = new String [wordLength];
+        char [] remainingLetters = {'a', 'b','c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's','t', 'u', 'v', 'w', 'x', 'y', 'z'};
         char letter;
+        int hangingStatus = 0;
         
         // Create a HashMap object called guessTracker
         HashMap<Character, Boolean> answer_key = new HashMap<Character, Boolean>();
@@ -93,20 +95,33 @@ public class ChongAssignment16 {
         while(true) {
             // uses ternary operators to show empty space if it has been guessed
             for (int i = 0; i <= wordLength-1; i++) {
-                System.out.printf("%s ",guessedLetters[i] == splitWord[i] ? guessedLetters[i] : "__" , " ");
+                System.out.printf("%s ",correctGuesses[i] == splitWord[i] ? correctGuesses[i] : "__" , " ");
             }
             // console log the word
             System.out.println("(dev) the word is " + word);
             System.out.println("\n\nGuess a letter!");
             currentGuess = keyedInput.next().charAt(0);
+            for(int i=0; i < 26; i++)
+            {
+               if(currentGuess==remainingLetters[i])
+               {
+                  for(int j = i;  j <(25); j++)
+                     remainingLetters[j] = remainingLetters[j+1];
+                  System.out.println("\nRemoved the element successfully!");
+                  break;
+               }
+            }
+            System.out.println(remainingLetters);
             
             // check if letter guessed is IN the word
             if(answer_key.get(currentGuess) == true) {
                 //Do task check if the boolean is true or false
-                System.out.println("correct");
+                System.out.println("you found a letter!");
              } else {
-                System.out.println("incorrect");
+                System.out.println("wrong.. the man is closer to being hanged");
+                hangingStatus++;
             }
+            System.out.println(HANGMAN_PICS[hangingStatus]);
 //            for (String i : answer_key.values()) {               
 //                 if (currentGuess.equalsIgnoreCase(i)) {
 //                     System.out.println("you found a letter of " + word);
