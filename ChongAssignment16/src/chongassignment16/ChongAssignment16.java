@@ -65,6 +65,7 @@ public class ChongAssignment16 {
         
         // Create a HashMap object called guessTracker
         HashMap<Character, Boolean> answer_key = new HashMap<Character, Boolean>();
+        HashMap<Character, Boolean> guess_key = new HashMap<Character, Boolean>();
         
         // -------------------------
         
@@ -76,6 +77,7 @@ public class ChongAssignment16 {
         char c;
         for(c = 'a'; c <= 'z'; ++c) {
             answer_key.put(c,false);
+            guess_key.put(c,false);
         }
 
 //        for (int i = 0; i <= wordLength-1; i++) {
@@ -92,10 +94,7 @@ public class ChongAssignment16 {
 
         
         while(true) {
-            // uses ternary operators to show empty space if it has been guessed
-            for (int i = 0; i <= wordLength-1; i++) {
-                System.out.printf("%s ",correctGuesses[i] == splitWord[i] ? correctGuesses[i] : "__" , " ");
-            }
+
             // console log the word
 //            System.out.println("(dev) the word is " + word);
             System.out.println("\n\nGuess a letter!");
@@ -111,7 +110,6 @@ public class ChongAssignment16 {
                   }
                   remainingLetters[25] = ' ';
                   System.out.println("\nRemoved the element successfully!");
-                  
 //                  for(int k=0; k<)
                   break;
                }
@@ -122,6 +120,8 @@ public class ChongAssignment16 {
             if(answer_key.get(currentGuess) == true) {
                 //Do task check if the boolean is true or false
                 System.out.println("you found a letter!");
+                guess_key.put(currentGuess,true);
+                System.out.println(guess_key);
              } else {
                 System.out.println("wrong.. the man is closer to being hanged");
                 hangingStatus++;
@@ -133,6 +133,20 @@ public class ChongAssignment16 {
 //                     answer_key.keySet();
 //                 }
 //            }
+            // uses ternary operators to show empty space if it has been guessed
+            for (int i = 0; i <= wordLength-1; i++) {
+                // if user guess is in guess key = true
+                // update each position to not be __
+                // else be __
+//                System.out.printf("%s ",correctGuesses[i] == splitWord[i] ? correctGuesses[i] : "__" , " ");
+                
+                if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i])) 
+                {
+                    System.out.println(currentGuess);
+                } else {
+                    System.out.println("__");
+                }
+            }
         }
             
         
