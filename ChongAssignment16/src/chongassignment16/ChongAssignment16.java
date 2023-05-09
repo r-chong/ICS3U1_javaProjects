@@ -104,11 +104,15 @@ public class ChongAssignment16 {
             {
                if(currentGuess==remainingLetters[i])
                {
-                  for(int j = i;  j <(25); j++) 
+                  for(int j = i;  j < 25; j++) 
                   {
                      remainingLetters[j] = remainingLetters[j+1];
+                     
                   }
+                  remainingLetters[25] = ' ';
                   System.out.println("\nRemoved the element successfully!");
+                  
+//                  for(int k=0; k<)
                   break;
                }
             }
