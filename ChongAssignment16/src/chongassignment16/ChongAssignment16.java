@@ -85,7 +85,6 @@ public class ChongAssignment16 {
         for (int i = 0; i <= wordLength-1; i++) {
             letter = splitWord[i].charAt(0);
             answer_key.put(letter,true);
-            System.out.println(answer_key);
         }
         
         System.out.println(answer_key);
@@ -105,8 +104,10 @@ public class ChongAssignment16 {
             {
                if(currentGuess==remainingLetters[i])
                {
-                  for(int j = i;  j <(25); j++)
+                  for(int j = i;  j <(25); j++) 
+                  {
                      remainingLetters[j] = remainingLetters[j+1];
+                  }
                   System.out.println("\nRemoved the element successfully!");
                   break;
                }
