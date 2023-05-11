@@ -26,9 +26,6 @@ public class ChongAssignment16 {
     static final String [] WORD_LIST = {"addition","comparison","advice","appearance","philosophy","security","world","negotiation","quantity","speaker","unit","basis","attitude","combination","data","reputation","dad","library","grocery","insect"};
     static String word;
     static int wordID;
-    /**
-     * @param args the command line arguments
-     */
     
     public static String generateNewWord() {
             wordID = (int)Math.round(Math.random()*19+1);
@@ -53,7 +50,6 @@ public class ChongAssignment16 {
         Scanner keyedInput = new Scanner (System.in);
         
         // Declare and initialize 10 variables
-        
         word = generateNewWord();
         char currentGuess;
         String[] correctGuesses = new String[26];
@@ -67,78 +63,73 @@ public class ChongAssignment16 {
         HashMap<Character, Boolean> answer_key = new HashMap<Character, Boolean>();
         HashMap<Character, Boolean> guess_key = new HashMap<Character, Boolean>();
         
-        // -------------------------
-        
-//         print visuals to screen
-//        for (int i = 0; i <= 6; i++) {
-//            System.out.println(HANGMAN_PICS[i]);
-//        }
-        
-        char c;
-        for(c = 'a'; c <= 'z'; ++c) {
+        // initially loop through hashmaps "answer_key" and "guess_key"
+        // set them both to false
+        for(char c = 'a'; c <= 'z'; ++c) 
+        {
             answer_key.put(c,false);
             guess_key.put(c,false);
         }
 
-//        for (int i = 0; i <= wordLength-1; i++) {
-//                answer_key.put('a',true);
-//            }
         // set each letter of the word as true in the hashmap answer_key
-        for (int i = 0; i <= wordLength-1; i++) {
+        for (int i = 0; i <= wordLength-1; i++) 
+        {
             letter = splitWord[i];
             answer_key.put(letter,true);
         }
         
-//        System.out.println(answer_key);
         System.out.println(HANGMAN_PICS[0]);
         
-        while(true) {
-            
-            // console log the word
-            //System.out.println("(dev) the word is " + word);
+        // main game while loop
+        while(true) 
+        {
+            // prompt user for input
+            // take user input in type char; only take the first letter they type
             System.out.println("Guess a letter!");
             currentGuess = keyedInput.next().charAt(0);
+            
+            // remove that letter from the list of remaining letters (full alphabet)
             for(int i=0; i < 26; i++)
             {
-               if(currentGuess==remainingLetters[i])
+               // this is a part of the looping system
+                // if the current letter of the alphabet is equal to the guess, then drop that letter from array
+               if(currentGuess == remainingLetters[i])
                {
+                  // this is done by setting new variable j to i
+                  // from letter j, set every letter as equal to the one next to it
+                  // when it hits the last instance, then erase (else prints multiple z's)
+                  // for example, given abcdef, d is erased, print abcef
                   for(int j = i;  j < 25; j++) 
                   {
                      remainingLetters[j] = remainingLetters[j+1];
-                     
                   }
                   remainingLetters[25] = ' ';
-//                  System.out.println("\nRemoved the element successfully!");
-//                  for(int k=0; k<)
                   break;
-               }
+               }            
             }
             // check if letter guessed is IN the word
+            // if true, update guess key (which keeps track of what the user has guessed)
+            // else progress the hanging of the man
             if(answer_key.get(currentGuess) == true) {
-                //Do task check if the boolean is true or false
                 System.out.println("you found a letter!");
                 guess_key.put(currentGuess,true);
              } else {
                 System.out.println("wrong... the man is closer to being hanged");
                 hangingStatus++;
             }
+            
+            // add visual of the man being hanged
+            // print remaining letters to screen
+            // add space for user readability
             System.out.println(HANGMAN_PICS[hangingStatus]);
             System.out.println("remaining letters:");
             System.out.print(remainingLetters);
             System.out.println("");
-//            for (String i : answer_key.values()) {               
-//                 if (currentGuess.equalsIgnoreCase(i)) {
-//                     System.out.println("you found a letter of " + word);
-//                     answer_key.keySet();
-//                 }
-//            }
-            // uses ternary operators to show empty space if it has been guessed
-            for (int i = 0; i <= wordLength-1; i++) {
-                // if user guess is in guess key = true
-                // update each position to not be __
-                // else be __
-//                System.out.printf("%s ",correctGuesses[i] == splitWord[i] ? correctGuesses[i] : "__" , " ");
-                
+            
+            // if user guess is in guess key = true
+            // then update each position to not be __
+            // else be __
+            for (int i = 0; i <= wordLength-1; i++) {        
                 if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i]) == true) 
                 {
                     System.out.printf("%s ",splitWord[i]);
@@ -147,6 +138,7 @@ public class ChongAssignment16 {
                     System.out.printf("%s ", "__");
                 }
             }
+            System.out.println("");
         }
             
         
