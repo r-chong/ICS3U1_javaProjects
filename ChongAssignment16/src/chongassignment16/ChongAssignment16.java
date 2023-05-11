@@ -58,7 +58,7 @@ public class ChongAssignment16 {
         char currentGuess;
         String[] correctGuesses = new String[26];
         int wordLength = word.length();
-        String [] splitWord = word.split("");
+        char [] splitWord = word.toCharArray();
         char [] remainingLetters = {'a', 'b','c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's','t', 'u', 'v', 'w', 'x', 'y', 'z'};
         char letter;
         int hangingStatus = 0;
@@ -85,7 +85,7 @@ public class ChongAssignment16 {
 //            }
         // set each letter of the word as true in the hashmap answer_key
         for (int i = 0; i <= wordLength-1; i++) {
-            letter = splitWord[i].charAt(0);
+            letter = splitWord[i];
             answer_key.put(letter,true);
         }
         
@@ -120,8 +120,8 @@ public class ChongAssignment16 {
             if(answer_key.get(currentGuess) == true) {
                 //Do task check if the boolean is true or false
                 System.out.println("you found a letter!");
-                guess_key.put(currentGuess,true);
                 System.out.println(guess_key);
+                guess_key.put(currentGuess,true);
              } else {
                 System.out.println("wrong.. the man is closer to being hanged");
                 hangingStatus++;
@@ -140,9 +140,10 @@ public class ChongAssignment16 {
                 // else be __
 //                System.out.printf("%s ",correctGuesses[i] == splitWord[i] ? correctGuesses[i] : "__" , " ");
                 
-                if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i])) 
+                System.out.println(splitWord[i]);
+                if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i]) == true) 
                 {
-                    System.out.println(currentGuess);
+                    System.out.println("letter is in answer key");
                 } else {
                     System.out.println("__");
                 }
