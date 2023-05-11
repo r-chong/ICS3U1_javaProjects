@@ -89,14 +89,13 @@ public class ChongAssignment16 {
             answer_key.put(letter,true);
         }
         
-        System.out.println(answer_key);
+//        System.out.println(answer_key);
         System.out.println(HANGMAN_PICS[0]);
-
         
         while(true) {
 
             // console log the word
-//            System.out.println("(dev) the word is " + word);
+            //System.out.println("(dev) the word is " + word);
             System.out.println("\n\nGuess a letter!");
             currentGuess = keyedInput.next().charAt(0);
             for(int i=0; i < 26; i++)
@@ -109,7 +108,7 @@ public class ChongAssignment16 {
                      
                   }
                   remainingLetters[25] = ' ';
-                  System.out.println("\nRemoved the element successfully!");
+//                  System.out.println("\nRemoved the element successfully!");
 //                  for(int k=0; k<)
                   break;
                }
@@ -120,10 +119,12 @@ public class ChongAssignment16 {
             if(answer_key.get(currentGuess) == true) {
                 //Do task check if the boolean is true or false
                 System.out.println("you found a letter!");
+                System.out.println(word);
+                System.out.println(answer_key);
                 System.out.println(guess_key);
                 guess_key.put(currentGuess,true);
              } else {
-                System.out.println("wrong.. the man is closer to being hanged");
+                System.out.println("wrong... the man is closer to being hanged");
                 hangingStatus++;
             }
             System.out.println(HANGMAN_PICS[hangingStatus]);
@@ -140,12 +141,12 @@ public class ChongAssignment16 {
                 // else be __
 //                System.out.printf("%s ",correctGuesses[i] == splitWord[i] ? correctGuesses[i] : "__" , " ");
                 
-                System.out.println(splitWord[i]);
                 if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i]) == true) 
                 {
-                    System.out.println("letter is in answer key");
+                    System.out.printf("%s ",currentGuess);
+                    guess_key.put(currentGuess, true);
                 } else {
-                    System.out.println("__");
+                    System.out.printf("%s ", "__");
                 }
             }
         }
