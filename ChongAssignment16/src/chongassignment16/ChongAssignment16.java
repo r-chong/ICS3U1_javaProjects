@@ -93,10 +93,10 @@ public class ChongAssignment16 {
         System.out.println(HANGMAN_PICS[0]);
         
         while(true) {
-
+            
             // console log the word
             //System.out.println("(dev) the word is " + word);
-            System.out.println("\n\nGuess a letter!");
+            System.out.println("Guess a letter!");
             currentGuess = keyedInput.next().charAt(0);
             for(int i=0; i < 26; i++)
             {
@@ -113,21 +113,19 @@ public class ChongAssignment16 {
                   break;
                }
             }
-            System.out.println(remainingLetters);
-            
             // check if letter guessed is IN the word
             if(answer_key.get(currentGuess) == true) {
                 //Do task check if the boolean is true or false
                 System.out.println("you found a letter!");
-                System.out.println(word);
-                System.out.println(answer_key);
-                System.out.println(guess_key);
                 guess_key.put(currentGuess,true);
              } else {
                 System.out.println("wrong... the man is closer to being hanged");
                 hangingStatus++;
             }
             System.out.println(HANGMAN_PICS[hangingStatus]);
+            System.out.println("remaining letters:");
+            System.out.print(remainingLetters);
+            System.out.println("");
 //            for (String i : answer_key.values()) {               
 //                 if (currentGuess.equalsIgnoreCase(i)) {
 //                     System.out.println("you found a letter of " + word);
@@ -143,7 +141,7 @@ public class ChongAssignment16 {
                 
                 if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i]) == true) 
                 {
-                    System.out.printf("%s ",currentGuess);
+                    System.out.printf("%s ",splitWord[i]);
                     guess_key.put(currentGuess, true);
                 } else {
                     System.out.printf("%s ", "__");
