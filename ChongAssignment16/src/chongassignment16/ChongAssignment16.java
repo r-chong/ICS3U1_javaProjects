@@ -138,7 +138,7 @@ public class ChongAssignment16 {
                     System.out.printf("%s ", "__");
                 }
             }
-            System.out.println("");
+            System.out.println("\n\n\n\n\n\n\n");
         }
             
         
