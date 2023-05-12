@@ -27,11 +27,12 @@ public class ChongAssignment16 {
     static String word;
     static int wordID;
     
-    public static String generateNewWord() {
-            wordID = (int)Math.round(Math.random()*19+1);
-            word = WORD_LIST[wordID];
-            return word;
-        }
+    public static String generateNewWord() 
+    {
+        wordID = (int)Math.round(Math.random()*19+1);
+        word = WORD_LIST[wordID];
+        return word;
+    }
     
     public static void main(String[] args) {
         // declare and initialize constants which are also arrays
@@ -44,7 +45,7 @@ public class ChongAssignment16 {
             "  +---+\n  |   |\n  O   |\n /|\\  |\n /    |\n      |\n==========",
             "  +---+\n  |   |\n  O   |\n /|\\  |\n / \\  |\n      |\n==========",
         };
-        final int MAX_GUESS = 6;
+        final int MAX_LOSS = 6;
         
         // Declare and initialize scanner
         Scanner keyedInput = new Scanner (System.in);
@@ -55,9 +56,10 @@ public class ChongAssignment16 {
         String[] correctGuesses = new String[26];
         int wordLength = word.length();
         char [] splitWord = word.toCharArray();
-        char [] remainingLetters = {'a', 'b','c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's','t', 'u', 'v', 'w', 'x', 'y', 'z'};
+        char [] remainingLetters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
         char letter;
         int hangingStatus = 0;
+        boolean gameOver = false;
         
         // Create a HashMap object called guessTracker
         HashMap<Character, Boolean> answer_key = new HashMap<Character, Boolean>();
@@ -81,7 +83,7 @@ public class ChongAssignment16 {
         System.out.println(HANGMAN_PICS[0]);
         
         // main game while loop
-        while(true) 
+        while(gameOver == false) 
         {
             // prompt user for input
             // take user input in type char; only take the first letter they type
@@ -139,8 +141,17 @@ public class ChongAssignment16 {
                 }
             }
             System.out.println("\n\n\n\n\n\n\n");
-        }
             
+            if (hangingStatus >= MAX_LOSS) {
+                gameOver = true;
+            }
+            
+        }
+        if (hangingStatus == 6) {
+            System.out.println("Game over! The word was " + word);
+        } else {
+            System.out.println("You win!");
+        }
         
         
 //        10 Significant Variables (5 marks)
