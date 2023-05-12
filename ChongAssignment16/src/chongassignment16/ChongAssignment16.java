@@ -44,6 +44,8 @@ public class ChongAssignment16 {
             "  +---+\n  |   |\n  O   |\n /|\\  |\n      |\n      |\n==========",
             "  +---+\n  |   |\n  O   |\n /|\\  |\n /    |\n      |\n==========",
             "  +---+\n  |   |\n  O   |\n /|\\  |\n / \\  |\n      |\n==========",
+            "  +---+\nGAME  |\n  OVER|\n /|\\  |\n / \\  |\n      |\n==========",
+            "  +---+\nYOU   |\n   WIN!\n  O   | \n\uD83D\uDC4D|\\  |\n / \\  |\n=========="
         };
         final int MAX_LOSS = 6;
         
@@ -60,6 +62,7 @@ public class ChongAssignment16 {
         char letter;
         int hangingStatus = 0;
         boolean gameOver = false;
+        int numCorrect;
         
         // Create a HashMap object called guessTracker
         HashMap<Character, Boolean> answer_key = new HashMap<Character, Boolean>();
@@ -89,6 +92,7 @@ public class ChongAssignment16 {
             // take user input in type char; only take the first letter they type
             System.out.println("Guess a letter!");
             currentGuess = keyedInput.next().charAt(0);
+            System.out.println("");
             
             // remove that letter from the list of remaining letters (full alphabet)
             for(int i=0; i < 26; i++)
@@ -131,26 +135,32 @@ public class ChongAssignment16 {
             // if user guess is in guess key = true
             // then update each position to not be __
             // else be __
+            numCorrect = 0;
             for (int i = 0; i <= wordLength-1; i++) {        
                 if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i]) == true) 
                 {
                     System.out.printf("%s ",splitWord[i]);
                     guess_key.put(currentGuess, true);
+                    numCorrect += 1;
                 } else {
                     System.out.printf("%s ", "__");
                 }
             }
-            System.out.println("\n\n\n\n\n\n\n");
+            System.out.println("\n\n");
             
             if (hangingStatus >= MAX_LOSS) {
                 gameOver = true;
             }
-            
+            if (numCorrect == wordLength) {
+                gameOver = true;
+            }
         }
         if (hangingStatus == 6) {
+            System.out.println(HANGMAN_PICS[7]);
             System.out.println("Game over! The word was " + word);
         } else {
-            System.out.println("You win!");
+            System.out.println(HANGMAN_PICS[8]);
+            System.out.println("You win!" + "\uD83D\uDC4D");
         }
         
         
