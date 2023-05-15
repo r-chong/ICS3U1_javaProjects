@@ -20,13 +20,13 @@ import java.util.HashMap;
 //        ☑ 10 Significant Variables (5 marks) -line 66
 //        ☑ 3 Significant Constant (3 marks) -line 37
 //        ☑ 2 Unique and Necessary Loops (10 marks) 
-//        Not just 2 loops that calculate 2 totals
-//        At least one while loop or do while loop (2 marks)
-//        2 Necessary Arrays (10 marks) 
-//        At least 40 Elements (data) in total (5 marks)
-//        Commenting (5 marks)
-//        Creative, Original and User-friendly (30 marks)
-//        No GUI needed (does not work with while loops)
+//        ☑ Not just 2 loops that calculate 2 totals -I have many for loops
+//        ☑ At least one while loop or do while loop (2 marks)
+//        ☑ 2 Necessary Arrays (10 marks) 
+//        ☑ At least 40 Elements (data) in total (5 marks)
+//        ☑ Commenting (5 marks)
+//        ☑ Creative, Original and User-friendly (30 marks)
+//        No GUI
 
 /**
  *
@@ -34,7 +34,9 @@ import java.util.HashMap;
  */
 public class ChongAssignment16 {
 
-    static final String [] WORD_LIST = {"addition","comparison","advice","appearance","philosophy","security","world","negotiation","quantity","speaker","unit","basis","attitude","combination","data","reputation","dad","library","grocery","insect"};
+    static final String [] WORD_LIST = {"addition","comparison","advice","appearance","philosophy","security","world","negotiation","quantity","speaker","unit","basis","attitude","combination","data","reputation","dad","library","grocery","insect","back",
+		"baggy","bare","campaigning","inspector","beautiful","belated","activity","failure","patronizer","garbage","bewitched","uncle",
+		"bighearted","biodegradable","improvement","excitement","professor"};
     static String word;
     static int wordID;
     
@@ -45,6 +47,7 @@ public class ChongAssignment16 {
         return word;
     }
     
+    @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
         // declare and initialize constants which are also arrays
         final String [] HANGMAN_PICS = {
@@ -79,6 +82,7 @@ public class ChongAssignment16 {
         // Create a HashMap object called guessTracker
         HashMap<Character, Boolean> answer_key = new HashMap<Character, Boolean>();
         HashMap<Character, Boolean> guess_key = new HashMap<Character, Boolean>();
+        
         do {
             // set word length and splitWord
             wordLength = word.length();
