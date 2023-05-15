@@ -17,6 +17,17 @@ package chongassignment16;
 import java.util.Scanner;
 import java.util.HashMap;
 
+//        ☑ 10 Significant Variables (5 marks) -line 66
+//        ☑ 3 Significant Constant (3 marks) -line 37
+//        ☑ 2 Unique and Necessary Loops (10 marks) 
+//        Not just 2 loops that calculate 2 totals
+//        At least one while loop or do while loop (2 marks)
+//        2 Necessary Arrays (10 marks) 
+//        At least 40 Elements (data) in total (5 marks)
+//        Commenting (5 marks)
+//        Creative, Original and User-friendly (30 marks)
+//        No GUI needed (does not work with while loops)
+
 /**
  *
  * @author s201076119
@@ -53,127 +64,152 @@ public class ChongAssignment16 {
         Scanner keyedInput = new Scanner (System.in);
         
         // Declare and initialize 10 variables
-        word = generateNewWord();
+        String word = generateNewWord();;
         char currentGuess;
-        String[] correctGuesses = new String[26];
-        int wordLength = word.length();
-        char [] splitWord = word.toCharArray();
+        int wordLength;
+        int hangingStatus = 0;
+        char [] splitWord;
         char [] remainingLetters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
         char letter;
-        int hangingStatus = 0;
+        String playerQuitInput;
         boolean gameOver = false;
+        boolean quit = false;
         int numCorrect;
         
         // Create a HashMap object called guessTracker
         HashMap<Character, Boolean> answer_key = new HashMap<Character, Boolean>();
         HashMap<Character, Boolean> guess_key = new HashMap<Character, Boolean>();
-        
-        // initially loop through hashmaps "answer_key" and "guess_key"
-        // set them both to false
-        for(char c = 'a'; c <= 'z'; ++c) 
-        {
-            answer_key.put(c,false);
-            guess_key.put(c,false);
-        }
-
-        // set each letter of the word as true in the hashmap answer_key
-        for (int i = 0; i <= wordLength-1; i++) 
-        {
-            letter = splitWord[i];
-            answer_key.put(letter,true);
-        }
-        
-        System.out.println(HANGMAN_PICS[0]);
-        
-        // main game while loop
-        while(gameOver == false) 
-        {
-            // prompt user for input
-            // take user input in type char; only take the first letter they type
-            System.out.println("Guess a letter!");
-            currentGuess = keyedInput.next().charAt(0);
-            System.out.println("");
-            
-            // remove that letter from the list of remaining letters (full alphabet)
-            for(int i=0; i < 26; i++)
+        do {
+            // set word length and splitWord
+            wordLength = word.length();
+            splitWord = word.toCharArray();
+            // initially loop through hashmaps "answer_key" and "guess_key"
+            // set them both to false
+            for(char c = 'a'; c <= 'z'; ++c) 
             {
-               // this is a part of the looping system
-                // if the current letter of the alphabet is equal to the guess, then drop that letter from array
-               if(currentGuess == remainingLetters[i])
-               {
-                  // this is done by setting new variable j to i
-                  // from letter j, set every letter as equal to the one next to it
-                  // when it hits the last instance, then erase (else prints multiple z's)
-                  // for example, given abcdef, d is erased, print abcef
-                  for(int j = i;  j < 25; j++) 
-                  {
-                     remainingLetters[j] = remainingLetters[j+1];
-                  }
-                  remainingLetters[25] = ' ';
-                  break;
-               }            
+                answer_key.put(c,false);
+                guess_key.put(c,false);
             }
-            // check if letter guessed is IN the word
-            // if true, update guess key (which keeps track of what the user has guessed)
-            // else progress the hanging of the man
-            if(answer_key.get(currentGuess) == true) {
-                System.out.println("you found a letter!");
-                guess_key.put(currentGuess,true);
-             } else {
-                System.out.println("wrong... the man is closer to being hanged");
-                hangingStatus++;
+
+            // set each letter of the word as true in the hashmap answer_key
+            for (int i = 0; i <= wordLength-1; i++) 
+            {
+                letter = splitWord[i];
+                answer_key.put(letter,true);
             }
             
-            // add visual of the man being hanged
-            // print remaining letters to screen
-            // add space for user readability
-            System.out.println(HANGMAN_PICS[hangingStatus]);
-            System.out.println("remaining letters:");
-            System.out.print(remainingLetters);
-            System.out.println("");
+            // print first visual of hanging apparatus
+            System.out.println(HANGMAN_PICS[0]);
             
-            // if user guess is in guess key = true
-            // then update each position to not be __
-            // else be __
-            numCorrect = 0;
-            for (int i = 0; i <= wordLength-1; i++) {        
-                if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i]) == true) 
+            // main game while loop
+            while(gameOver == false) 
+            {
+                // prompt user for input
+                // take user input in type char; only take the first letter they type
+                System.out.println("Guess a letter!");
+                currentGuess = keyedInput.next().charAt(0);
+                System.out.println("");
+
+                // remove that letter from the list of remaining letters (full alphabet)
+                for(int i=0; i < 26; i++)
                 {
-                    System.out.printf("%s ",splitWord[i]);
-                    guess_key.put(currentGuess, true);
-                    numCorrect += 1;
-                } else {
-                    System.out.printf("%s ", "__");
+                   // this is a part of the looping system
+                    // if the current letter of the alphabet is equal to the guess, then drop that letter from array
+                   if(currentGuess == remainingLetters[i])
+                   {
+                      // this is done by setting new variable j to i
+                      // from letter j, set every letter as equal to the one next to it
+                      // when it hits the last instance, then erase (else prints multiple z's)
+                      // for example, given abcdef, d is erased, print abcef
+                      for(int j = i;  j < 25; j++) 
+                      {
+                         remainingLetters[j] = remainingLetters[j+1];
+                      }
+                      remainingLetters[25] = ' ';
+                      break;
+                   }            
+                }
+                // check if letter guessed is IN the word
+                // if true, update guess key (which keeps track of what the user has guessed)
+                // else progress the hanging of the man
+                if(answer_key.get(currentGuess) == true) {
+                    System.out.println("you found a letter!");
+                    guess_key.put(currentGuess,true);
+                 } else {
+                    System.out.println("wrong... the man is closer to being hanged");
+                    hangingStatus++;
+                }
+
+                // add visual of the man being hanged
+                // print remaining letters to screen
+                // add space for user readability
+                System.out.println(HANGMAN_PICS[hangingStatus]);
+                System.out.println("remaining letters:");
+                System.out.print(remainingLetters);
+                System.out.println("");
+
+                // if user guess is in guess key = true
+                // then update each position to not be __
+                // else be __
+                numCorrect = 0;
+                for (int i = 0; i <= wordLength-1; i++) {        
+                    if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i]) == true) 
+                    {
+                        System.out.printf("%s ",splitWord[i]);
+                        guess_key.put(currentGuess, true);
+                        numCorrect += 1;
+                    } else {
+                        System.out.printf("%s ", "__");
+                    }
+                }
+                System.out.println("\n\n");
+
+                // check for win or loss
+                // if the man has been hung, then player lose
+                // if number of letters correct is the # of letters in the word, then player win
+                // both instances close the nested game while loop
+                if (hangingStatus >= MAX_LOSS) {
+                    gameOver = true;
+                } else if (numCorrect == wordLength) 
+                {
+                    gameOver = true;
                 }
             }
-            System.out.println("\n\n");
+            // back in primary while loop
+            // if loss, print gameover text and icon
+            // if man is not hanged, then print win text and icon
+            if (gameOver == true && hangingStatus == 6) {
+                System.out.println(HANGMAN_PICS[7]);
+                System.out.println("Game over! The word was " + word);
+            } else if (gameOver == true && hangingStatus < 6)
+            {
+                System.out.println(HANGMAN_PICS[8]);
+                System.out.println("You win!");
+            }
+            // allow user to play again
+            System.out.println("Play again? (Y/N)");
+            playerQuitInput = keyedInput.next();
             
-            if (hangingStatus >= MAX_LOSS) {
-                gameOver = true;
+            // if "Y" then play again
+            // else close primary while loop
+            // if some other input, then do not understand
+            if (playerQuitInput.equalsIgnoreCase("N")) 
+            {
+                quit = true;
+            } else if (playerQuitInput.equalsIgnoreCase("Y")) {
+                // reset variables that change based on the word
+                gameOver = false;
+                hangingStatus = 0;
+                word = generateNewWord();
+                System.out.println("\n\n");
+                continue;
+            } else {
+                System.out.println("invalid command");
             }
-            if (numCorrect == wordLength) {
-                gameOver = true;
-            }
-        }
-        if (hangingStatus == 6) {
-            System.out.println(HANGMAN_PICS[7]);
-            System.out.println("Game over! The word was " + word);
-        } else {
-            System.out.println(HANGMAN_PICS[8]);
-            System.out.println("You win!" + "\uD83D\uDC4D");
-        }
+        } while (quit == false);
         
-        
-//        10 Significant Variables (5 marks)
-//        3 Significant Constant (3 marks)
-//        2 Unique and Necessary Loops (10 marks)
-//        Not just 2 loops that calculate 2 totals
-//        At least one while loop or do while loop (2 marks)
-//        2 Necessary Arrays (10 marks) 
-//        At least 40 Elements (data) in total (5 marks)
-//        Commenting (5 marks)
-//        Creative, Original and User-friendly (30 marks)
-//        No GUI needed (does not work with while loops)
+        // user goodbye message
+        System.out.println("Thanks for playing hangman!");
 
     }
     
