@@ -238,7 +238,5 @@ public class ChongAssignment16 {
         
         // user goodbye message
         System.out.println("Thanks for playing hangman!");
-
     }
-    
 }
