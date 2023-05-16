@@ -48,9 +48,11 @@ public class ChongAssignment16 {
     }
     
     @SuppressWarnings("empty-statement")
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         // declare and initialize constants which are also arrays
-        final String [] HANGMAN_PICS = {
+        final String [] HANGMAN_PICS = 
+        {
             "  +---+\n  |   |\n      |\n      |\n      |\n      |\n==========",
             "  +---+\n  |   |\n  O   |\n      |\n      |\n      |\n==========",
             "  +---+\n  |   |\n  O   |\n  |   |\n      |\n      |\n==========",
@@ -67,7 +69,7 @@ public class ChongAssignment16 {
         Scanner keyedInput = new Scanner (System.in);
         
         // Declare and initialize 10 variables
-        String word = generateNewWord();;
+        String word = generateNewWord();
         char currentGuess;
         int wordLength;
         int hangingStatus = 0;
@@ -83,7 +85,9 @@ public class ChongAssignment16 {
         HashMap<Character, Boolean> answer_key = new HashMap<Character, Boolean>();
         HashMap<Character, Boolean> guess_key = new HashMap<Character, Boolean>();
         
-        do {
+        // program main while loop
+        do 
+        {
             // set word length and splitWord
             wordLength = word.length();
             splitWord = word.toCharArray();
@@ -105,8 +109,9 @@ public class ChongAssignment16 {
             // print first visual of hanging apparatus
             System.out.println(HANGMAN_PICS[0]);
             
-            // main game while loop
-            while(gameOver == false) 
+            // game while loop
+            // condition is (if gameOver == true)
+            do
             {
                 // prompt user for input
                 // take user input in type char; only take the first letter they type
@@ -136,10 +141,13 @@ public class ChongAssignment16 {
                 // check if letter guessed is IN the word
                 // if true, update guess key (which keeps track of what the user has guessed)
                 // else progress the hanging of the man
-                if(answer_key.get(currentGuess) == true) {
+                if(answer_key.get(currentGuess) == true) 
+                {
                     System.out.println("you found a letter!");
                     guess_key.put(currentGuess,true);
-                 } else {
+                } 
+                else 
+                {
                     System.out.println("wrong... the man is closer to being hanged");
                     hangingStatus++;
                 }
@@ -156,13 +164,16 @@ public class ChongAssignment16 {
                 // then update each position to not be __
                 // else be __
                 numCorrect = 0;
-                for (int i = 0; i <= wordLength-1; i++) {        
+                for (int i = 0; i <= wordLength-1; i++) 
+                {        
                     if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i]) == true) 
                     {
                         System.out.printf("%s ",splitWord[i]);
                         guess_key.put(currentGuess, true);
                         numCorrect += 1;
-                    } else {
+                    } 
+                    else 
+                    {
                         System.out.printf("%s ", "__");
                     }
                 }
@@ -174,18 +185,21 @@ public class ChongAssignment16 {
                 // both instances close the nested game while loop
                 if (hangingStatus >= MAX_LOSS) {
                     gameOver = true;
-                } else if (numCorrect == wordLength) 
+                } 
+                else if (numCorrect == wordLength) 
                 {
                     gameOver = true;
                 }
-            }
+            }while(gameOver == false);
             // back in primary while loop
             // if loss, print gameover text and icon
             // if man is not hanged, then print win text and icon
-            if (gameOver == true && hangingStatus == 6) {
+            if (gameOver == true && hangingStatus == 6) 
+            {
                 System.out.println(HANGMAN_PICS[7]);
                 System.out.println("Game over! The word was " + word);
-            } else if (gameOver == true && hangingStatus < 6)
+            } 
+            else if (gameOver == true && hangingStatus < 6)
             {
                 System.out.println(HANGMAN_PICS[8]);
                 System.out.println("You win!");
@@ -200,14 +214,17 @@ public class ChongAssignment16 {
             if (playerQuitInput.equalsIgnoreCase("N")) 
             {
                 quit = true;
-            } else if (playerQuitInput.equalsIgnoreCase("Y")) {
+            } 
+            else if (playerQuitInput.equalsIgnoreCase("Y")) 
+            {
                 // reset variables that change based on the word
                 gameOver = false;
                 hangingStatus = 0;
                 word = generateNewWord();
                 System.out.println("\n\n");
                 continue;
-            } else {
+            } else 
+            {
                 System.out.println("invalid command");
             }
         } while (quit == false);
