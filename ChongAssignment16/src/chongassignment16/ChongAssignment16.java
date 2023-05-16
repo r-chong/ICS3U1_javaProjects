@@ -14,6 +14,7 @@ package chongassignment16;
 //                      __/ |                        
 //                     |___/                         
 
+// import necessary libraries
 import java.util.Scanner;
 import java.util.HashMap;
 
@@ -26,7 +27,6 @@ import java.util.HashMap;
 //        ☑ At least 40 Elements (data) in total (5 marks)
 //        ☑ Commenting (5 marks)
 //        ☑ Creative, Original and User-friendly (30 marks)
-//        No GUI
 
 /**
  *
@@ -34,15 +34,19 @@ import java.util.HashMap;
  */
 public class ChongAssignment16 {
 
+    // declare and initialize constants that are used outside of class main
     static final String [] WORD_LIST = {"addition","comparison","advice","appearance","philosophy","security","world","negotiation","quantity","speaker","unit","basis","attitude","combination","data","reputation","dad","library","grocery","insect","back",
 		"baggy","bare","campaigning","inspector","beautiful","belated","activity","failure","patronizer","garbage","bewitched","uncle",
 		"bighearted","biodegradable","improvement","excitement","professor"};
     static String word;
     static int wordID;
     
+    // declare and initialize method "generateNewWord()"
+    // creates random number from 1 to 40
+    // returns that index from WORD_LIST
     public static String generateNewWord() 
     {
-        wordID = (int)Math.round(Math.random()*19+1);
+        wordID = (int)Math.round(Math.random()*39+1);
         word = WORD_LIST[wordID];
         return word;
     }
@@ -160,20 +164,22 @@ public class ChongAssignment16 {
                 System.out.print(remainingLetters);
                 System.out.println("");
 
-                // if user guess is in guess key = true
-                // then update each position to not be __
-                // else be __
                 numCorrect = 0;
                 for (int i = 0; i <= wordLength-1; i++) 
                 {        
+                    // if user guess is in guess key = true
                     if (answer_key.get(splitWord[i]) == true && guess_key.get(splitWord[i]) == true) 
                     {
+                        // %s string formats so that the letter is on the same line
+                        // update that the guess was true
+                        // start from 0, increment numCorrect (essential to checking for win)
                         System.out.printf("%s ",splitWord[i]);
                         guess_key.put(currentGuess, true);
                         numCorrect += 1;
                     } 
                     else 
                     {
+                        // print __ if the user didn't get that letter yet
                         System.out.printf("%s ", "__");
                     }
                 }
@@ -191,16 +197,17 @@ public class ChongAssignment16 {
                     gameOver = true;
                 }
             }while(gameOver == false);
+            
             // back in primary while loop
-            // if loss, print gameover text and icon
-            // if man is not hanged, then print win text and icon
             if (gameOver == true && hangingStatus == 6) 
             {
+                // lose sequence
                 System.out.println(HANGMAN_PICS[7]);
                 System.out.println("Game over! The word was " + word);
             } 
             else if (gameOver == true && hangingStatus < 6)
             {
+                // win sequence
                 System.out.println(HANGMAN_PICS[8]);
                 System.out.println("You win!");
             }
