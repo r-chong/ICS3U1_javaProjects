@@ -394,54 +394,78 @@ public class FrmMathMethods extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    // input 1 double
+    // use cbrt method
+    // output formatted 2 decimals
     private void btnCubeRootActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCubeRootActionPerformed
         double inputCubeRoot = Double.parseDouble(txtCubeRoot.getText());
         double cubeRoot = Math.cbrt(inputCubeRoot);
-        lblOutputCubeRoot.setText(String.valueOf(cubeRoot));
+        lblOutputCubeRoot.setText(String.format("%.2f",cubeRoot));
     }//GEN-LAST:event_btnCubeRootActionPerformed
 
+    // input 1 double
+    // use toDegrees method
+    // output formatted 2 decimals
     private void btnDegreesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDegreesActionPerformed
         double inputDegrees = Double.parseDouble(txtDegrees.getText());
         double degrees = Math.toDegrees(inputDegrees);
-        lblOutputDegrees.setText(String.valueOf(degrees));
+        lblOutputDegrees.setText((String.format("%.2f",degrees)));
     }//GEN-LAST:event_btnDegreesActionPerformed
 
+    // input 2 doubles
+    // use pow method
+    // output formatted 2 decimals
     private void btnPowerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPowerActionPerformed
         double PowerNum1 = Double.parseDouble(txtPowerNum1.getText());
         double PowerNum2 = Double.parseDouble(txtPowerNum2.getText());
         double Power = Math.pow(PowerNum1,PowerNum2);
-        lblOutputPower.setText(String.valueOf(Power));
+        lblOutputPower.setText((String.format("%.2f",Power)));
     }//GEN-LAST:event_btnPowerActionPerformed
 
+    // input 1 double
+    // use abs method
+    // output formatted 2 decimals
     private void btnAbsoluteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAbsoluteActionPerformed
         double inputAbsolute = Double.parseDouble(txtAbsolute.getText());
         double Absolute = Math.abs(inputAbsolute);
-        lblOutputAbsolute.setText(String.valueOf(Absolute));
+        lblOutputAbsolute.setText((String.format("%.2f",Absolute)));
     }//GEN-LAST:event_btnAbsoluteActionPerformed
 
+    // input 2 doubles
+    // use hypot method
+    // output formatted 2 decimals
     private void btnHypotenuseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHypotenuseActionPerformed
         double HypotenuseNum1 = Double.parseDouble(txtHypotenuseNum1.getText());
         double HypotenuseNum2 = Double.parseDouble(txtHypotenuseNum2.getText());
         double Hypotenuse = Math.hypot(HypotenuseNum1,HypotenuseNum2);
-        lblOutputHypotenuse.setText(String.valueOf(Hypotenuse));
+        lblOutputHypotenuse.setText((String.format("%.2f",Hypotenuse)));
     }//GEN-LAST:event_btnHypotenuseActionPerformed
 
+    // input 1 double
+    // use sqrt method
+    // output formatted 2 decimals
     private void btnSquareRootActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSquareRootActionPerformed
         double inputSquareRoot = Double.parseDouble(txtSquareRoot.getText());
         double SquareRoot = Math.sqrt(inputSquareRoot);
-        lblOutputSquareRoot.setText(String.valueOf(SquareRoot));
+        lblOutputSquareRoot.setText((String.format("%.2f",SquareRoot)));
     }//GEN-LAST:event_btnSquareRootActionPerformed
 
+    // input 1 double
+    // use toRadians method
+    // output formatted 2 decimals
     private void btnRadiansActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRadiansActionPerformed
         double inputRadians = Double.parseDouble(txtRadians.getText());
         double Radians = Math.toRadians(inputRadians);
-        lblOutputRadians.setText(String.valueOf(Radians));
+        lblOutputRadians.setText((String.format("%.2f",Radians)));
     }//GEN-LAST:event_btnRadiansActionPerformed
 
+    // input 1 double
+    // use log method
+    // output formatted 2 decimals
     private void btnNaturalLogActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNaturalLogActionPerformed
         double inputNaturalLog = Double.parseDouble(txtCubeRoot.getText());
         double NaturalLog = Math.log(inputNaturalLog);
-        lblOutputNaturalLog.setText(String.valueOf(NaturalLog));
+        lblOutputNaturalLog.setText((String.format("%.2f",NaturalLog)));
     }//GEN-LAST:event_btnNaturalLogActionPerformed
 
     /**
