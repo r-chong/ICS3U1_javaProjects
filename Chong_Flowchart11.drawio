@@ -1,0 +1,772 @@
+<mxfile host="app.diagrams.net" modified="2023-04-21T02:49:02.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="CZ4HBOEk41e7-D7vD7yX" version="21.1.9" type="device">
+  <diagram id="XBptaHNUp6xFWXjbcIDQ" name="Page-1">
+    <mxGraphModel dx="3387" dy="1969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8jH8_pliTZvW4bIovDeC-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QoruymZTno_trSx14cLo-2" target="QoruymZTno_trSx14cLo-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QoruymZTno_trSx14cLo-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="785" y="-1060" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QoruymZTno_trSx14cLo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QoruymZTno_trSx14cLo-5" target="QoruymZTno_trSx14cLo-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QoruymZTno_trSx14cLo-5" value="Search deserted Island or stay put?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="740" y="-930" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QoruymZTno_trSx14cLo-6" target="8jH8_pliTZvW4bIovDeC-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QoruymZTno_trSx14cLo-6" value="You decide to search the island. Move east or west?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-820" y="-810" width="165.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QoruymZTno_trSx14cLo-9" target="8jH8_pliTZvW4bIovDeC-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QoruymZTno_trSx14cLo-9" value="You decide it is safer to stay in one spot. Now you try to get comfortable." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2045.5900000000001" y="-810" width="212.81" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QoruymZTno_trSx14cLo-17" target="QoruymZTno_trSx14cLo-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="QoruymZTno_trSx14cLo-17" target="QoruymZTno_trSx14cLo-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QoruymZTno_trSx14cLo-17" value="Search Island or stay put?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="787.5" y="-820" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-5" value="Search Island" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="673.24" y="-810" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-7" target="eR0dO_5wLCq7IYi2tpXj-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-7" target="eR0dO_5wLCq7IYi2tpXj-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-7" value="East or west?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-777.19" y="-690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-12" value="Stay Put" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-810" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2490" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-13" target="8jH8_pliTZvW4bIovDeC-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-13" value="Build a fire or sleep?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="2092" y="-650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-21" value="Sleep on&amp;nbsp;ground" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2202" y="-640" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-22" value="Build a fire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1957.62" y="-640" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-24" target="8jH8_pliTZvW4bIovDeC-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-24" value="It is too cold, so you start building a fire pit. You need wood and fuel." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1872" y="-510" width="165.62" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8jH8_pliTZvW4bIovDeC-37" target="8jH8_pliTZvW4bIovDeC-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1597" y="-380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-37" value="It&#39;s getting dark. You see a big tree and small tree" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1522" y="-410" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-38" target="8jH8_pliTZvW4bIovDeC-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-38" target="8jH8_pliTZvW4bIovDeC-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-38" value="Gather wood first or gather fuel first?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1891.31" y="-420" width="127" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1812" y="-240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-41" target="8jH8_pliTZvW4bIovDeC-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-41" value="Chop down small tree or big tree?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1537" y="-280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-45" target="8jH8_pliTZvW4bIovDeC-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-45" value="You chop the big tree 57 times and it still won&#39;t fall. The sun goes below the horizon." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1272" y="-270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-48" value="Gather wood" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1802" y="-410" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-49" value="Chop big tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1432" y="-270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-50" value="Chop small tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1702" y="-270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1212" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-51" target="8jH8_pliTZvW4bIovDeC-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-51" value="Keep chopping?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1307" y="-140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-52" target="8jH8_pliTZvW4bIovDeC-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-52" value="You chop down the small tree and receive 2 sticks. There is some light left" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1462" y="-130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-58" target="8jH8_pliTZvW4bIovDeC-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-58" value="Miraculously you find a can of petrol and a car battery. Which one do you take?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2212" y="-410" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-60" target="8jH8_pliTZvW4bIovDeC-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-60" target="zpK2-PGiD_Ye-ELu1hZJ-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-60" value="Gas or Electric?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="2257" y="-290" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-61" value="Gather fuel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2062" y="-410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-65" target="8jH8_pliTZvW4bIovDeC-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-65" value="You carry back the battery and it&#39;s dark. You need light." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2477" y="-285" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-67" target="eR0dO_5wLCq7IYi2tpXj-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-67" target="eR0dO_5wLCq7IYi2tpXj-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-67" value="Charge your phone or start an electrical fire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="2492" y="-150" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8jH8_pliTZvW4bIovDeC-73" value="Scavenge for fuel or try to start a fire with two sticks" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1487.5" y="50" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-2" target="zpK2-PGiD_Ye-ELu1hZJ-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-2" value="There is a rocky cove with a beach and coconut trees" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-1184.5" y="-680" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-4" target="eR0dO_5wLCq7IYi2tpXj-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-4" value="There is a forest area with some berry bushes and anthills" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-460" y="-680" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-6" target="eR0dO_5wLCq7IYi2tpXj-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-6" value="Eat berries or live ants?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-425" y="-560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-11" target="eR0dO_5wLCq7IYi2tpXj-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-11" value="Test if it is edible or just take a bite?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-829" y="-550" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-12" value="Move west" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="-685" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-13" value="Move east" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-870" y="-685" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-15" target="eR0dO_5wLCq7IYi2tpXj-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-15" target="7n9XsmgkcL3LPUVpxS1G-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-908.9999999999998" y="-420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-15" value="Eat or check for allergies" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-789" y="-460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-18" target="eR0dO_5wLCq7IYi2tpXj-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-18" value="You have an allergic reaction." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="-450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-26" value="Eat ants" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-340" y="-550" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-27" value="Eat berries" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-505" y="-550" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-28" value="Test for poison" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-709" y="-450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-29" value="Eat without checking" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-929" y="-450" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-697.19" y="-280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-45" target="eR0dO_5wLCq7IYi2tpXj-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-45" value="Eat berries anyway or throw away?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-530" y="-320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-47" target="eR0dO_5wLCq7IYi2tpXj-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-47" value="You throw the berries off a very tall cliff but fall off as well" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-343.19" y="-310" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-50" value="You start an electrical fire for light, and suffer lethal burns and instant death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2742" y="-150" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-51" value="Your phone charges and you call for an Uber boat, saving you from the island." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2242" y="-150" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-60" target="eR0dO_5wLCq7IYi2tpXj-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-60" target="eR0dO_5wLCq7IYi2tpXj-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-60" value="Fall legs-first or head-first?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-318.19" y="-190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-66" target="7n9XsmgkcL3LPUVpxS1G-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-66" value="You break both legs in your fall but survive." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="-180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-68" value="Throw away" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-445.00000000000006" y="-310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-73" value="Head-first" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-416" y="-180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eR0dO_5wLCq7IYi2tpXj-75" value="You fall head-first, breaking your neck and suffering instant death" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-595" y="-190" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-1" value="Give up or crawl around" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-65" y="-50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="7n9XsmgkcL3LPUVpxS1G-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5.115907697472721e-13" y="-10" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1030" y="-310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-22" target="7n9XsmgkcL3LPUVpxS1G-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-22" value="Drink water or try to vomit" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1270" y="-350" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-23" target="7n9XsmgkcL3LPUVpxS1G-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-23" value="You eat the berries and you have an allergic reaction.&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-1290" y="-450" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-26" value="Give up" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-151" y="-30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1380" y="-145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1550.015873015873" y="-144.95238095238096" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-31" value="Drink saltwater or back out?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1505.5" y="-185" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-33" target="7n9XsmgkcL3LPUVpxS1G-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-33" value="You run to drink seawater from the rocky cove" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-1545.5" y="-340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-36" target="7n9XsmgkcL3LPUVpxS1G-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-36" value="You cannot move your legs so you look for things on the ground that may help" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="135" y="-40" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-38" target="7n9XsmgkcL3LPUVpxS1G-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-38" target="zpK2-PGiD_Ye-ELu1hZJ-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-38" value="Look left or right?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-39" value="Crawl around" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-30" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-41" target="7n9XsmgkcL3LPUVpxS1G-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-41" value="You see a piece of wood with fungus. Use as splint or try to eat?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="85" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-44" value="Use as splint or eat?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="415" y="220" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.969;exitY=1.176;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-63" target="7n9XsmgkcL3LPUVpxS1G-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500.3099999999995" y="89.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="7n9XsmgkcL3LPUVpxS1G-55" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580.3099999999995" y="89.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-53" target="7n9XsmgkcL3LPUVpxS1G-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-53" value="You look for a fuel source to light the wood. You find petrol and a car battery." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1087.5" y="60" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-55" target="7n9XsmgkcL3LPUVpxS1G-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-55" value="You manage to start a fire with two sticks" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1817.5" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-58" target="7n9XsmgkcL3LPUVpxS1G-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-58" target="KOsrSoKm476WnTX5IUVm-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-58" value="Use as torch or try to make a campfire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1852.5" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-59" value="Use gas or electric?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1127.5" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-61" target="7n9XsmgkcL3LPUVpxS1G-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-61" value="You make a campfire but the flame is low" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1567.5" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-62" value="Start a fire with two sticks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1597.5" y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-63" value="Scavenge for fuel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1367.5" y="55" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-66" target="7n9XsmgkcL3LPUVpxS1G-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1487.5" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-66" value="Blow on it or gather dry grass" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1607.5" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-68" target="7n9XsmgkcL3LPUVpxS1G-80" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-68" value="You realize if a boat/plane goes by they would see a bonfire." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1787.5" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-80" target="7n9XsmgkcL3LPUVpxS1G-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-80" target="7n9XsmgkcL3LPUVpxS1G-82" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-80" value="Make bonfire or make use of the fire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1827.5" y="450" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-82" target="7n9XsmgkcL3LPUVpxS1G-87" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-82" value="You decide it is not worth it and you should cook some food on the fire. A helicopter goes by and you get enraged." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2046.5" y="460" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-84" target="7n9XsmgkcL3LPUVpxS1G-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-84" value="You make a fire pit and a helicopter miraculously flies by." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1436.5" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2286.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-87" target="7n9XsmgkcL3LPUVpxS1G-95" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-87" value="Binge eat supplies or throw all supplies away" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="2071.5" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-88" target="KOsrSoKm476WnTX5IUVm-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-88" target="KOsrSoKm476WnTX5IUVm-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-88" value="Light the fire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1441.5" y="580" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-91" value="Create big bonfire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1707.5" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-92" value="Give up and roast chestnuts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1892.5" y="460" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-93" value="Destroy supplies on fire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2161.5" y="590" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-94" value="Binge eat supplies" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1956.5" y="585" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-95" value="You eat all of your supplies out of rage. You starve to death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1837.5" y="580" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-107" value="Legs-first" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-165" y="-185" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-1" value="You resign to your fate and die of starvation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-350" y="-50" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-2" value="You eat the fungus off the wood. Your throat swells up and you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="180" y="220" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-3" value="You use the piece of wood as a splint, however you get an infection and die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="645" y="220" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-4" value="Your throat closes up and you find it hard to breathe. You die of suffocation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-829" y="-320" width="132.81" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-5" value="Eat berries anyway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-685" y="-310" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-15" value="You create a torch and swing it around gleefully. You die of severe burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2012" y="180" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-17" value="The nuts explode like popcorn and shoot into your eyes. You are blind and cannot survive." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2282" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-18" value="You don&#39;t light the fire for some reason, and die of self pity." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1593" y="580" width="134.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-20" value="You light the fire, and are promptly saved off the island." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1272" y="580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KOsrSoKm476WnTX5IUVm-23" value="You try to eat ants but a rabid anteater appears to defend its food. Over the next three days, you die of rabies" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="-560" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-1" value="You light the sticks on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="952" y="180" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-3" value="You start an electrical fire for light, and suffer lethal burns and instant death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1252.5" y="180" width="134.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-8" target="zpK2-PGiD_Ye-ELu1hZJ-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-8" target="zpK2-PGiD_Ye-ELu1hZJ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-8" value="Swim around or climb a tree?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-1144.5" y="-590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-9" value="The water is shark-infested and you die of blood loss" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-1370" y="-590" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-10" value="You climb to the top of a 16ft tree before falling and cracking your skull open" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-980" y="-590" width="134.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-12" value="You finally cut the big tree and receive 2 logs but it is pitch black. You blindly fall off a cliff and die instantly." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1817.5" y="-280" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-13" value="You chop down the big tree and receive 2 sticks. The noise attracts a brown bear who mauls you to death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1082" y="-140" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-14" value="You light some dry grass on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2056.5" y="-295" width="125.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-19" target="zpK2-PGiD_Ye-ELu1hZJ-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-19" value="You see a mirror on the ground. Grab it?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="85" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-21" target="zpK2-PGiD_Ye-ELu1hZJ-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-21" target="zpK2-PGiD_Ye-ELu1hZJ-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-21" value="Grab mirror" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-23" target="zpK2-PGiD_Ye-ELu1hZJ-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-23" value="Miraculously a boat is seen off shore. Signal?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-293.19" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-25" target="zpK2-PGiD_Ye-ELu1hZJ-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-25" value="Signal Helicopter?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-273.19" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-28" value="You signal the boat, who arrives on the island and saves you.&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="310" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-31" value="For some reason, you don&#39;t signal the boat. You beat yourself up until you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-91" y="310" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-33" target="zpK2-PGiD_Ye-ELu1hZJ-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-33" value="You don&#39;t want to hold anything as you crawl around." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-37" target="zpK2-PGiD_Ye-ELu1hZJ-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-37" target="zpK2-PGiD_Ye-ELu1hZJ-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-37" value="Crawl back and look right?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="60" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-42" target="zpK2-PGiD_Ye-ELu1hZJ-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-42" value="You crawl back and see some fungus wood. Use as splint or try to eat?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="450" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-45" value="Use as splint or eat?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="195" y="585" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-46" value="You eat the fungus off the wood. Your throat swells up and you die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="585" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-47" value="You use the piece of wood as a splint, however you get an infection and die" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="425" y="585" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-50" value="You don&#39;t want to do anything anymore. You die of laziness" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-145" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-55" value="You lean down to drink seawater and your head is bitten off by a shark" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-1700" y="-185" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-56" value="You&#39;re too scared to drink saltwater. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-1385.5" y="-185" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-57" value="You try to vomit but you already ate the berries. Your throat closes up and you suffocate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-1030" y="-350" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-59" value="You fall asleep. You wake up and realize it was all a dream" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2650" y="-550" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-60" value="Drink water" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1370" y="-340" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-61" value="Try to vomit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1154.5" y="-340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-62" value="Swim around" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1234.5" y="-580" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-63" value="Climb a tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1064.5" y="-580" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-64" value="Look left" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="80" y="85" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-65" value="Look right" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-66" value="Eat fungus on wood" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="305" y="225" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-67" value="Use as splint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="555" y="230" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-68" value="Crawl back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="115" y="440" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-69" value="Don&#39;t crawl back" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-74" value="Eat fungus on wood" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="590" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-75" value="Use as splint" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="345" y="590" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-76" value="Signal helicopter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-385" y="320" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-77" value="Don&#39;t signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-79" value="Grab mirror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-80" value="Don&#39;t grab mirror" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-81" value="Drink seawater" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1580" y="-180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-82" value="Don&#39;t drink" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1460" y="-180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-83" value="Take gasoline" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2160" y="-295" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-85" value="Take battery" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2335" y="-295" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-86" value="Charge dead phone" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2372" y="-140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-88" value="Light an electrical fire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="-140" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-91" value="You blow on the flame. It explodes sharply and melts your face off." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1347.5" y="330" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hsZ7qTV_6oaQmT7TfW8N-2" target="hsZ7qTV_6oaQmT7TfW8N-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-2" value="You look for a place to sleep" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="2492" y="-640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hsZ7qTV_6oaQmT7TfW8N-3" target="zpK2-PGiD_Ye-ELu1hZJ-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hsZ7qTV_6oaQmT7TfW8N-3" target="hsZ7qTV_6oaQmT7TfW8N-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-3" value="Sleep on ground or in a cave?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="2512" y="-550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-6" value="You walk into a cave before realizing it is a bear&#39;s den. You are mauled to death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2320" y="-550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-7" value="Ground" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2570" y="-545" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-9" value="Bush" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2445" y="-545" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hsZ7qTV_6oaQmT7TfW8N-10" value="Don&#39;t light" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1522" y="590" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKHFaH6XqGDKI-SKSoos-1" value="Add dry grass" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKHFaH6XqGDKI-SKSoos-2" value="Blow on flame" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1493" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKHFaH6XqGDKI-SKSoos-3" value="Make campfire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1752.5" y="195" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKHFaH6XqGDKI-SKSoos-4" value="Use as torch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1922" y="195" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKHFaH6XqGDKI-SKSoos-5" value="Electric" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="188" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PKHFaH6XqGDKI-SKSoos-6" value="Gas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="188" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T00:35:39.532Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="At5fbgldgLLKdxfUvbVp" version="21.1.9" type="device">
+<mxfile host="app.diagrams.net" modified="2023-04-21T01:31:26.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="hkh9-_jCGSD_6nAM_02P" version="21.1.9" type="device">
   <diagram id="XBptaHNUp6xFWXjbcIDQ" name="Page-1">
-    <mxGraphModel dx="3387" dy="2036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="7436" dy="4284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,7 +108,7 @@
         <mxCell id="8jH8_pliTZvW4bIovDeC-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-45" target="8jH8_pliTZvW4bIovDeC-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8jH8_pliTZvW4bIovDeC-45" value="You chop the big tree 57 times and it still won&#39;t fall. The sun goes below the horizon." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="8jH8_pliTZvW4bIovDeC-45" value="You chop the big tree 57 times and it still won&#39;t fall. The sun goes below the horizon." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1272" y="-270" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8jH8_pliTZvW4bIovDeC-48" value="Gather wood" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -128,13 +128,13 @@
         <mxCell id="8jH8_pliTZvW4bIovDeC-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-51" target="8jH8_pliTZvW4bIovDeC-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8jH8_pliTZvW4bIovDeC-51" value="Keep chopping?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="8jH8_pliTZvW4bIovDeC-51" value="Keep chopping?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1307" y="-140" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8jH8_pliTZvW4bIovDeC-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-52" target="8jH8_pliTZvW4bIovDeC-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8jH8_pliTZvW4bIovDeC-52" value="You chop down the small tree and receive 2 sticks. There is some light left" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="8jH8_pliTZvW4bIovDeC-52" value="You chop down the small tree and receive 2 sticks. There is some light left" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1462" y="-130" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8jH8_pliTZvW4bIovDeC-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8jH8_pliTZvW4bIovDeC-58" target="8jH8_pliTZvW4bIovDeC-60" edge="1">
@@ -170,7 +170,7 @@
         <mxCell id="8jH8_pliTZvW4bIovDeC-67" value="Charge your phone or start an electrical fire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="2492" y="-150" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8jH8_pliTZvW4bIovDeC-73" value="Scavenge for fuel or try to start a fire with two sticks" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="8jH8_pliTZvW4bIovDeC-73" value="Scavenge for fuel or try to start a fire with two sticks" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1487.5" y="50" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eR0dO_5wLCq7IYi2tpXj-2" target="zpK2-PGiD_Ye-ELu1hZJ-8" edge="1">
@@ -386,37 +386,37 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-53" target="7n9XsmgkcL3LPUVpxS1G-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-53" value="You look for a fuel source to light the wood. You find petrol and a car battery." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-53" value="You look for a fuel source to light the wood. You find petrol and a car battery." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1087.5" y="60" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-55" target="7n9XsmgkcL3LPUVpxS1G-58" edge="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-55" target="7n9XsmgkcL3LPUVpxS1G-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-55" value="You manage to start a fire with two sticks" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-55" value="You manage to start a fire with two sticks" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1817.5" y="60" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-58" target="7n9XsmgkcL3LPUVpxS1G-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-58" target="KOsrSoKm476WnTX5IUVm-15" edge="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-58" target="KOsrSoKm476WnTX5IUVm-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-58" value="Use as torch or try to make a campfire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-58" value="Use as torch or try to make a campfire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1852.5" y="180" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-1" edge="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-3" edge="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#008a00;strokeColor=#005700;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-59" target="zpK2-PGiD_Ye-ELu1hZJ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-59" value="Use gas or electric?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-59" value="Use gas or electric?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1127.5" y="180" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-61" target="7n9XsmgkcL3LPUVpxS1G-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-61" value="You make a campfire but the flame is low" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-61" value="You make a campfire but the flame is low" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1567.5" y="190" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-62" value="Start a fire with two sticks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -433,13 +433,13 @@
             <mxPoint x="1487.5" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-66" value="Blow on it or gather dry grass" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-66" value="Blow on it or gather dry grass" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1607.5" y="330" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-68" target="7n9XsmgkcL3LPUVpxS1G-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-68" value="You realize if a boat/plane goes by they would see a bonfire." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-68" value="You realize if a boat/plane goes by they would see a bonfire." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1787.5" y="340" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-80" target="7n9XsmgkcL3LPUVpxS1G-84" edge="1">
@@ -448,19 +448,19 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-80" target="7n9XsmgkcL3LPUVpxS1G-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-80" value="Make bonfire or make use of the fire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-80" value="Make bonfire or make use of the fire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1827.5" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-82" target="7n9XsmgkcL3LPUVpxS1G-87" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-82" value="You decide it is not worth it and you should cook some food on the fire." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-82" value="You decide it is not worth it and you cook some food on the fire. The helicopter goes by." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="2046.5" y="460" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-84" target="7n9XsmgkcL3LPUVpxS1G-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-84" value="You make a fire pit and a helicopter miraculously flies by." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-84" value="You make a fire pit and a helicopter miraculously flies by." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" parent="1" vertex="1">
           <mxGeometry x="1436.5" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-87" edge="1">
@@ -471,7 +471,7 @@
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-87" target="7n9XsmgkcL3LPUVpxS1G-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-87" value="Throw all of the nuts onto the fire or roast them one by one" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-87" value="Destroy supplies out of grief or binge eat" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="2071.5" y="580" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KOsrSoKm476WnTX5IUVm-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-88" target="KOsrSoKm476WnTX5IUVm-18" edge="1">
@@ -480,22 +480,22 @@
         <mxCell id="KOsrSoKm476WnTX5IUVm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7n9XsmgkcL3LPUVpxS1G-88" target="KOsrSoKm476WnTX5IUVm-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-88" value="Light the fire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-88" value="Light the fire?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1441.5" y="580" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-91" value="Create big bonfire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1707.5" y="460" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-92" value="Give up and roast chestnuts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1892.5" y="460" width="170" height="30" as="geometry" />
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-92" value="Make Use Of Fire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1917.5" y="460" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-93" value="You throw all of the &lt;br&gt;nuts onto the fire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2171.5" y="585" width="130" height="40" as="geometry" />
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-93" value="Destroy Supplies" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2181.5" y="590" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-94" value="You roast the nuts &lt;br&gt;one by one" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1956.5" y="580" width="120" height="40" as="geometry" />
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-94" value="Binge-eat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1981.5" y="585" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7n9XsmgkcL3LPUVpxS1G-95" value="The fire goes out and you are left with no hope. You die of a broken heart" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="7n9XsmgkcL3LPUVpxS1G-95" value="You eat all of the supplies you had collected. You give up and starve over the next few weeks." style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1837.5" y="580" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7n9XsmgkcL3LPUVpxS1G-107" value="Legs-first" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -516,25 +516,25 @@
         <mxCell id="KOsrSoKm476WnTX5IUVm-5" value="Eat berries anyway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-685" y="-310" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-15" value="You create a torch and swing it around gleefully. You die of severe burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-15" value="You create a torch and swing it around gleefully. You die of severe burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="2012" y="180" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-17" value="The nuts explode like popcorn and shoot into your eyes. You are blind and cannot survive." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-17" value="The nuts explode like popcorn and shoot into your eyes. You are blind and cannot survive." style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="2282" y="580" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-18" value="You don&#39;t light the fire for some reason, and die of self pity." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-18" value="You don&#39;t light the fire for some reason, and die of self pity." style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1593" y="580" width="134.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KOsrSoKm476WnTX5IUVm-20" value="You light the fire, and are promptly saved off the island." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="KOsrSoKm476WnTX5IUVm-20" value="You light the fire, and are promptly saved off the island." style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1272" y="580" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KOsrSoKm476WnTX5IUVm-23" value="You try to eat ants but a rabid anteater appears to defend its food. Over the next three days, you die of rabies" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-190" y="-560" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-1" value="You light the sticks on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-1" value="You light the sticks on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="952" y="180" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-3" value="You start an electrical fire for light, and suffer lethal burns and instant death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-3" value="You start an electrical fire for light, and suffer lethal burns and instant death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1252.5" y="180" width="134.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zpK2-PGiD_Ye-ELu1hZJ-8" target="zpK2-PGiD_Ye-ELu1hZJ-9" edge="1">
@@ -552,10 +552,10 @@
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-10" value="You climb to the top of a 16ft tree before falling and cracking your skull open" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-980" y="-590" width="134.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-12" value="You finally cut the big tree and receive 2 logs but it is pitch black. You blindly fall off a cliff and die instantly." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-12" value="You finally cut the big tree and receive 2 logs but it is pitch black. You blindly fall off a cliff and die instantly." style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1817.5" y="-280" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-13" value="You chop down the big tree and receive 2 sticks. The noise attracts a brown bear who mauls you to death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-13" value="You chop down the big tree and receive 2 sticks. The noise attracts a brown bear who mauls you to death." style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1082" y="-140" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-14" value="You light some dry grass on fire with gasoline. It spreads quickly and you die of fatal burns" style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
@@ -715,7 +715,7 @@
         <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-88" value="Light electrical fire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="2630" y="-140" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-91" value="You blow on the flame. It explodes sharply and melts your face off." style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="zpK2-PGiD_Ye-ELu1hZJ-91" value="You blow on the flame. It explodes sharply and melts your face off." style="ellipse;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1347.5" y="330" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hsZ7qTV_6oaQmT7TfW8N-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hsZ7qTV_6oaQmT7TfW8N-2" target="hsZ7qTV_6oaQmT7TfW8N-3" edge="1">
@@ -757,8 +757,11 @@
         <mxCell id="72EbRtgowvY-VwPSSQvq-1" value="Keep Chopping" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1225" y="-132" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="72EbRtgowvY-VwPSSQvq-2" value="Stop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1385" y="-132" width="50" height="30" as="geometry" />
+        <mxCell id="72EbRtgowvY-VwPSSQvq-2" value="Go Back To Small Tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1342.5" y="-140" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="72EbRtgowvY-VwPSSQvq-3" value="Light Bonfire" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="588" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
