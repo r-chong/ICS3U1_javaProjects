@@ -19,18 +19,18 @@ public class ChongAssignment20 {
     
     // initialize colour for console (easier readability, user experience)   
     public static final String ANSI_RESET = "\u001B[0m";
-    public static final String ANSI_GREEN_BACKGROUND = "\u001B[42m";
+    public static final String ANSI_YELLOW_BACKGROUND = "\u001B[43m";
     
     // declare num1 and num2
     public static double num1, num2;
-
+    
     // menu subroutine
     public static void menuOut() {
         System.out.println("---------------------------------");
         System.out.println("Welcome to the Calculationator!");
         System.out.println("Please choose 1 option:");
-        System.out.println("1... Find");
-        System.out.println("2... Find");
+        System.out.println("1... Find side C in pythagorean theorem");
+        System.out.println("2... Find F in F = ma");
         System.out.println("3... Find");
         System.out.println("4... Find");
         System.out.println("5... Find");
@@ -48,14 +48,43 @@ public class ChongAssignment20 {
         num2 = keyedInput.nextDouble();
     }
     
-    // X subroutine
-    public static void calculationA(double n1, double n2) {
-        double area = 0.5 * n1 * n2;
-        System.out.println(ANSI_GREEN_BACKGROUND + "\nThe area of the rhombus is " + area + "m^2" + ANSI_RESET);
+    public static void outputAnswer(String ans) {
+        System.out.println(ANSI_YELLOW_BACKGROUND + "The answer is " + ans + ANSI_RESET);
+        return;
+    };
+    
+    public static String formatString(double n1) {
+        n1 = Math.round(n1);
+        String s = Double.toString(n1);
+        return s;
     }
     
+    public static double pythagTheorem(double n1, double n2) {
+        // c^2 = a^2 + b^2
+        double n3 = Math.pow(n1,2) + Math.pow(n2,2);
+        n3 = Math.sqrt(n3);
+        return n3;
+    };
+    
+    public static double forceEquation(double m, double a) {
+        // F = ma
+        double f = m * a;
+        return f;
+    };
+    
+    public static double energyEquation(double m, double c) {
+        // E = mc^2
+        double e = m * Math.pow(c,2);
+        return e;
+    };
+    
+    public static double modulusEquation(double n1, double n2) {
+        // E = mc^2
+        double n3 = n1 % n2;
+        return n3;
+    };
+    
     /*ideas
-Zero-product property
 Difference of two squares
 Perfect square trinomial
 Sum of interior angles of a polygon
@@ -90,6 +119,7 @@ Pythagorean theorem
             // depending on choice, run the correct subroutine
             switch(choice){
                 case 1:
+                    outputAnswer(formatString(pythagTheorem(ChongAssignment20.num1, ChongAssignment20.num2)));
                     break;
                 case 2:
                     break;
@@ -101,6 +131,6 @@ Pythagorean theorem
                     break;
             }
         } while (endProgram==false);
-        System.out.println("Thank you for using The Area of Strange Shapes Program!");
+        System.out.println("Thank you for using The Calculationator Program!");
     }
 }

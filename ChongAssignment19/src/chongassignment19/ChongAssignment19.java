@@ -120,6 +120,7 @@ public class ChongAssignment19 {
             }
             // if user quit, end program
         } while (endProgram==false);
+        // thank you message
         System.out.println("Thank you for using The Area of Strange Shapes Program!");
     }
 }
