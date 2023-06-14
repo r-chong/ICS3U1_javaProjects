@@ -67,9 +67,10 @@ public class ChongAssignment22 {
     while (valid == false) {
             System.out.println("Please enter a string that string that is between 5 and 15 characters long, and does not contain the letter “z”"); 
             tempString = keyedInput.nextLine();
+            int len = tempString.length();
             System.out.println(""); 
             
-            if (!tempString.contains("z")) {
+            if (len > 5 && len < 15 && !tempString.contains("z")) {
                 valid = true;
                 System.out.println("Thank you!");
                 System.out.println(tempString + " is a valid string."); 
@@ -115,6 +116,7 @@ public class ChongAssignment22 {
         System.out.println(""); 
 
         try {
+            // something is wrong here
             value = Integer.parseInt(tempString);
             
             if(value < 0) {
@@ -145,7 +147,7 @@ public class ChongAssignment22 {
         try {
             value = Integer.parseInt(tempString); 
             
-            if(value % 2 == 1 && value > 0) {
+            if(value > 0 && !(value % 2 == 0)) {
                 valid = true;
             }
         } 
@@ -159,5 +161,4 @@ public class ChongAssignment22 {
         System.out.println("..."); 
         }
     }
-    }  
 }
