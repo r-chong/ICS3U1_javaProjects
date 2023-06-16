@@ -84,7 +84,7 @@ public class ChongAssignment22 {
             int len = tempString.length();
             System.out.println(""); 
 
-            if (len > 5 && len < 15 && !tempString.contains("z")) {
+            if (len >= 5 && len <= 15 && !tempString.contains("z")) {
                 valid = true;
                 userFeedbackOut(tempString,"string");
             } else {
@@ -103,9 +103,11 @@ public class ChongAssignment22 {
                 value = Integer.parseInt(tempString);
 
                 // can be modified to include 5, 500 with >= <=
-                if(value > 5 && value < 500) {
+                if(value >= 5 && value <= 500) {
                     valid = true;
                     userFeedbackOut(Integer.toString(value),"integer");
+                } else {
+                    invalidInputOut();
                 }
             } 
             catch(NumberFormatException e){ 
