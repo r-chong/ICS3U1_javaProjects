@@ -12,13 +12,13 @@ import java.util.Scanner;
  * @author s201076119
  */
 public class ChongAssignment22 {
+    // declare, initialize ansi console colours
+    // allows differentiation between console message
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String RED_BOLD = "\033[1;31m";    // RED
-//    public static final String GREEN_BOLD = "\033[1;32m"; 
     
-    /**
-     * @param args the command line arguments
-     */
+    // valid input message
+    // subroutine makes it easier to give user menu
     public static void userFeedbackOut(String val, String type) {
         System.out.println("Thank you!");
         System.out.println(val + " is a valid " + type); 
@@ -27,6 +27,7 @@ public class ChongAssignment22 {
         System.out.println("...");
     }
     
+    // invalid input message
     public static void invalidInputOut() {
         System.out.println(RED_BOLD + "Sorry, that is not valid input.");
         System.out.println("Please try again." + ANSI_RESET);
@@ -42,12 +43,16 @@ public class ChongAssignment22 {
         Stage 5: The user must enter a negative integer. (4)
         Stage 6: The user must enter a positive, odd integer. (5)
         */
+        
+        // declare, initialize new keyed input
         Scanner keyedInput = new Scanner(System.in);
         
+        // declare, initialize variables
         String tempString;
         int value = 0; 
         boolean valid = false; 
         
+        // string with len greater than 6
         while (valid == false) {
             System.out.println("Please enter a string that is greater than 6 characters long:"); 
             tempString = keyedInput.nextLine();
@@ -102,7 +107,6 @@ public class ChongAssignment22 {
             try {
                 value = Integer.parseInt(tempString);
 
-                // can be modified to include 5, 500 with >= <=
                 if(value >= 5 && value <= 500) {
                     valid = true;
                     userFeedbackOut(Integer.toString(value),"integer");
@@ -123,7 +127,6 @@ public class ChongAssignment22 {
             System.out.println(""); 
 
             try {
-                // something is wrong here
                 value = Integer.parseInt(tempString);
 
                 if(value < 0) {
@@ -155,6 +158,8 @@ public class ChongAssignment22 {
                 invalidInputOut();
             }
         }
+        
+        // goodbye message
         System.out.println("Program over!");
         System.out.println("Goodbye");
     }
