@@ -26,80 +26,174 @@ public class FrmStringMethods extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jEditorPane1 = new javax.swing.JEditorPane();
-        jLabel15 = new javax.swing.JLabel();
         pnlPurple = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
-        txtLetterFoundStr1 = new javax.swing.JTextField();
-        btnLetterFound = new javax.swing.JButton();
-        jLabel7 = new javax.swing.JLabel();
-        txtCharacters4To6 = new javax.swing.JTextField();
-        btnCharacters4To6 = new javax.swing.JButton();
-        jLabel8 = new javax.swing.JLabel();
-        txtReplacesA = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
-        btnReplacesA = new javax.swing.JButton();
-        txtLength = new javax.swing.JTextField();
-        btnLength = new javax.swing.JButton();
-        txtIdenticalStr2 = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
-        txtAllCaps = new javax.swing.JTextField();
-        btnAllCaps = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        txt4thSpot = new javax.swing.JTextField();
-        btn4thSpot = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
-        txtIdenticalStr1 = new javax.swing.JTextField();
-        btnIdentical = new javax.swing.JButton();
-        txtLetterFoundChar1 = new javax.swing.JTextField();
-        pnlOutputs = new javax.swing.JPanel();
-        lblOutputLength = new javax.swing.JLabel();
-        lblOutputAllCaps = new javax.swing.JLabel();
-        lblOutput4thSpot = new javax.swing.JLabel();
+        pnlAnswers = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
         lblOutputLetterFound = new javax.swing.JLabel();
         lblOutputIdentical = new javax.swing.JLabel();
-        lblOutputReplacesA = new javax.swing.JLabel();
-        lblOutputCharacters4To6 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        lblOutput4thSpot = new javax.swing.JLabel();
+        lblOutputReplacesA = new javax.swing.JLabel();
+        lblOutputAllCaps = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-
-        jScrollPane1.setViewportView(jEditorPane1);
-
-        jLabel15.setText("Answer:");
+        lblOutputCharacters4To6 = new javax.swing.JLabel();
+        lblOutputLength = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        pnlQuestions = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        btnReplacesA = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        btnLength = new javax.swing.JButton();
+        txtCharacters4To6 = new javax.swing.JTextField();
+        txtIdenticalStr1 = new javax.swing.JTextField();
+        btnCharacters4To6 = new javax.swing.JButton();
+        btnLetterFound = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        txtLength = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        btn4thSpot = new javax.swing.JButton();
+        btnIdentical = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
+        txtLetterFoundStr1 = new javax.swing.JTextField();
+        txtReplacesA = new javax.swing.JTextField();
+        txt4thSpot = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        txtLetterFoundChar1 = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
+        btnAllCaps = new javax.swing.JButton();
+        txtIdenticalStr2 = new javax.swing.JTextField();
+        txtAllCaps = new javax.swing.JTextField();
+        jLabel16 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 204, 240));
 
         pnlPurple.setBackground(new java.awt.Color(245, 193, 88));
 
-        jLabel6.setText("<html> Enter a String and a  letter. The program will output whether or not the letter is found in the String.<br>If you enter more than one letter, the program will only check for the first letter.</html>");
+        jLabel9.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(180, 54, 100));
+        jLabel9.setText("SUPER STRING SOFTWARE");
 
-        btnLetterFound.setText("Letter Found?");
-        btnLetterFound.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnLetterFoundActionPerformed(evt);
-            }
-        });
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ball_of_string.png"))); // NOI18N
 
-        jLabel7.setText("Enter a String that is at least 8 characters long. The program will output characters 4 to 6:");
+        pnlAnswers.setBackground(new java.awt.Color(245, 193, 88));
 
-        btnCharacters4To6.setText("Characters 4 to 6");
-        btnCharacters4To6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnCharacters4To6ActionPerformed(evt);
-            }
-        });
+        jLabel19.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        jLabel19.setText("Answer:");
 
-        jLabel8.setText("Enter a String that contains at least one \"a\". The program will then replace all occurances of \"a\" with \"x\"");
+        jLabel18.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        jLabel18.setText("Answer:");
+
+        lblOutputLetterFound.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        lblOutputLetterFound.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        lblOutputLetterFound.setText(" ");
+
+        lblOutputIdentical.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        lblOutputIdentical.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        lblOutputIdentical.setText(" ");
+
+        jLabel21.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        jLabel21.setText("Answer:");
+
+        jLabel10.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        jLabel10.setText("Answer:");
+
+        lblOutput4thSpot.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        lblOutput4thSpot.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        lblOutput4thSpot.setText(" ");
+
+        lblOutputReplacesA.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        lblOutputReplacesA.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        lblOutputReplacesA.setText(" ");
+
+        lblOutputAllCaps.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        lblOutputAllCaps.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        lblOutputAllCaps.setText(" ");
+
+        jLabel20.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        jLabel20.setText("Answer:");
+
+        lblOutputCharacters4To6.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        lblOutputCharacters4To6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        lblOutputCharacters4To6.setText(" ");
+
+        lblOutputLength.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        lblOutputLength.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        lblOutputLength.setText(" ");
+
+        jLabel12.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        jLabel12.setText("Answer:");
+
+        jLabel14.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        jLabel14.setText("Answer:");
+
+        javax.swing.GroupLayout pnlAnswersLayout = new javax.swing.GroupLayout(pnlAnswers);
+        pnlAnswers.setLayout(pnlAnswersLayout);
+        pnlAnswersLayout.setHorizontalGroup(
+            pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlAnswersLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel14)
+                            .addComponent(jLabel18)
+                            .addComponent(jLabel20)
+                            .addComponent(jLabel12))
+                        .addComponent(jLabel21))
+                    .addComponent(jLabel19)
+                    .addComponent(jLabel10))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblOutputLength, javax.swing.GroupLayout.DEFAULT_SIZE, 137, Short.MAX_VALUE)
+                    .addComponent(lblOutputAllCaps, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblOutput4thSpot, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblOutputIdentical, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblOutputLetterFound, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblOutputCharacters4To6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblOutputReplacesA, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        pnlAnswersLayout.setVerticalGroup(
+            pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlAnswersLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel10)
+                    .addComponent(lblOutputLength))
+                .addGap(64, 64, 64)
+                .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(lblOutputAllCaps, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel12))
+                .addGap(51, 51, 51)
+                .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblOutput4thSpot, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(61, 61, 61)
+                .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblOutputIdentical, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel14))
+                .addGap(55, 55, 55)
+                .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18)
+                    .addComponent(lblOutputLetterFound, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(70, 70, 70)
+                .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel19)
+                    .addComponent(lblOutputCharacters4To6, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(60, 60, 60)
+                .addGroup(pnlAnswersLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblOutputReplacesA, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel20))
+                .addGap(54, 54, 54))
+        );
+
+        pnlQuestions.setBackground(new java.awt.Color(245, 193, 88));
 
         jLabel1.setText("Enter a String. The program will output the number of characters in the String:");
 
@@ -110,6 +204,8 @@ public class FrmStringMethods extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setText("Enter two Strings. The program will output whether or not they are identical:");
+
         btnLength.setText("Length");
         btnLength.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -117,22 +213,21 @@ public class FrmStringMethods extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("Enter a String using lowercase letters. The program will output the String in all capital letters:");
-
-        btnAllCaps.setText("All Caps");
-        btnAllCaps.addActionListener(new java.awt.event.ActionListener() {
+        btnCharacters4To6.setText("Characters 4 to 6");
+        btnCharacters4To6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAllCapsActionPerformed(evt);
+                btnCharacters4To6ActionPerformed(evt);
             }
         });
 
-        jLabel9.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 24)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(180, 54, 100));
-        jLabel9.setText("SUPER STRING METHODS");
+        btnLetterFound.setText("Letter Found?");
+        btnLetterFound.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLetterFoundActionPerformed(evt);
+            }
+        });
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/molly.gif"))); // NOI18N
-
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/molly.gif"))); // NOI18N
+        jLabel7.setText("Enter a String that is at least 8 characters long. The program will output characters 4 to 6:");
 
         jLabel3.setText("Enter a String. The program will output the character at the 4th spot:");
 
@@ -143,8 +238,6 @@ public class FrmStringMethods extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setText("Enter two Strings. The program will output whether or not they are identical:");
-
         btnIdentical.setText("Identical?");
         btnIdentical.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -152,112 +245,115 @@ public class FrmStringMethods extends javax.swing.JFrame {
             }
         });
 
-        pnlOutputs.setBackground(new java.awt.Color(245, 193, 88));
+        jLabel8.setText("Enter a String that contains at least one \"a\". The program will then replace all occurances of \"a\" with \"x\"");
 
-        lblOutputLength.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        lblOutputLength.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        lblOutputLength.setText("dg");
+        jLabel6.setText("<html> Enter a String and a  letter. The program will output whether or not the letter is found in the String.<br>If you enter more than one letter, the program will only check for the first letter.</html>");
 
-        lblOutputAllCaps.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        lblOutputAllCaps.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel2.setText("Enter a String using lowercase letters. The program will output the String in all capital letters:");
 
-        lblOutput4thSpot.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        lblOutput4thSpot.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        btnAllCaps.setText("All Caps");
+        btnAllCaps.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAllCapsActionPerformed(evt);
+            }
+        });
 
-        lblOutputLetterFound.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        lblOutputLetterFound.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-
-        lblOutputIdentical.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        lblOutputIdentical.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-
-        lblOutputReplacesA.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        lblOutputReplacesA.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-
-        lblOutputCharacters4To6.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        lblOutputCharacters4To6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-
-        jLabel12.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        jLabel12.setText("Answer:");
-
-        jLabel10.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        jLabel10.setText("Answer:");
-
-        jLabel21.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        jLabel21.setText("Answer:");
-
-        jLabel14.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        jLabel14.setText("Answer:");
-
-        jLabel18.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        jLabel18.setText("Answer:");
-
-        jLabel19.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        jLabel19.setText("Answer:");
-
-        jLabel20.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 14)); // NOI18N
-        jLabel20.setText("Answer:");
-
-        javax.swing.GroupLayout pnlOutputsLayout = new javax.swing.GroupLayout(pnlOutputs);
-        pnlOutputs.setLayout(pnlOutputsLayout);
-        pnlOutputsLayout.setHorizontalGroup(
-            pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlOutputsLayout.createSequentialGroup()
+        javax.swing.GroupLayout pnlQuestionsLayout = new javax.swing.GroupLayout(pnlQuestions);
+        pnlQuestions.setLayout(pnlQuestionsLayout);
+        pnlQuestionsLayout.setHorizontalGroup(
+            pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlQuestionsLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel10)
-                                    .addComponent(jLabel14))
-                                .addComponent(jLabel18))
-                            .addComponent(jLabel19))
-                        .addComponent(jLabel20)
-                        .addComponent(jLabel12))
-                    .addComponent(jLabel21))
+                .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1)
+                    .addGroup(pnlQuestionsLayout.createSequentialGroup()
+                        .addComponent(txtIdenticalStr1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(22, 22, 22)
+                        .addComponent(txtIdenticalStr2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnIdentical))
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel4)
+                    .addComponent(jLabel7)
+                    .addComponent(jLabel8)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(pnlQuestionsLayout.createSequentialGroup()
+                        .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtAllCaps, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtLength, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtCharacters4To6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtReplacesA, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt4thSpot, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(pnlQuestionsLayout.createSequentialGroup()
+                                .addComponent(txtLetterFoundStr1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(49, 49, 49)
+                                .addComponent(txtLetterFoundChar1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(40, 40, 40)
+                        .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                            .addComponent(btnAllCaps)
+                            .addComponent(btn4thSpot)
+                            .addComponent(btnLetterFound)
+                            .addComponent(btnCharacters4To6)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, pnlQuestionsLayout.createSequentialGroup()
+                                .addGap(11, 11, 11)
+                                .addComponent(btnReplacesA))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, pnlQuestionsLayout.createSequentialGroup()
+                                .addGap(24, 24, 24)
+                                .addComponent(btnLength)))))
+                .addContainerGap())
+        );
+        pnlQuestionsLayout.setVerticalGroup(
+            pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlQuestionsLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnLength)
+                    .addComponent(txtLength, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(21, 21, 21)
+                .addComponent(jLabel2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblOutputLength, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(lblOutputAllCaps, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(lblOutput4thSpot, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(lblOutputIdentical, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(lblOutputLetterFound, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(lblOutputCharacters4To6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(lblOutputReplacesA, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtAllCaps, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnAllCaps))
+                .addGap(27, 27, 27)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txt4thSpot, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn4thSpot))
+                .addGap(25, 25, 25)
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtIdenticalStr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnIdentical)
+                    .addComponent(txtIdenticalStr2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(21, 21, 21)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtLetterFoundStr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnLetterFound)
+                    .addComponent(txtLetterFoundChar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(25, 25, 25)
+                .addComponent(jLabel7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtCharacters4To6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnCharacters4To6))
+                .addGap(34, 34, 34)
+                .addComponent(jLabel8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(pnlQuestionsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtReplacesA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnReplacesA))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-        pnlOutputsLayout.setVerticalGroup(
-            pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlOutputsLayout.createSequentialGroup()
-                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblOutputLength)
-                    .addComponent(jLabel10))
-                .addGap(48, 48, 48)
-                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(lblOutputAllCaps, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(60, 60, 60)
-                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblOutput4thSpot)
-                    .addComponent(jLabel21))
-                .addGap(40, 40, 40)
-                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblOutputIdentical)
-                    .addComponent(jLabel14))
-                .addGap(50, 50, 50)
-                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblOutputLetterFound)
-                    .addComponent(jLabel18))
-                .addGap(60, 60, 60)
-                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblOutputCharacters4To6)
-                    .addComponent(jLabel19))
-                .addGap(55, 55, 55)
-                .addGroup(pnlOutputsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblOutputReplacesA)
-                    .addComponent(jLabel20))
-                .addGap(63, 63, 63))
-        );
+
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ball_of_string.png"))); // NOI18N
 
         javax.swing.GroupLayout pnlPurpleLayout = new javax.swing.GroupLayout(pnlPurple);
         pnlPurple.setLayout(pnlPurpleLayout);
@@ -267,135 +363,66 @@ public class FrmStringMethods extends javax.swing.JFrame {
                 .addGap(34, 34, 34)
                 .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnlPurpleLayout.createSequentialGroup()
-                        .addComponent(jLabel11)
-                        .addGap(61, 61, 61)
+                        .addGap(184, 184, 184)
+                        .addComponent(jLabel13)
+                        .addGap(18, 18, 18)
                         .addComponent(jLabel9)
-                        .addGap(56, 56, 56)
-                        .addComponent(jLabel13))
+                        .addGap(30, 30, 30)
+                        .addComponent(jLabel16)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(pnlPurpleLayout.createSequentialGroup()
-                        .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addGroup(pnlPurpleLayout.createSequentialGroup()
-                                .addComponent(txtIdenticalStr1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(22, 22, 22)
-                                .addComponent(txtIdenticalStr2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(btnIdentical))
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel8)
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(pnlPurpleLayout.createSequentialGroup()
-                                .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtAllCaps, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtLength, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtCharacters4To6, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtReplacesA, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txt4thSpot, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(pnlPurpleLayout.createSequentialGroup()
-                                        .addComponent(txtLetterFoundStr1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(49, 49, 49)
-                                        .addComponent(txtLetterFoundChar1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(40, 40, 40)
-                                .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
-                                    .addComponent(btnLength)
-                                    .addComponent(btnAllCaps)
-                                    .addComponent(btn4thSpot)
-                                    .addComponent(btnLetterFound)
-                                    .addComponent(btnCharacters4To6)
-                                    .addComponent(btnReplacesA))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(pnlOutputs, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(pnlQuestions, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(66, 66, 66)
+                        .addComponent(pnlAnswers, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         pnlPurpleLayout.setVerticalGroup(
             pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlPurpleLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel11)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel13))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 68, Short.MAX_VALUE)
                 .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnlPurpleLayout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtLength, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnLength))
-                        .addGap(27, 27, 27)
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtAllCaps, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnAllCaps))
-                        .addGap(26, 26, 26)
-                        .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txt4thSpot, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btn4thSpot))
-                        .addGap(22, 22, 22)
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtIdenticalStr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnIdentical)
-                            .addComponent(txtIdenticalStr2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtLetterFoundStr1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnLetterFound)
-                            .addComponent(txtLetterFoundChar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtCharacters4To6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnCharacters4To6))
-                        .addGap(27, 27, 27)
-                        .addComponent(jLabel8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(txtReplacesA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnReplacesA)))
-                    .addComponent(pnlOutputs, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(25, Short.MAX_VALUE))
+                        .addGap(33, 33, 33)
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(pnlPurpleLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel16)
+                            .addComponent(jLabel13))))
+                .addGap(18, 18, 18)
+                .addGroup(pnlPurpleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pnlAnswers, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(pnlQuestions, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(22, 22, 22))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(pnlPurple, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(pnlPurple, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(pnlPurple, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    // input 1 double
-    // use cbrt method
-    // output formatted 2 decimals
+    // input 1 string
+    // use length method
+    // output integer containing length of string
     private void btnLengthActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLengthActionPerformed
         String inputLength = txtLength.getText();
         int methodLength = inputLength.length();
         lblOutputLength.setText(Integer.toString(methodLength));
     }//GEN-LAST:event_btnLengthActionPerformed
 
-    // input 1 double
-    // use toDegrees method
-    // output formatted 2 decimals 
+    // input 1 string
+    // use toUpperCase method
+    // output string
     private void btnAllCapsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAllCapsActionPerformed
         String inputAllCaps = txtAllCaps.getText();
         String methodAllCaps = inputAllCaps.toUpperCase();
@@ -403,17 +430,17 @@ public class FrmStringMethods extends javax.swing.JFrame {
     }//GEN-LAST:event_btnAllCapsActionPerformed
 
     // input 2 doubles
-    // use pow method
-    // output formatted 2 decimals
+    // use charAt method for spot 4 (0 indexed is 3)
+    // output string
     private void btn4thSpotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4thSpotActionPerformed
         String input4thSpot = txt4thSpot.getText();
         char method4thSpot = input4thSpot.charAt(3);
         lblOutput4thSpot.setText(Character.toString(method4thSpot));
     }//GEN-LAST:event_btn4thSpotActionPerformed
 
-    // input 1 double
-    // use abs method
-    // output formatted 2 decimals
+    // input 2 strings
+    // use .equals method in logic block, checks identical
+    // output "Yes" or "No"
     private void btnIdenticalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIdenticalActionPerformed
         String identicalStr1 = txtIdenticalStr1.getText();
         String identicalStr2 = txtIdenticalStr2.getText();
@@ -425,9 +452,9 @@ public class FrmStringMethods extends javax.swing.JFrame {
         
     }//GEN-LAST:event_btnIdenticalActionPerformed
 
-    // input 1 double
-    // use sqrt method
-    // output formatted 2 decimals
+    // input 1 string
+    // use charAt method for spot 1 (0 indexed is 0) in logic block, checks contains
+    // output "Yes" or "No"
     private void btnLetterFoundActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLetterFoundActionPerformed
         String inputLetterFound = txtLetterFoundStr1.getText();
         char inputCharToFind = txtLetterFoundChar1.getText().charAt(0);
@@ -438,18 +465,18 @@ public class FrmStringMethods extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_btnLetterFoundActionPerformed
 
-    // input 1 double
-    // use toRadians method
-    // output formatted 2 decimals
+    // input 1 string
+    // use substring method for spots 4 to 6 (0 indexed is 3 to 6)
+    // output string
     private void btnCharacters4To6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCharacters4To6ActionPerformed
         String inputCharacters4To6 = txtCharacters4To6.getText();
         String methodCharacters4To6 = inputCharacters4To6.substring(3, 6);
         lblOutputCharacters4To6.setText(methodCharacters4To6);
     }//GEN-LAST:event_btnCharacters4To6ActionPerformed
 
-    // input 1 double
-    // use log method
-    // output formatted 2 decimals
+    // input 1 string
+    // use replace method to replace a with x
+    // output string
     private void btnReplacesAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnReplacesAActionPerformed
         String inputReplacesA = txtReplacesA.getText();
         String methodReplacesA = inputReplacesA.replace("a", "x");
@@ -500,14 +527,12 @@ public class FrmStringMethods extends javax.swing.JFrame {
     private javax.swing.JButton btnLength;
     private javax.swing.JButton btnLetterFound;
     private javax.swing.JButton btnReplacesA;
-    private javax.swing.JEditorPane jEditorPane1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
@@ -519,7 +544,6 @@ public class FrmStringMethods extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lblOutput4thSpot;
     private javax.swing.JLabel lblOutputAllCaps;
     private javax.swing.JLabel lblOutputCharacters4To6;
@@ -527,8 +551,9 @@ public class FrmStringMethods extends javax.swing.JFrame {
     private javax.swing.JLabel lblOutputLength;
     private javax.swing.JLabel lblOutputLetterFound;
     private javax.swing.JLabel lblOutputReplacesA;
-    private javax.swing.JPanel pnlOutputs;
+    private javax.swing.JPanel pnlAnswers;
     private javax.swing.JPanel pnlPurple;
+    private javax.swing.JPanel pnlQuestions;
     private javax.swing.JTextField txt4thSpot;
     private javax.swing.JTextField txtAllCaps;
     private javax.swing.JTextField txtCharacters4To6;
