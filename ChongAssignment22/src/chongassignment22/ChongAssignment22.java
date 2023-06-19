@@ -5,12 +5,9 @@
  */
 package chongassignment22;
 
+// import necessary libraries
 import java.util.Scanner;
 
-/**
- *
- * @author s201076119
- */
 public class ChongAssignment22 {
     // declare, initialize ansi console colours
     // allows differentiation between console message
@@ -18,8 +15,8 @@ public class ChongAssignment22 {
     public static final String RED_BOLD = "\033[1;31m";    // RED
     public static final String DARK_GREEN = "\033[0;32;2m"; // GREEN
     
-    // valid input message
-    // subroutine makes it easier to give user menu
+    // subroutine for valid input message
+    // makes it easier to give user menu
     public static void userFeedbackOut(String val, String type) {
         System.out.println(DARK_GREEN +"Thank you!" + ANSI_RESET);
         System.out.println(ANSI_RESET + val + DARK_GREEN + " is a valid " + type + "." + ANSI_RESET); 
@@ -27,7 +24,7 @@ public class ChongAssignment22 {
         System.out.println("" + ANSI_RESET);
     }
     
-    // invalid input message
+    // subroutine for invalid input message
     public static void invalidInputOut() {
         System.out.println(RED_BOLD + "Sorry, that is not valid input.");
         System.out.println("Please try again." + ANSI_RESET);
@@ -35,15 +32,6 @@ public class ChongAssignment22 {
     }
     
     public static void main(String[] args) {
-        /*
-        Stage 1: The user must enter a string that is greater than 6 characters long. (3)
-        Stage 2: The user must enter a string that contains at least one lowercase “a”. (5)
-        Stage 3: The user must enter a string that is between 5 and 15 characters long, and does not contain the letter “z”. (7)
-        Stage 4: The user must enter an integer between 5 and 500. (3)
-        Stage 5: The user must enter a negative integer. (4)
-        Stage 6: The user must enter a positive, odd integer. (5)
-        */
-        
         // declare, initialize new keyed input
         Scanner keyedInput = new Scanner(System.in);
         
@@ -53,6 +41,7 @@ public class ChongAssignment22 {
         boolean valid = false; 
         
         // string with len greater than 6
+        // uses if statement to check length
         while (valid == false) {
             System.out.println("Please enter a string that is greater than 6 characters long:"); 
             tempString = keyedInput.nextLine();
@@ -67,6 +56,7 @@ public class ChongAssignment22 {
         }
 
         // lowercase A
+        // uses if statement to see if contains "a"
         valid = false;
         while (valid == false) {
             System.out.println("Please enter a string that contains at least one lowercase “a”"); 
@@ -82,6 +72,7 @@ public class ChongAssignment22 {
         }
 
         // string between 5, 15 chars without z
+        // uses if statement to check if number in range, as well as if it does NOT contain "z"
         valid = false;
         while (valid == false) {
             System.out.println("Please enter a string that is between 5 and 15 characters long, and does not contain the letter “z”"); 
@@ -98,6 +89,8 @@ public class ChongAssignment22 {
         }
 
         // int between 5, 500
+        // uses try catch statement with if statement inside, to ensure no type error
+        // check if number in inclusive range of 5, 500
         valid = false;    
         while (valid == false) {
             System.out.println("Enter an integer between 5 and 500."); 
@@ -120,6 +113,8 @@ public class ChongAssignment22 {
         }
 
         // negative int
+        // uses try catch statement with if statement inside, to ensure no type error
+        // check if value is less (noninclusive) than zero
         valid = false;    
         while (valid == false) {
             System.out.println("Enter a negative integer:"); 
@@ -142,6 +137,8 @@ public class ChongAssignment22 {
         }
 
         // positive odd int
+        // uses try catch statement with if statement inside, to ensure no type error
+        // check if number more than zero, and if divided by 2 there is NOT a remainder of zero (therefore odd)
         valid = false;    
         while (valid == false) {
             System.out.println("Enter a positive, odd integer."); 
