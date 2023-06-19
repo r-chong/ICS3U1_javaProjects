@@ -62,32 +62,37 @@ public class ChongAssignment20 {
         return;
     };
     
-    public static double pythagTheorem(double n1, double n2) {
+    public static double pythagTheorem(double a, double b) {
+        // option 1
         // input into equation c^2 = a^2 + b^2
-        double n3 = Math.pow(n1,2) + Math.pow(n2,2);
-        n3 = Math.sqrt(n3);
-        return n3;
+        double c = Math.pow(a,2) + Math.pow(b,2);
+        c = Math.sqrt(c);
+        return c;
     };
     
     public static double forceEquation(double m, double a) {
+        // option 2
         // input into equation F = ma
         double f = m * a;
         return f;
     };
     
     public static double energyEquation(double m) {
+        // option 3
         // input into equation E = mc^2
         double e = m * Math.pow(300000000,2);
         return e;
     };
     
     public static double modulus(double n1, double n2) {
+        // option 4
         // modulus is finding the remainder after division
         double n3 = n1 % n2;
         return n3;
     };
     
     public static double logarithm(double n1, double n2) {
+        // option 5
         // divide log of value by log of base
         double n3 = Math.log(n2) / Math.log(n1);
         return n3;

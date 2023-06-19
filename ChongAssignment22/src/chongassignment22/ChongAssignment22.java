@@ -16,15 +16,15 @@ public class ChongAssignment22 {
     // allows differentiation between console message
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String RED_BOLD = "\033[1;31m";    // RED
+    public static final String DARK_GREEN = "\033[0;32;2m"; // GREEN
     
     // valid input message
     // subroutine makes it easier to give user menu
     public static void userFeedbackOut(String val, String type) {
-        System.out.println("Thank you!");
-        System.out.println(val + " is a valid " + type); 
-        System.out.println("Let's continue with the rest of the program...");
-        System.out.println("..."); 
-        System.out.println("...");
+        System.out.println(DARK_GREEN +"Thank you!" + ANSI_RESET);
+        System.out.println(ANSI_RESET + val + DARK_GREEN + " is a valid " + type + "." + ANSI_RESET); 
+        System.out.println(DARK_GREEN + "Let's continue with the rest of the program..." + ANSI_RESET);
+        System.out.println("" + ANSI_RESET);
     }
     
     // invalid input message
@@ -58,7 +58,7 @@ public class ChongAssignment22 {
             tempString = keyedInput.nextLine();
             System.out.println(""); 
             
-            if (tempString.length() >= 6) {
+            if (tempString.length() > 6) {
                 valid = true;
                 userFeedbackOut(tempString,"string");
             } else {
@@ -84,7 +84,7 @@ public class ChongAssignment22 {
         // string between 5, 15 chars without z
         valid = false;
         while (valid == false) {
-            System.out.println("Please enter a string that string that is between 5 and 15 characters long, and does not contain the letter “z”"); 
+            System.out.println("Please enter a string that is between 5 and 15 characters long, and does not contain the letter “z”"); 
             tempString = keyedInput.nextLine();
             int len = tempString.length();
             System.out.println(""); 
@@ -132,6 +132,8 @@ public class ChongAssignment22 {
                 if(value < 0) {
                     valid = true;
                     userFeedbackOut(Integer.toString(value),"integer");
+                } else {
+                    invalidInputOut();
                 }
             } 
             catch(NumberFormatException e){ 
@@ -151,7 +153,9 @@ public class ChongAssignment22 {
 
                 if(value > 0 && !(value % 2 == 0)) {
                     valid = true;
-                    userFeedbackOut(Integer.toString(value),"integer");
+                    break;
+                } else {
+                    invalidInputOut();
                 }
             } 
             catch(NumberFormatException e){ 
@@ -160,7 +164,7 @@ public class ChongAssignment22 {
         }
         
         // goodbye message
-        System.out.println("Program over!");
-        System.out.println("Goodbye");
+        System.out.println("Congratulations! You're the greatest inputter ever!");
+        System.out.println("Have a great rest of your day.");
     }
 }
