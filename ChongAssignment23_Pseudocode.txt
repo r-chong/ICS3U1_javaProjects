@@ -1,0 +1,21 @@
+/*---------------------
+pseudocode algorithm
+Reese Chong 2023
+---------------------*/
+
+START
+INPUT total_vrobits
+drobzits = total_vrobits / 100000
+total_vrobits = total_vrobits % 100000
+clickwicks = total_vrobits / 50000
+total_vrobits = total_vrobits % 50000
+gazoontights = total_vrobits / 10000
+total_vrobits = total_vrobits % 10000
+frazoints = total_vrobits / 1000
+total_vrobits = total_vrobits % 1000
+blointoints = total_vrobits / 500
+total_vrobits = total_vrobits % 500
+OUTPUT drobzits, clickwicks, gazoontights, frazoints, blointoints, total_vrobits
+END
+
+// I also plan to put the numbers into a constant array
