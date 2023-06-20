@@ -24,15 +24,14 @@ import java.util.List;
 public class FrmFlowchartGenerator extends javax.swing.JFrame {
 
     public static String prompt;
-    public static String [] history;
+    public static String[] history = new String[1];
     
     /**
      * Creates new form FrmFlowchartGenerator
      */
     public static void JavaGPT(String... args) {
         String token = System.getenv("OPENAI_TOKEN");
-        OpenAiService service = new OpenAiService("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");
-        history[0] = "Test";
+        OpenAiService service = new OpenAiService("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");
 
         System.out.println("\nCreating chat completion...");
         final List<ChatMessage> messages = new ArrayList<>();
@@ -44,7 +43,7 @@ public class FrmFlowchartGenerator extends javax.swing.JFrame {
                 .model("gpt-3.5-turbo")
                 .messages(messages)
                 .n(1)
-                .maxTokens(50)
+                .maxTokens(200)
                 .logitBias(new HashMap<>())
                 .build();
 
@@ -187,11 +186,20 @@ public class FrmFlowchartGenerator extends javax.swing.JFrame {
     }//GEN-LAST:event_txtUserPromptActionPerformed
 
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
-        prompt = txtUserPrompt.getText();
+        StringBuilder conversationBuilder = new StringBuilder();
+        
+        prompt = String.valueOf(txtUserPrompt.getText());
         JavaGPT();
-        for (int i = 0; i <= history.length; i++) {
-            txtChatConversation.setText(history[i]);
+
+        conversationBuilder.append("You: ").append(prompt).append("\n");
+        
+        for (int i = 0; i < history.length; i++) {
+            if (history[i] != null) {
+                conversationBuilder.append("AI: ").append(history[i]).append("\n");
+            }
         }
+        String conversation = conversationBuilder.toString();
+        txtChatConversation.setText(conversation);
     }//GEN-LAST:event_btnSubmitActionPerformed
     
     public static void main(String[] args) {
